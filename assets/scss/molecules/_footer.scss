@@ -1,0 +1,290 @@
+// footer {
+//   position: fixed;
+//   bottom: 0;
+//   width: 100%;
+// }
+@include media.xs {
+  footer {
+    background-color: $color-darkorange;
+    padding: 19px 0;
+    .footer {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 16px 0;
+      .license {
+        color: #ffe4da;
+        font-family: Lato, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .socmed {
+        ul {
+          display: flex;
+          gap: 20px;
+          list-style: none;
+          li {
+            a {
+              text-decoration: none;
+              display: block;
+              .ic-ig {
+                content: url("../img/ic-ig.png");
+              }
+              .ic-fb {
+                content: url("../img/ic-fb.png");
+              }
+              .ic-tw {
+                content: url("../img/ic-tw.png");
+              }
+              .ic-yt {
+                content: url("../img/ic-yt.png");
+              }
+              .ic-tt {
+                content: url("../img/ic-tt.png");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media.sm {
+  footer {
+    background-color: $color-darkorange;
+    padding: 19px 0;
+    .footer {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 16px 0;
+      .license {
+        color: #ffe4da;
+        font-family: Lato, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .socmed {
+        ul {
+          display: flex;
+          gap: 20px;
+          list-style: none;
+          li {
+            a {
+              text-decoration: none;
+              display: block;
+              .ic-ig {
+                content: url("../img/ic-ig.png");
+              }
+              .ic-fb {
+                content: url("../img/ic-fb.png");
+              }
+              .ic-tw {
+                content: url("../img/ic-tw.png");
+              }
+              .ic-yt {
+                content: url("../img/ic-yt.png");
+              }
+              .ic-tt {
+                content: url("../img/ic-tt.png");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media.md {
+  footer {
+    background-color: $color-darkorange;
+    padding: 19px 0;
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px 0;
+      .license {
+        color: #ffe4da;
+        font-family: Lato, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .socmed {
+        ul {
+          display: flex;
+          gap: 20px;
+          list-style: none;
+          li {
+            a {
+              text-decoration: none;
+              display: block;
+              .ic-ig {
+                content: url("../img/ic-ig.png");
+              }
+              .ic-fb {
+                content: url("../img/ic-fb.png");
+              }
+              .ic-tw {
+                content: url("../img/ic-tw.png");
+              }
+              .ic-yt {
+                content: url("../img/ic-yt.png");
+              }
+              .ic-tt {
+                content: url("../img/ic-tt.png");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media.lg {
+  footer {
+    background-color: $color-darkorange;
+    padding: 16px 0;
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .license {
+        color: #ffe4da;
+        font-family: Lato, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .socmed {
+        ul {
+          display: flex;
+          gap: 20px;
+          list-style: none;
+          li {
+            a {
+              text-decoration: none;
+              display: block;
+              .ic-ig {
+                content: url("../img/ic-ig.png");
+              }
+              .ic-fb {
+                content: url("../img/ic-fb.png");
+              }
+              .ic-tw {
+                content: url("../img/ic-tw.png");
+              }
+              .ic-yt {
+                content: url("../img/ic-yt.png");
+              }
+              .ic-tt {
+                content: url("../img/ic-tt.png");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media.xl {
+  footer {
+    background-color: $color-darkorange;
+    padding: 16px 0;
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .license {
+        color: #ffe4da;
+        font-family: Lato, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .socmed {
+        ul {
+          display: flex;
+          gap: 20px;
+          list-style: none;
+          li {
+            a {
+              text-decoration: none;
+              display: block;
+              .ic-ig {
+                content: url("../img/ic-ig.png");
+              }
+              .ic-fb {
+                content: url("../img/ic-fb.png");
+              }
+              .ic-tw {
+                content: url("../img/ic-tw.png");
+              }
+              .ic-yt {
+                content: url("../img/ic-yt.png");
+              }
+              .ic-tt {
+                content: url("../img/ic-tt.png");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media.xxl {
+  footer {
+    background-color: $color-darkorange;
+    padding: 16px 0;
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .license {
+        color: #ffe4da;
+        font-family: Lato, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .socmed {
+        ul {
+          display: flex;
+          gap: 20px;
+          list-style: none;
+          li {
+            a {
+              text-decoration: none;
+              display: block;
+              .ic-ig {
+                content: url("../img/ic-ig.png");
+              }
+              .ic-fb {
+                content: url("../img/ic-fb.png");
+              }
+              .ic-tw {
+                content: url("../img/ic-tw.png");
+              }
+              .ic-yt {
+                content: url("../img/ic-yt.png");
+              }
+              .ic-tt {
+                content: url("../img/ic-tt.png");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

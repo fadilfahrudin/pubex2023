@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PUBEX 2023 - Form Emiten</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="page-emiten">
+      <!-- Navigation -->
+      <nav>
+        <div class="container navigation">
+          <div class="nav-brand">PUBEX 2023</div>
+          <button type="button" class="user-dropdown has-login">
+            <img
+              src="./assets/img/user-dummy.png"
+              alt="User Dummy"
+              width="100%"
+              height="100%" />
+            <i class="drop-down-ic"></i>
+          </button>
+
+          <div class="modal-user">
+            <!-- Add class hidden for hide button -->
+            <a class="user-action" href="my-submission-page.html"
+              >My Submission</a
+            >
+            <a class="user-action" href="pubex-live-page.html"
+              >PUBEX LIVE Info</a
+            >
+            <a href="index.html" class="user-action"> Log Out </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Form Section -->
+      <section class="container">
+        <div class="form-section">
+          <a href="index.html" class="back-btn" type="button">Home</a>
+          <div class="row">
+            <!-- Form Description -->
+            <div class="form-desc">
+              <h2>Kriteria</h2>
+              <ol>
+                <li>Semua field wajib diisi</li>
+                <li>
+                  Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
+                  dignissim, metus nec fringilla accumsan, risus sem
+                  sollicitudin lacus, ut interdum tellus elit sed risus.
+                </li>
+                <li>
+                  Maecenas eget condimentum velit, sit amet feugiat lectus.
+                </li>
+                <li>
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+                </li>
+                <li>
+                  Praesent auctor purus luctus enim egestas, ac scelerisque ante
+                  pulvinar.
+                </li>
+                <li>
+                  Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor
+                  urna.
+                </li>
+                <li>
+                  Curabitur vel bibendum lorem. Morbi convallis convallis diam
+                  sit amet lacinia. Aliquam in elementum tellus.
+                </li>
+              </ol>
+            </div>
+
+            <!-- Form Field -->
+            <form id="form-field" class="form-field">
+              <h1>Pendaftaran Emiten</h1>
+              <div class="form-group">
+                <label for="nama-perusahaan">Nama Perusahaan</label>
+                <!-- Add class "warning" for false data -->
+                <input
+                  class="form-input"
+                  type="text"
+                  name="nama-perusahaan"
+                  id="nama-perusahaan"
+                  placeholder="Nama Perusahaan" />
+
+                <!-- message punya class hidden-->
+                <span class="msg-input hidden">nama tidak tersedia</span>
+              </div>
+              <div class="form-group">
+                <label for="deskripsi-perusahaan"
+                  >Deskripsi Singkat Perusahaan</label
+                >
+                <textarea
+                  class="form-area"
+                  name="deskripsi-perusahaan"
+                  id="deskripsi-perusahaan"
+                  placeholder="Deskripsi Singkat Perusahaan"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="alamat-perusahaan">Alamat Perusahaan</label>
+                <textarea
+                  class="form-area"
+                  name="alamat-perusahaan"
+                  id="alamat-perusahaan"
+                  placeholder="Alamat Perusahaan"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="pic">PIC</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="pic"
+                  id="pic"
+                  placeholder="Nama PIC" />
+              </div>
+              <div class="row">
+                <div class="form-group">
+                  <label for="no-tel-pic">No. Telepon PIC</label>
+                  <input
+                    class="form-input"
+                    type="number"
+                    name="no-tel-pic"
+                    id="no-tel-pic"
+                    placeholder="No Telepon PIC" />
+                </div>
+                <div class="form-group">
+                  <label for="email-pic">Email PIC</label>
+                  <input
+                    class="form-input"
+                    type="email"
+                    name="email-pic"
+                    id="email-pic"
+                    placeholder="Email PIC" />
+                </div>
+              </div>
+              <!-- Select Form -->
+              <div class="form-group">
+                <label for="pic">Kategori Papan</label>
+                <div id="act-select" class="form-select">
+                  <select name="kategori-papan" id="kategori-papan">
+                    <option value="0">Kategori Papan</option>
+                    <option value="1">Kategori A</option>
+                    <option value="2">Kategori B</option>
+                    <option value="3">Kategori C</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group">
+                  <label for="form-file-input">Laporan Keuangan PDF</label>
+                  <!-- Add class "warning" for false data -->
+                  <input
+                    class="file-input"
+                    type="file"
+                    name="file-input"
+                    id="file-input"
+                    accept=".pdf" />
+                  <!-- message -->
+                  <!-- Add class hidden to hide msg -->
+                  <span class="msg-input msg-input-file hidden"
+                    >Max file 20mb</span
+                  >
+                  <!-- Progress Bar -->
+                  <div class="progressBar-wrapp">
+                    <label for="progress" class="progress-info">
+                      <span class="info-upload-speed"></span>
+                      <span class="close-progress">x</span></label
+                    >
+                    <progress id="progress" value="0" max="0"></progress>
+                  </div>
+                  <!-- Progress Bar End -->
+                </div>
+                <div class="form-group">
+                  <label for="link-yt">Link YouTube Company Profile</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="link-yt"
+                    id="link-yt"
+                    placeholder="Link YouTube" />
+                </div>
+              </div>
+              <div class="form-checkbox">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="check"
+                  id="check" />
+                <label for="check"
+                  >Berminat untuk mengisi slot presentasi premium</label
+                >
+              </div>
+              <button class="btn-submit" type="submit" disabled>Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="container footer">
+          <div class="license">Copyright @ 2023 PUBEX - MNC Media</div>
+          <div class="socmed">
+            <ul>
+              <li>
+                <a href="/#"><i class="ic-ig"></i></a>
+              </li>
+              <li>
+                <a href="/#"><i class="ic-fb"></i></a>
+              </li>
+              <li>
+                <a href="/#"><i class="ic-tw"></i></a>
+              </li>
+              <li>
+                <a href="/#"><i class="ic-yt"></i></a>
+              </li>
+              <li>
+                <a href="/#"><i class="ic-tt"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- script -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

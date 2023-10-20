@@ -1,0 +1,168 @@
+@include media.xs {
+  .form-input {
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    &:focus {
+      outline: none;
+      border: 2px solid $border-focus;
+    }
+    &::placeholder {
+      color: #f1e7dd;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    &:disabled {
+      border: 2px solid $border-focus;
+    }
+  }
+}
+@include media.sm {
+  .form-input {
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    &:focus {
+      outline: none;
+      border: 2px solid $border-focus;
+    }
+    &::placeholder {
+      color: #f1e7dd;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    &:disabled {
+      border: 2px solid $border-focus;
+    }
+  }
+}
+@include media.md {
+  .form-input {
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    &:focus {
+      outline: none;
+      border: 2px solid $border-focus;
+    }
+    &::placeholder {
+      color: #f1e7dd;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    &:disabled {
+      border: 2px solid $border-focus;
+    }
+  }
+}
+@include media.lg {
+  .form-input {
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    &:focus {
+      outline: none;
+      border: 2px solid $border-focus;
+    }
+    &::placeholder {
+      color: #f1e7dd;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    &:disabled {
+      border: 2px solid $border-focus;
+    }
+  }
+}
+@include media.xl {
+  .form-input {
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    &:focus {
+      outline: none;
+      border: 2px solid $border-focus;
+    }
+    &::placeholder {
+      color: #f1e7dd;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    &:disabled {
+      border: 2px solid $border-focus;
+    }
+  }
+}
+@include media.xxl {
+  .form-input {
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    &:focus {
+      outline: none;
+      border: 2px solid $border-focus;
+    }
+    &::placeholder {
+      color: #f1e7dd;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    &:disabled {
+      border: 2px solid $border-focus;
+    }
+  }
+}

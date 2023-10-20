@@ -1,0 +1,110 @@
+#page-emiten,
+#page-investor,
+#page-success-registration,
+#page-my-submission,
+#page-pubex-live,
+#edit-page-investor {
+  nav {
+    background-color: $color-orange;
+    padding: 8px 0;
+    .navigation {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      color: $text-light;
+      font-family: League Spartan, sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+
+      .nav-brand {
+        cursor: default;
+      }
+      .user-dropdown {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        background-color: #ffc07e;
+        border: none;
+        border-radius: 32px;
+        padding: 4px;
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+        .drop-down-ic {
+          content: url("../img/icon/arrow_drop_down.png");
+          width: 24px;
+          height: 24px;
+          // rotate: 0;
+          // animation: dropdown-close 0.5s linear forwards;
+        }
+        .active {
+          content: url("../img/icon/arrow_drop_down.png");
+          width: 24px;
+          height: 24px;
+          rotate: 180deg;
+        }
+        &.hidden {
+          display: none;
+        }
+      }
+      .modal-user {
+        position: absolute;
+        right: 0;
+        top: 60px;
+
+        display: none;
+        flex-direction: column;
+        overflow: hidden;
+
+        width: 172px;
+        height: auto;
+        border-radius: 12px;
+        background-color: $color-white;
+        box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+        .user-action {
+          padding: 12px 32px;
+          border: none;
+          background-color: transparent;
+          text-align: left;
+          text-decoration: none;
+          color: $text-dark;
+          font-family: League Spartan, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%; /* 24px */
+          letter-spacing: -0.176px;
+          cursor: pointer;
+          &:hover {
+            background-color: #ffc07e;
+          }
+        }
+        .hidden {
+          display: none;
+        }
+      }
+    }
+  }
+  @keyframes dropdown-action {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  @keyframes dropdown-close {
+    0% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+}

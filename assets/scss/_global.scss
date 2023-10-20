@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: $text-dark;
+}
+h2 {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: $text-dark;
+}
+p {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+@include media.xs {
+  .container {
+    margin: 0 16px;
+  }
+  .nav-brand {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+@include media.sm {
+  .container {
+    margin: 0 16px;
+  }
+  .nav-brand {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+@include media.md {
+  .container {
+    margin: 0 32px;
+  }
+  .nav-brand {
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+@include media.lg {
+  .container {
+    margin: 0 100px;
+  }
+  .nav-brand {
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+@include media.xl {
+  .container {
+    margin: 0 150px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+@include media.xxl {
+  .container {
+    margin: 0 26%;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+}

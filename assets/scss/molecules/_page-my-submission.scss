@@ -1,0 +1,733 @@
+@include media.xs {
+  #page-my-submission {
+    font-family: Lato, sans-serif;
+    section {
+      .form-section {
+        min-height: 100vh;
+        width: 100%;
+        margin-bottom: 41px;
+
+        .row {
+          gap: 24px;
+          .form-desc {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 371px;
+            padding: 24px;
+            ol {
+              margin: 0;
+              padding: 0 14px;
+              li {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+                color: $text-dark;
+              }
+            }
+          }
+          .form-field {
+            display: flex;
+            flex-direction: column;
+            gap: 24px 0;
+            width: 100%;
+            padding: 24px;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            h1 {
+              text-align: center;
+              width: 100%;
+            }
+            .btn-edit {
+              position: absolute;
+              align-self: self-end;
+              cursor: pointer;
+              background-color: transparent;
+              border: unset;
+              .ic-edit {
+                content: url("../img/icon/edit-ic.png");
+              }
+            }
+            .btn-submit {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+              &:disabled {
+                background-color: $btn-disabled;
+                cursor: default;
+              }
+              &.hidden {
+                display: none;
+              }
+            }
+          }
+        }
+        .back-and-alert {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 26px;
+          margin-bottom: 14px;
+          .back-btn {
+            cursor: pointer;
+            background-color: transparent;
+            border: unset;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            color: $text-dark;
+            &::before {
+              content: url("../img/icon/arrow-left.png");
+              padding-top: 4px;
+            }
+          }
+          .success-edited-alert {
+            position: absolute;
+            top: 330px;
+            left: 10%;
+            right: 10%;
+            display: flex;
+            background-color: #668547;
+            gap: 8px;
+            width: 80%;
+            padding: 8px;
+            border-radius: 5px;
+
+            color: $text-light;
+            font-family: Lato, sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            &::before {
+              align-items: center;
+              content: url("../img/icon/check-circle.png");
+            }
+            &.hidden {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media.sm {
+  #page-my-submission {
+    font-family: Lato, sans-serif;
+    section {
+      .form-section {
+        min-height: 100vh;
+        width: 100%;
+        margin-bottom: 41px;
+
+        .row {
+          gap: 24px;
+          .form-desc {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 371px;
+            padding: 24px;
+            ol {
+              margin: 0;
+              padding: 0 14px;
+              li {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+                color: $text-dark;
+              }
+            }
+          }
+          .form-field {
+            display: flex;
+            flex-direction: column;
+            gap: 24px 0;
+            width: 100%;
+            padding: 24px;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            h1 {
+              text-align: center;
+              width: 100%;
+            }
+            .btn-edit {
+              position: absolute;
+              align-self: self-end;
+              cursor: pointer;
+              background-color: transparent;
+              border: unset;
+              .ic-edit {
+                content: url("../img/icon/edit-ic.png");
+              }
+            }
+            .btn-submit {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+              &:disabled {
+                background-color: $btn-disabled;
+                cursor: default;
+              }
+              &.hidden {
+                display: none;
+              }
+            }
+          }
+        }
+        .back-and-alert {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 26px;
+          margin-bottom: 14px;
+          .back-btn {
+            cursor: pointer;
+            background-color: transparent;
+            border: unset;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            color: $text-dark;
+            &::before {
+              content: url("../img/icon/arrow-left.png");
+              padding-top: 4px;
+            }
+          }
+          .success-edited-alert {
+            position: absolute;
+            top: 330px;
+            left: 10%;
+            right: 10%;
+            display: flex;
+            background-color: #668547;
+            gap: 8px;
+            width: 80%;
+            padding: 8px;
+            border-radius: 5px;
+
+            color: $text-light;
+            font-family: Lato, sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            &::before {
+              align-items: center;
+              content: url("../img/icon/check-circle.png");
+            }
+            &.hidden {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media.md {
+  #page-my-submission {
+    font-family: Lato, sans-serif;
+    section {
+      .form-section {
+        min-height: 100vh;
+        width: 100%;
+        margin-bottom: 41px;
+
+        .row {
+          gap: 24px;
+          .form-desc {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 371px;
+            padding: 24px;
+            ol {
+              margin: 0;
+              padding: 0 14px;
+              li {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+                color: $text-dark;
+              }
+            }
+          }
+          .form-field {
+            display: flex;
+            flex-direction: column;
+            gap: 24px 0;
+            width: 100%;
+            padding: 24px;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            h1 {
+              text-align: center;
+              width: 100%;
+            }
+            .btn-edit {
+              position: absolute;
+              align-self: self-end;
+              cursor: pointer;
+              background-color: transparent;
+              border: unset;
+              .ic-edit {
+                content: url("../img/icon/edit-ic.png");
+              }
+            }
+            .btn-submit {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+              &:disabled {
+                background-color: $btn-disabled;
+                cursor: default;
+              }
+              &.hidden {
+                display: none;
+              }
+            }
+          }
+        }
+        .back-and-alert {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 26px;
+          margin-bottom: 14px;
+          .back-btn {
+            cursor: pointer;
+            background-color: transparent;
+            border: unset;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            color: $text-dark;
+            &::before {
+              content: url("../img/icon/arrow-left.png");
+              padding-top: 4px;
+            }
+          }
+          .success-edited-alert {
+            position: absolute;
+            top: 330px;
+            left: 10%;
+            right: 10%;
+            display: flex;
+            background-color: #668547;
+            gap: 8px;
+            width: 80%;
+            padding: 8px;
+            border-radius: 5px;
+
+            color: $text-light;
+            font-family: Lato, sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            &::before {
+              align-items: center;
+              content: url("../img/icon/check-circle.png");
+            }
+            &.hidden {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media.lg {
+  #page-my-submission {
+    font-family: Lato, sans-serif;
+    section {
+      .form-section {
+        min-height: 100vh;
+        width: 100%;
+        margin-bottom: 41px;
+
+        .row {
+          gap: 24px;
+          .form-desc {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 371px;
+            padding: 24px;
+            ol {
+              margin: 0;
+              padding: 0 14px;
+              li {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+                color: $text-dark;
+              }
+            }
+          }
+          .form-field {
+            display: flex;
+            flex-direction: column;
+            gap: 24px 0;
+            width: 100%;
+            padding: 24px;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            h1 {
+              text-align: center;
+              width: 100%;
+            }
+            .btn-edit {
+              cursor: pointer;
+              background-color: transparent;
+              border: unset;
+              .ic-edit {
+                content: url("../img/icon/edit-ic.png");
+              }
+            }
+            .btn-submit {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+              &:disabled {
+                background-color: $btn-disabled;
+                cursor: default;
+              }
+              &.hidden {
+                display: none;
+              }
+            }
+          }
+        }
+        .back-and-alert {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 26px;
+          margin-bottom: 14px;
+          .back-btn {
+            cursor: pointer;
+            background-color: transparent;
+            margin-right: 24%;
+            border: unset;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            color: $text-dark;
+            &::before {
+              content: url("../img/icon/arrow-left.png");
+              padding-top: 4px;
+            }
+          }
+          .success-edited-alert {
+            display: flex;
+            background-color: #668547;
+            gap: 8px;
+            width: 671px;
+            padding: 8px;
+            border-radius: 5px;
+
+            color: $text-light;
+            font-family: Lato, sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            &::before {
+              align-items: center;
+              content: url("../img/icon/check-circle.png");
+            }
+            &.hidden {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media.xl {
+  #page-my-submission {
+    font-family: Lato, sans-serif;
+    section {
+      .form-section {
+        min-height: 100vh;
+        width: 100%;
+        margin-bottom: 41px;
+
+        .row {
+          gap: 24px;
+          .form-desc {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 371px;
+            padding: 24px;
+            ol {
+              margin: 0;
+              padding: 0 14px;
+              li {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+                color: $text-dark;
+              }
+            }
+          }
+          .form-field {
+            display: flex;
+            flex-direction: column;
+            gap: 24px 0;
+            width: 100%;
+            padding: 24px;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            h1 {
+              text-align: center;
+              width: 100%;
+            }
+            .btn-edit {
+              cursor: pointer;
+              background-color: transparent;
+              border: unset;
+              .ic-edit {
+                content: url("../img/icon/edit-ic.png");
+              }
+            }
+            .btn-submit {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+              &:disabled {
+                background-color: $btn-disabled;
+                cursor: default;
+              }
+              &.hidden {
+                display: none;
+              }
+            }
+          }
+        }
+        .back-and-alert {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 26px;
+          margin-bottom: 14px;
+          .back-btn {
+            cursor: pointer;
+            background-color: transparent;
+            border: unset;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            color: $text-dark;
+            &::before {
+              content: url("../img/icon/arrow-left.png");
+              padding-top: 4px;
+            }
+          }
+          .success-edited-alert {
+            display: flex;
+            background-color: #668547;
+            gap: 8px;
+            width: 72%;
+            padding: 8px;
+            border-radius: 5px;
+
+            color: $text-light;
+            font-family: Lato, sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            &::before {
+              align-items: center;
+              content: url("../img/icon/check-circle.png");
+            }
+            &.hidden {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media.xxl {
+  #page-my-submission {
+    font-family: Lato, sans-serif;
+    section {
+      .form-section {
+        min-height: 100vh;
+        width: 100%;
+        margin-bottom: 41px;
+
+        .row {
+          gap: 24px;
+          .form-desc {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 371px;
+            padding: 24px;
+            ol {
+              margin: 0;
+              padding: 0 14px;
+              li {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+                color: $text-dark;
+              }
+            }
+          }
+          .form-field {
+            display: flex;
+            flex-direction: column;
+            gap: 24px 0;
+            width: 100%;
+            padding: 24px;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            h1 {
+              text-align: center;
+              width: 100%;
+            }
+            .btn-edit {
+              cursor: pointer;
+              background-color: transparent;
+              border: unset;
+              .ic-edit {
+                content: url("../img/icon/edit-ic.png");
+              }
+            }
+            .btn-submit {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+              &:disabled {
+                background-color: $btn-disabled;
+                cursor: default;
+              }
+              &.hidden {
+                display: none;
+              }
+            }
+          }
+        }
+        .back-and-alert {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 26px;
+          margin-bottom: 14px;
+          .back-btn {
+            cursor: pointer;
+            background-color: transparent;
+            border: unset;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            color: $text-dark;
+            &::before {
+              content: url("../img/icon/arrow-left.png");
+              padding-top: 4px;
+            }
+          }
+          .success-edited-alert {
+            display: flex;
+            background-color: #668547;
+            gap: 8px;
+            width: 70%;
+            padding: 8px;
+            border-radius: 5px;
+
+            color: $text-light;
+            font-family: Lato, sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            &::before {
+              align-items: center;
+              content: url("../img/icon/check-circle.png");
+            }
+            &.hidden {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

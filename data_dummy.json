@@ -1,0 +1,32 @@
+[
+	{
+		"id": 0,
+		"name": "USB Sekuritas",
+		"value": "usb-sekuritas"
+	},
+	{
+		"id": 1,
+		"name": "Maybank Sekuritas",
+		"value": "maybank-sekuritas"
+	},
+	{
+		"id": 2,
+		"name": "Mandiri Sekuritas",
+		"value": "mandiri-sekuritas"
+	},
+	{
+		"id": 3,
+		"name": "CGS-CIMB Sekuritas",
+		"value": "cgs-cimb-sekuritas"
+	},
+	{
+		"id": 4,
+		"name": "Mirae Asset Sekuritas",
+		"value": "mirae-asset-sekuritas"
+	},
+	{
+		"id": 5,
+		"name": "J.P. Morgan Sekuritas",
+		"value": "jp-merger-sekuritas"
+	}
+]

@@ -1,0 +1,36 @@
+@include media.xs {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@include media.sm {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@include media.md {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@include media.lg {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@include media.xl {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@include media.xxl {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+}

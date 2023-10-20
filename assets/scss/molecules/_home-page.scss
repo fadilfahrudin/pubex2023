@@ -1,0 +1,1546 @@
+@include media.xs {
+  #home-page {
+    scroll-behavior: smooth;
+    section {
+      width: 100%;
+      overflow: hidden;
+      #header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 50px 0;
+        background-color: $color-orange;
+        background-image: url("../img/bg-header-mobile.png");
+        background-repeat: no-repeat;
+        background-position: 0px 50px;
+        background-size: contain;
+        height: 100vh;
+        width: 100%;
+        .row {
+          flex-direction: column-reverse;
+          gap: 0 50px;
+          .text-header-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 16px 0;
+            width: 100%;
+            .text-header {
+              display: flex;
+              gap: 0 20px;
+              padding: 24px;
+              color: $text-light;
+              font-family: League Spartan, sans-serif;
+              font-size: 32px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%;
+              border: 8px solid #ffe4da;
+            }
+            p {
+              text-align: start;
+              color: $text-light;
+              font-size: 16px;
+            }
+          }
+          .chart-img {
+            width: 60%;
+            height: auto;
+          }
+        }
+        .more-page {
+          cursor: pointer;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 10px;
+          margin: 0 auto;
+          width: max-content;
+          text-decoration: none;
+          color: $text-light;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          &::after {
+            content: url("../img/icon/expand_more.png");
+            display: block;
+          }
+        }
+      }
+      .element-1 {
+        position: absolute;
+        top: 86vh;
+        z-index: 99;
+        width: 100px;
+        height: 250px;
+        background-image: url("../img/element.png");
+        background-repeat: no-repeat;
+        background-position: -55px 0;
+        background-size: cover;
+      }
+      #about {
+        background-color: #ffe3c5;
+        min-height: 100vh;
+        width: 100%;
+        padding: 16px 0;
+        display: flex;
+        align-items: center;
+        .row {
+          width: 100%;
+          gap: 0 24px;
+          .card-about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 32px;
+            gap: 24px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            img {
+              width: 72px;
+              height: 72px;
+            }
+            .info {
+              width: 100%;
+              height: 84px;
+              p {
+                cursor: default;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      .element-2 {
+        position: absolute;
+        top: 180vh;
+        right: 0;
+        z-index: 99;
+        width: 140px;
+        height: 268px;
+        background-image: url("../img/element-2.png");
+        background-repeat: no-repeat;
+        background-position: right 0;
+        background-size: 60px;
+      }
+      #pendaftaran {
+        background-color: $color-orange;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        padding: 16px 0;
+        .row {
+          gap: 16px 0;
+          width: 100%;
+          overflow: hidden;
+          .card-pendaftaran {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            min-height: 70vh;
+            padding: 24px 24px;
+            gap: 32px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            background-color: #ffe3c5;
+            position: relative;
+            overflow: hidden;
+            h1 {
+              text-align: center;
+              color: #cc5717;
+              font-size: 32px;
+            }
+
+            .flow-pendaftaran {
+              position: relative;
+              z-index: 2;
+              width: 100%;
+              min-height: 124px;
+              display: flex;
+              justify-content: center;
+              flex-flow: row wrap;
+              gap: 0 8px;
+              padding: 8px;
+
+              .flow-wrapp {
+                width: 40%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 12px 0;
+                align-items: center;
+                .flow-no {
+                  cursor: default;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  background-color: #ffc07e;
+                  border: 2px solid #f3804c;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                  color: $text-light;
+                  font-family: Lato, sans-serif;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 700;
+
+                  &.active {
+                    background-color: #f3804c !important;
+                  }
+                  &::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    display: block;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    width: 50%;
+                    height: 2px;
+                    background-color: #fe7933;
+                  }
+                }
+                .flow-info {
+                  p {
+                    color: $text-dark;
+                    font-size: 16px;
+                  }
+                }
+              }
+            }
+            .btn-daftar {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-family: Lato, sans-serif;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+              &.hidden {
+                display: none;
+              }
+              &:disabled {
+                cursor: default;
+                background-color: $btn-disabled;
+              }
+            }
+          }
+        }
+        &.hidden {
+          display: none;
+        }
+      }
+      #list-emiten {
+        background-color: lightcyan;
+        min-height: 100vh;
+        width: 100%;
+
+        &.hidden {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@include media.sm {
+  #home-page {
+    scroll-behavior: smooth;
+    section {
+      width: 100%;
+      overflow: hidden;
+      #header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 50px 0;
+        background-color: $color-orange;
+        background-image: url("../img/bg-header-mobile.png");
+        background-repeat: no-repeat;
+        background-position: 0px 50px;
+        background-size: contain;
+        height: 100vh;
+        width: 100%;
+        .row {
+          flex-direction: column-reverse;
+          gap: 0 50px;
+          .text-header-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 16px 0;
+            width: 100%;
+            .text-header {
+              display: flex;
+              gap: 0 20px;
+              padding: 24px;
+              color: $text-light;
+              font-family: League Spartan, sans-serif;
+              font-size: 32px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%;
+              border: 8px solid #ffe4da;
+            }
+            p {
+              text-align: start;
+              color: $text-light;
+              font-size: 16px;
+            }
+          }
+          .chart-img {
+            width: 60%;
+            height: auto;
+          }
+        }
+        .more-page {
+          cursor: pointer;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 10px;
+          margin: 0 auto;
+          width: max-content;
+          text-decoration: none;
+          color: $text-light;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          &::after {
+            content: url("../img/icon/expand_more.png");
+            display: block;
+          }
+        }
+      }
+      .element-1 {
+        position: absolute;
+        top: 90vh;
+        z-index: 99;
+        width: 100px;
+        height: 250px;
+        background-image: url("../img/element.png");
+        background-repeat: no-repeat;
+        background-position: -55px 0;
+        background-size: cover;
+      }
+      #about {
+        background-color: #ffe3c5;
+        min-height: 100vh;
+        width: 100%;
+        padding: 16px 0;
+        display: flex;
+        align-items: center;
+        .row {
+          width: 100%;
+          gap: 0 24px;
+          .card-about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 32px;
+            gap: 24px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            img {
+              width: 72px;
+              height: 72px;
+            }
+            .info {
+              width: 100%;
+              height: 84px;
+              p {
+                cursor: default;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      .element-2 {
+        position: absolute;
+        top: 180vh;
+        right: 0;
+        z-index: 99;
+        width: 140px;
+        height: 268px;
+        background-image: url("../img/element-2.png");
+        background-repeat: no-repeat;
+        background-position: right 0;
+        background-size: 60px;
+      }
+      #pendaftaran {
+        background-color: $color-orange;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        padding: 16px 0;
+        .row {
+          gap: 16px 0;
+          width: 100%;
+          overflow: hidden;
+          .card-pendaftaran {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            min-height: 70vh;
+            padding: 24px 24px;
+            gap: 32px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            background-color: #ffe3c5;
+            position: relative;
+            overflow: hidden;
+            h1 {
+              text-align: center;
+              color: #cc5717;
+              font-size: 32px;
+            }
+
+            .flow-pendaftaran {
+              position: relative;
+              z-index: 2;
+              width: 100%;
+              min-height: 124px;
+              display: flex;
+              justify-content: center;
+              flex-flow: row wrap;
+              gap: 0 8px;
+              padding: 8px;
+
+              .flow-wrapp {
+                width: 40%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 12px 0;
+                align-items: center;
+                .flow-no {
+                  cursor: default;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  background-color: #ffc07e;
+                  border: 2px solid #f3804c;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                  color: $text-light;
+                  font-family: Lato, sans-serif;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 700;
+
+                  &.active {
+                    background-color: #f3804c !important;
+                  }
+                  &::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    display: block;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    width: 50%;
+                    height: 2px;
+                    background-color: #fe7933;
+                  }
+                }
+                .flow-info {
+                  p {
+                    color: $text-dark;
+                    font-size: 16px;
+                  }
+                }
+              }
+            }
+            .btn-daftar {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-family: Lato, sans-serif;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+              &.hidden {
+                display: none;
+              }
+              &:disabled {
+                cursor: default;
+                background-color: $btn-disabled;
+              }
+            }
+          }
+        }
+        &.hidden {
+          display: none;
+        }
+      }
+      #list-emiten {
+        background-color: lightcyan;
+        min-height: 100vh;
+        width: 100%;
+
+        &.hidden {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@include media.md {
+  #home-page {
+    scroll-behavior: smooth;
+    section {
+      width: 100%;
+      overflow: hidden;
+      #header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 50px 0;
+        background-color: $color-orange;
+        background-image: url("../img/bg-header-mobile.png");
+        background-repeat: no-repeat;
+        background-position: 0px 50px;
+        background-size: contain;
+        height: 100vh;
+        width: 100%;
+        .row {
+          flex-direction: column-reverse;
+          gap: 0 50px;
+          .text-header-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 16px 0;
+            width: 100%;
+            .text-header {
+              display: flex;
+              gap: 0 20px;
+              padding: 24px;
+              color: $text-light;
+              font-family: League Spartan, sans-serif;
+              font-size: 32px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%;
+              border: 8px solid #ffe4da;
+            }
+            p {
+              text-align: start;
+              color: $text-light;
+              font-size: 16px;
+            }
+          }
+          .chart-img {
+            width: 80%;
+            height: auto;
+          }
+        }
+        .more-page {
+          cursor: pointer;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 10px;
+          margin: 0 auto;
+          width: max-content;
+          text-decoration: none;
+          color: $text-light;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          &::after {
+            content: url("../img/icon/expand_more.png");
+            display: block;
+          }
+        }
+      }
+      .element-1 {
+        position: absolute;
+        top: 92vh;
+        z-index: 99;
+        width: 100px;
+        height: 250px;
+        background-image: url("../img/element.png");
+        background-repeat: no-repeat;
+        background-position: -55px 0;
+        background-size: cover;
+      }
+      #about {
+        background-color: #ffe3c5;
+        min-height: 100vh;
+        width: 100%;
+        padding: 16px 0;
+        display: flex;
+        align-items: center;
+        .row {
+          width: 100%;
+          gap: 0 24px;
+          .card-about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 32px;
+            gap: 24px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            img {
+              width: 145px;
+              height: 145px;
+            }
+            .info {
+              width: 100%;
+              height: 84px;
+              p {
+                cursor: default;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      .element-2 {
+        position: absolute;
+        top: 172vh;
+        right: 0;
+        z-index: 99;
+        width: 140px;
+        height: 268px;
+        background-image: url("../img/element-2.png");
+        background-repeat: no-repeat;
+        background-position: right 0;
+        background-size: 70px;
+      }
+      #pendaftaran {
+        background-color: $color-orange;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        padding: 16px 0;
+        .row {
+          gap: 16px 0;
+          width: 100%;
+          overflow: hidden;
+          .card-pendaftaran {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 24px 24px;
+            gap: 32px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            background-color: #ffe3c5;
+            position: relative;
+            overflow: hidden;
+            h1 {
+              text-align: center;
+              color: #cc5717;
+              font-size: 32px;
+            }
+
+            .flow-pendaftaran {
+              position: relative;
+              z-index: 2;
+              width: 100%;
+              min-height: 124px;
+              display: flex;
+              justify-content: center;
+              flex-flow: row wrap;
+              gap: 0 8px;
+              padding: 8px;
+
+              .flow-wrapp {
+                width: 40%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 12px 0;
+                align-items: center;
+                .flow-no {
+                  cursor: default;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  background-color: #ffc07e;
+                  border: 2px solid #f3804c;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                  color: $text-light;
+                  font-family: Lato, sans-serif;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 700;
+
+                  &.active {
+                    background-color: #f3804c !important;
+                  }
+                  &::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    display: block;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    width: 46%;
+                    height: 2px;
+                    background-color: #fe7933;
+                  }
+                }
+                .flow-info {
+                  p {
+                    color: $text-dark;
+                    font-size: 16px;
+                  }
+                }
+              }
+            }
+            .btn-daftar {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-family: Lato, sans-serif;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+              &.hidden {
+                display: none;
+              }
+              &:disabled {
+                cursor: default;
+                background-color: $btn-disabled;
+              }
+            }
+          }
+        }
+        &.hidden {
+          display: none;
+        }
+      }
+      #list-emiten {
+        background-color: lightcyan;
+        min-height: 100vh;
+        width: 100%;
+
+        &.hidden {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@include media.lg {
+  #home-page {
+    scroll-behavior: smooth;
+    section {
+      width: 100%;
+      overflow: hidden;
+      #header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: $color-orange;
+        background-image: url("../img/bg-header.png");
+        background-repeat: no-repeat;
+        background-position: 0px -120px;
+        height: 100vh;
+        width: 100%;
+        .row {
+          align-items: center;
+          gap: 0 50px;
+          .text-header-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 16px 0;
+            width: 100%;
+            .text-header {
+              display: flex;
+              gap: 0 20px;
+              padding: 24px;
+              color: $text-light;
+              font-family: League Spartan, sans-serif;
+              font-size: 48px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%;
+              border: 8px solid #ffe4da;
+            }
+            p {
+              text-align: start;
+              color: $text-light;
+            }
+          }
+          .chart-img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .more-page {
+          cursor: pointer;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 10px;
+          margin: 0 auto;
+          width: max-content;
+          text-decoration: none;
+          color: $text-light;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          &::after {
+            content: url("../img/icon/expand_more.png");
+            display: block;
+          }
+        }
+      }
+      .element-1 {
+        position: absolute;
+        top: 82vh;
+        z-index: 99;
+        width: 200px;
+        height: 322px;
+        background-image: url("../img/element.png");
+        background-repeat: no-repeat;
+        background-position: -55px 0;
+      }
+      #about {
+        background-color: #ffe3c5;
+        padding: 24px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .row {
+          flex-direction: column;
+          width: 100%;
+          gap: 0 24px;
+          .card-about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 32px;
+            gap: 24px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            img {
+              width: 145px;
+              height: 145px;
+            }
+            .info {
+              width: 100%;
+              height: 84px;
+              p {
+                cursor: default;
+              }
+            }
+          }
+        }
+      }
+      .element-2 {
+        position: absolute;
+        top: 130vh;
+        right: 0;
+        z-index: 99;
+        width: 140px;
+        height: 538px;
+        background-image: url("../img/element-2.png");
+        background-repeat: no-repeat;
+        background-position: right 0;
+        background-size: 120px;
+      }
+      #pendaftaran {
+        background-color: $color-orange;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 24px;
+        .row {
+          width: 100%;
+          flex-direction: column;
+          gap: 24px;
+          .card-pendaftaran {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 32px 24px;
+            gap: 32px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            background-color: #ffe3c5;
+            position: relative;
+            overflow: hidden;
+
+            .flow-pendaftaran {
+              position: relative;
+              z-index: 2;
+              width: 100%;
+              min-height: 124px;
+              display: flex;
+              gap: 0 8px;
+              padding: 8px;
+
+              .flow-wrapp {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 12px 0;
+                align-items: center;
+                .flow-no {
+                  cursor: default;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  background-color: #ffc07e;
+                  border: 2px solid #f3804c;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                  color: $text-light;
+                  font-family: Lato, sans-serif;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 700;
+
+                  &.active {
+                    background-color: #f3804c !important;
+                  }
+
+                  &::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    width: 80%;
+                    height: 1px;
+                    background-color: #fe7933;
+                  }
+                  &.line-investor::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    width: 50%;
+                    height: 1px;
+                    background-color: #fe7933;
+                  }
+                }
+                .flow-info {
+                  //   background-color: blue;
+                  width: 100%;
+                  p {
+                    color: $text-dark;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .btn-daftar {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+              &.hidden {
+                display: none;
+              }
+              &:disabled {
+                cursor: default;
+                background-color: $btn-disabled;
+              }
+            }
+          }
+        }
+        &.hidden {
+          display: none;
+        }
+      }
+      #list-emiten {
+        background-color: lightcyan;
+        min-height: 100vh;
+        width: 100%;
+
+        &.hidden {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@include media.xl {
+  #home-page {
+    scroll-behavior: smooth;
+    section {
+      width: 100%;
+      overflow: hidden;
+      #header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: $color-orange;
+        background-image: url("../img/bg-header.png");
+        background-repeat: no-repeat;
+        background-position: 0px -120px;
+        height: 100vh;
+        width: 100%;
+        .row {
+          align-items: center;
+          gap: 0 50px;
+          .text-header-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 16px 0;
+            width: 100%;
+            .text-header {
+              display: flex;
+              gap: 0 20px;
+              padding: 24px;
+              color: $text-light;
+              font-family: League Spartan, sans-serif;
+              font-size: 48px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%;
+              border: 8px solid #ffe4da;
+            }
+            p {
+              text-align: start;
+              color: $text-light;
+            }
+          }
+          .chart-img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .more-page {
+          cursor: pointer;
+          position: absolute;
+          display: block;
+          left: 0;
+          right: 0;
+          bottom: 10px;
+          margin: 0 auto;
+          width: max-content;
+          text-decoration: none;
+          color: $text-light;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          &::after {
+            content: url("../img/icon/expand_more.png");
+            display: block;
+          }
+        }
+      }
+      .element-1 {
+        position: absolute;
+        top: 78vh;
+        z-index: 99;
+        width: 200px;
+        height: 322px;
+        background-image: url("../img/element.png");
+        background-repeat: no-repeat;
+        background-position: -55px 0;
+      }
+      #about {
+        background-color: #ffe3c5;
+        padding: 54px 0;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .row {
+          width: 100%;
+          gap: 0 24px;
+          .card-about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 32px;
+            gap: 24px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            img {
+              width: 145px;
+              height: 145px;
+            }
+            .info {
+              width: 100%;
+              height: 84px;
+              p {
+                cursor: default;
+              }
+            }
+          }
+        }
+      }
+      .element-2 {
+        position: absolute;
+        top: 130vh;
+        right: 0;
+        z-index: 99;
+        width: 140px;
+        height: 538px;
+        background-image: url("../img/element-2.png");
+        background-repeat: no-repeat;
+        background-position: right 0;
+        background-size: 120px;
+      }
+      #pendaftaran {
+        background-color: $color-orange;
+        min-height: 100vh;
+        width: 100%;
+        padding: 45px 0;
+        display: flex;
+        align-items: center;
+
+        .row {
+          width: 100%;
+          gap: 0 24px;
+          .card-pendaftaran {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            min-height: 70vh;
+            padding: 32px 24px;
+            gap: 32px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            background-color: #ffe3c5;
+            position: relative;
+            overflow: hidden;
+
+            .flow-pendaftaran {
+              position: relative;
+              z-index: 2;
+              width: 100%;
+              min-height: 124px;
+              display: flex;
+              gap: 0 8px;
+              padding: 8px;
+
+              .flow-wrapp {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 12px 0;
+                align-items: center;
+                .flow-no {
+                  cursor: default;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  background-color: #ffc07e;
+                  border: 2px solid #f3804c;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                  color: $text-light;
+                  font-family: Lato, sans-serif;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 700;
+
+                  &.active {
+                    background-color: #f3804c !important;
+                  }
+
+                  &::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    width: 80%;
+                    height: 1px;
+                    background-color: #fe7933;
+                  }
+                  &.line-investor::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    width: 50%;
+                    height: 1px;
+                    background-color: #fe7933;
+                  }
+                }
+                .flow-info {
+                  //   background-color: blue;
+                  width: 100%;
+                  p {
+                    color: $text-dark;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .btn-daftar {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-family: Lato, sans-serif;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+              &.hidden {
+                display: none;
+              }
+              &:disabled {
+                cursor: default;
+                background-color: $btn-disabled;
+              }
+            }
+          }
+        }
+        &.hidden {
+          display: none;
+        }
+      }
+      #list-emiten {
+        background-color: lightcyan;
+        min-height: 100vh;
+        width: 100%;
+
+        &.hidden {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@include media.xxl {
+  #home-page {
+    scroll-behavior: smooth;
+    section {
+      width: 100%;
+      overflow: hidden;
+      #header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: $color-orange;
+        background-image: url("../img/bg-header.png");
+        background-repeat: no-repeat;
+        background-position: 0px -120px;
+        height: 100vh;
+        width: 100%;
+        .row {
+          align-items: center;
+          gap: 0 50px;
+          .text-header-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 16px 0;
+            width: 100%;
+            .text-header {
+              display: flex;
+              gap: 0 20px;
+              padding: 24px;
+              color: $text-light;
+              font-family: League Spartan, sans-serif;
+              font-size: 48px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%;
+              border: 8px solid #ffe4da;
+            }
+            p {
+              text-align: start;
+              color: $text-light;
+            }
+          }
+          .chart-img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .more-page {
+          cursor: pointer;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 10px;
+          margin: 0 auto;
+          width: max-content;
+          text-decoration: none;
+          color: $text-light;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          &::after {
+            content: url("../img/icon/expand_more.png");
+            display: block;
+          }
+        }
+      }
+      .element-1 {
+        position: absolute;
+        top: 80vh;
+        z-index: 99;
+        width: 200px;
+        height: 322px;
+        background-image: url("../img/element.png");
+        background-repeat: no-repeat;
+        background-position: -55px 0;
+      }
+      #about {
+        background-color: #ffe3c5;
+        min-height: 100vh;
+        width: 100%;
+        padding: 54px 0;
+        display: flex;
+        align-items: center;
+        .row {
+          width: 100%;
+          gap: 0 24px;
+          .card-about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 32px;
+            gap: 24px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            img {
+              width: 145px;
+              height: 145px;
+            }
+            .info {
+              width: 100%;
+              height: 84px;
+              p {
+                cursor: default;
+              }
+            }
+          }
+        }
+      }
+      .element-2 {
+        position: absolute;
+        top: 140vh;
+        right: 0;
+        z-index: 99;
+        width: 140px;
+        height: 538px;
+        background-image: url("../img/element-2.png");
+        background-repeat: no-repeat;
+        background-position: right 0;
+        background-size: 120px;
+      }
+      #pendaftaran {
+        background-color: $color-orange;
+        padding: 45px 0;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .row {
+          width: 100%;
+          gap: 0 24px;
+          .card-pendaftaran {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            min-height: 70vh;
+            padding: 32px 24px;
+            gap: 32px 0;
+            box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+            background-color: #ffe3c5;
+            position: relative;
+            overflow: hidden;
+
+            .flow-pendaftaran {
+              position: relative;
+              z-index: 2;
+              width: 100%;
+              min-height: 124px;
+              display: flex;
+              gap: 0 8px;
+              padding: 8px;
+
+              .flow-wrapp {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 12px 0;
+                align-items: center;
+                .flow-no {
+                  cursor: default;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  background-color: #ffc07e;
+                  border: 2px solid #f3804c;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                  color: $text-light;
+                  font-family: Lato, sans-serif;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 700;
+
+                  &.active {
+                    background-color: #f3804c !important;
+                  }
+
+                  &::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    width: 80%;
+                    height: 1px;
+                    background-color: #fe7933;
+                  }
+                  &.line-investor::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    width: 50%;
+                    height: 1px;
+                    background-color: #fe7933;
+                  }
+                }
+                .flow-info {
+                  //   background-color: blue;
+                  width: 100%;
+                  p {
+                    color: $text-dark;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .btn-daftar {
+              cursor: pointer;
+              padding: 12px 0;
+              background-color: $btn-active;
+              font-family: Lato, sans-serif;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              color: $text-light;
+              border: none;
+              width: 179px;
+              display: block;
+              margin: auto;
+              border-radius: 8px;
+              box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+              &.hidden {
+                display: none;
+              }
+              &:disabled {
+                cursor: default;
+                background-color: $btn-disabled;
+              }
+            }
+          }
+        }
+        &.hidden {
+          display: none;
+        }
+      }
+      #list-emiten {
+        background-color: lightcyan;
+        min-height: 100vh;
+        width: 100%;
+
+        &.hidden {
+          display: none;
+        }
+      }
+    }
+  }
+}

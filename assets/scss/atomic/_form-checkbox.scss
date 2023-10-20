@@ -1,0 +1,45 @@
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: $text-dark;
+  input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+
+    //   custom styles
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid $border-active;
+    border-radius: 0.15em;
+
+    display: grid;
+    place-content: center;
+
+    &:checked {
+      background-color: $border-active;
+    }
+
+    &::before {
+      content: "";
+      width: 0.65em;
+      height: 0.65em;
+      transform: scale(0);
+      transition: 120ms transform ease-in-out;
+      background-color: $color-white;
+
+      transform-origin: bottom left;
+      clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    }
+    &:checked::before {
+      transform: scale(1);
+    }
+  }
+}

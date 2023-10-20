@@ -1,0 +1,291 @@
+@include media.xs {
+  .form-select {
+    position: relative;
+    cursor: pointer;
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      background-color: $color-white;
+      border: 2px solid $border-active;
+      border-radius: 5px;
+      width: 100%;
+      height: auto;
+      padding: 8px 12px;
+      user-select: none;
+
+      color: #f1e7dd;
+      font-family: Lato, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      overflow: hidden;
+      option {
+        appearance: none;
+        -webkit-appearance: none;
+        border-radius: none;
+        cursor: pointer;
+      }
+      &:disabled {
+        cursor: default;
+        opacity: 100;
+        border: 2px solid $border-focus;
+      }
+    }
+    &#act-select::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      right: 12px;
+      top: 5px;
+    }
+    &.dropdown-active::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      rotate: 180deg;
+      right: 12px;
+      top: 5px;
+    }
+  }
+}
+@include media.sm {
+  .form-select {
+    position: relative;
+    cursor: pointer;
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      background-color: $color-white;
+      border: 2px solid $border-active;
+      border-radius: 5px;
+      width: 100%;
+      height: auto;
+      padding: 8px 12px;
+      user-select: none;
+
+      color: #f1e7dd;
+      font-family: Lato, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      overflow: hidden;
+      option {
+        appearance: none;
+        -webkit-appearance: none;
+        border-radius: none;
+        cursor: pointer;
+      }
+      &:disabled {
+        cursor: default;
+        opacity: 100;
+        border: 2px solid $border-focus;
+      }
+    }
+    &#act-select::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      right: 12px;
+      top: 5px;
+    }
+    &.dropdown-active::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      rotate: 180deg;
+      right: 12px;
+      top: 5px;
+    }
+  }
+}
+@include media.md {
+  .form-select {
+    position: relative;
+    cursor: pointer;
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      background-color: $color-white;
+      border: 2px solid $border-active;
+      border-radius: 5px;
+      width: 100%;
+      height: auto;
+      padding: 8px 12px;
+      user-select: none;
+
+      color: #f1e7dd;
+      font-family: Lato, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      overflow: hidden;
+      option {
+        appearance: none;
+        -webkit-appearance: none;
+        border-radius: none;
+        cursor: pointer;
+      }
+      &:disabled {
+        cursor: default;
+        opacity: 100;
+        border: 2px solid $border-focus;
+      }
+    }
+    &#act-select::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      right: 12px;
+      top: 5px;
+    }
+    &.dropdown-active::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      rotate: 180deg;
+      right: 12px;
+      top: 5px;
+    }
+  }
+}
+@include media.lg {
+  .form-select {
+    position: relative;
+    cursor: pointer;
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      background-color: $color-white;
+      border: 2px solid $border-active;
+      border-radius: 5px;
+      width: 100%;
+      height: auto;
+      padding: 8px 12px;
+      user-select: none;
+
+      color: #f1e7dd;
+      font-family: Lato, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      option {
+        appearance: none;
+        -webkit-appearance: none;
+        border-radius: none;
+        cursor: pointer;
+      }
+      &:disabled {
+        cursor: default;
+        opacity: 100;
+        border: 2px solid $border-focus;
+      }
+    }
+    &#act-select::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      right: 12px;
+      top: 5px;
+    }
+    &.dropdown-active::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      rotate: 180deg;
+      right: 12px;
+      top: 5px;
+    }
+  }
+}
+@include media.xl {
+  .form-select {
+    position: relative;
+    cursor: pointer;
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      background-color: $color-white;
+      border: 2px solid $border-active;
+      border-radius: 5px;
+      width: 100%;
+      height: auto;
+      padding: 8px 12px;
+      user-select: none;
+
+      color: #f1e7dd;
+      font-family: Lato, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      option {
+        appearance: none;
+        -webkit-appearance: none;
+        border-radius: none;
+        cursor: pointer;
+      }
+      &:disabled {
+        cursor: default;
+        opacity: 100;
+        border: 2px solid $border-focus;
+      }
+    }
+    &#act-select::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      right: 12px;
+      top: 5px;
+    }
+    &.dropdown-active::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      rotate: 180deg;
+      right: 12px;
+      top: 5px;
+    }
+  }
+}
+@include media.xxl {
+  .form-select {
+    position: relative;
+    cursor: pointer;
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      background-color: $color-white;
+      border: 2px solid $border-active;
+      border-radius: 5px;
+      width: 100%;
+      height: auto;
+      padding: 8px 12px;
+      user-select: none;
+
+      color: #f1e7dd;
+      font-family: Lato, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      option {
+        appearance: none;
+        -webkit-appearance: none;
+        border-radius: none;
+        cursor: pointer;
+      }
+      &:disabled {
+        cursor: default;
+        opacity: 100;
+        border: 2px solid $border-focus;
+      }
+    }
+    &#act-select::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      right: 12px;
+      top: 5px;
+    }
+    &.dropdown-active::after {
+      position: absolute;
+      content: url("../img/icon/arrow_drop_down.png");
+      rotate: 180deg;
+      right: 12px;
+      top: 5px;
+    }
+  }
+}

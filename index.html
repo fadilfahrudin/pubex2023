@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PUBEX 2023</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="home-page">
+      <!-- Navigation -->
+      <nav>
+        <div class="container navigation">
+          <ul>
+            <!-- nav-link punya class tambahan nav-active -->
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#pendaftaran">Pendaftaran</a></li>
+
+            <!-- Jika blm login -->
+            <!-- user-dropdown punya class hidden -->
+            <button type="button" class="user-dropdown user-default">
+              <img
+                src="./assets/img/icon/login-ic.png"
+                alt="User Dummy"
+                width="100%"
+                height="100%" />
+            </button>
+
+            <!-- Jika sudah login -->
+            <!-- user-dropdown punya class hidden -->
+            <button type="button" class="user-dropdown has-login hidden">
+              <img
+                src="./assets/img/user-dummy.png"
+                alt="User Dummy"
+                width="100%"
+                height="100%" />
+              <i class="drop-down-ic"></i>
+            </button>
+          </ul>
+
+          <!-- Modal dropdown  -->
+          <div class="modal-user">
+            <!-- Add class hidden for hide button -->
+            <a class="user-action" href="my-submission-page.html"
+              >My Submission</a
+            >
+            <a class="user-action" href="pubex-live-page.html"
+              >PUBEX LIVE Info</a
+            >
+            <a id="logout" class="user-action" href="index.html"> Log Out </a>
+          </div>
+        </div>
+      </nav>
+      <!-- Content -->
+      <section>
+        <div id="header">
+          <div class="row container">
+            <div class="text-header-wrapper">
+              <div class="text-header">
+                <b>•</b>
+                PUBLIC EXPOSE LIVE 2023
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+            <div class="chart-img">
+              <img
+                src="./assets/img/chart.png"
+                alt="chart"
+                width="100%"
+                height="100%" />
+            </div>
+          </div>
+          <a href="#about" class="more-page">Scroll Down</a>
+        </div>
+        <div class="element-1"></div>
+        <div id="about">
+          <div class="row container">
+            <div class="card-about">
+              <img
+                src="./assets/img/info-1.png"
+                alt="Info 1"
+                width="100%"
+                height="100%" />
+              <div class="info">
+                <p>
+                  Menjadi wadah interaksi antar Manajemen Perusahaan Tercatat
+                  dengan investor
+                </p>
+              </div>
+            </div>
+            <div class="card-about">
+              <img
+                src="./assets/img/info-2.png"
+                alt="Info 1"
+                width="100%"
+                height="100%" />
+              <div class="info">
+                <p>
+                  Penyebaran informasi terkini atas kinerja Perusahaan Tercatat
+                  kepada investor.
+                </p>
+              </div>
+            </div>
+            <div class="card-about">
+              <img
+                src="./assets/img/info-3.png"
+                alt="Info 1"
+                width="100%"
+                height="100%" />
+              <div class="info">
+                <p>
+                  Memberikan informasi yang dibutuhkan investor dalam menentukan
+                  keputusan investasinya.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="element-2"></div>
+        <!-- Punya class hidden -->
+        <div id="pendaftaran">
+          <div class="row container">
+            <div class="card-pendaftaran">
+              <h1>EMITEN</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
+                metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
+                interdum tellus elit sed risus. Maecenas eget condimentum velit,
+                sit amet feugiat lectus.
+              </p>
+              <div class="line-flow"></div>
+              <div class="flow-pendaftaran">
+                <div class="flow-wrapp">
+                  <!-- Punya class active -->
+                  <div class="flow-no active">1</div>
+                  <div class="flow-info">
+                    <p><b>Pendaftaran</b></p>
+                    <p>1-15 Oktober</p>
+                  </div>
+                </div>
+                <div class="flow-wrapp">
+                  <!-- Punya class active -->
+                  <div class="flow-no">2</div>
+                  <div class="flow-info">
+                    <p><b>Seleksi</b></p>
+                    <p>16-25 Oktober</p>
+                  </div>
+                </div>
+                <div class="flow-wrapp">
+                  <!-- Punya class active -->
+                  <div class="flow-no">3</div>
+                  <div class="flow-info">
+                    <p><b>Pengumuman</b></p>
+                    <p>26 Oktober</p>
+                  </div>
+                </div>
+                <div class="flow-wrapp">
+                  <!-- Punya class active -->
+                  <div class="flow-no">4</div>
+                  <div class="flow-info">
+                    <p><b>PUBEX LIVE</b></p>
+                    <p>1-4 November</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Punya class hidden -->
+              <button type="button" class="btn-daftar daftar-emiten">
+                Daftar
+              </button>
+            </div>
+            <div class="card-pendaftaran">
+              <h1>INVESTOR & UMUM</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
+                metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
+                interdum tellus elit sed risus. Maecenas eget condimentum velit,
+                sit amet feugiat lectus.
+              </p>
+              <div class="line-flow"></div>
+              <div class="flow-pendaftaran">
+                <div class="flow-wrapp">
+                  <!-- Punya class active -->
+                  <div class="flow-no active line-investor">1</div>
+                  <div class="flow-info">
+                    <p><b>Pendaftaran</b></p>
+                    <p>1-15 Oktober</p>
+                  </div>
+                </div>
+                <div class="flow-wrapp">
+                  <!-- Punya class active -->
+                  <div class="flow-no line-investor">2</div>
+                  <div class="flow-info">
+                    <p><b>PUBEX LIVE</b></p>
+                    <p>1-4 November</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Punya class hidden -->
+              <button type="button" class="btn-daftar daftar-investor" disabled>
+                Daftar
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Punya class hidden -->
+        <div id="list-emiten hidden"></div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="container footer">
+          <div class="license">Copyright @ 2023 PUBEX - MNC Media</div>
+          <div class="socmed">
+            <ul>
+              <li>
+                <a href="/#"><i class="ic-ig"></i></a>
+              </li>
+              <li>
+                <a href="/#"><i class="ic-fb"></i></a>
+              </li>
+              <li>
+                <a href="/#"><i class="ic-tw"></i></a>
+              </li>
+              <li>
+                <a href="/#"><i class="ic-yt"></i></a>
+              </li>
+              <li>
+                <a href="/#"><i class="ic-tt"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Modal -->
+    <!-- Punya class hidden -->
+    <div class="modal hidden"></div>
+
+    <!-- script -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+ style moleculs component :
+ 1. Home Page
+ 2. Form Emiten Page
+ 3. Form Investor Page
+ 4. Navigations Form Page
+ 5. Navigations Home Page
+ 6. Footers Page 
+
+ style atomic component :
+
+ 1. Toast Message
+ 2. Button Active + Disable
+ 3. Form Input + Lable
+ 4. Form select

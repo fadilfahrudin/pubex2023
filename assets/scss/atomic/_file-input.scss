@@ -1,0 +1,282 @@
+@include media.xs {
+  .file-input {
+    border-radius: 5px;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    // padding: 6px 12px;
+    position: relative;
+    cursor: pointer;
+
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 8px 12px;
+    width: 100%;
+    height: auto;
+    &::-webkit-file-upload-button {
+      width: 0;
+      padding: 0;
+      margin: 0;
+      visibility: hidden;
+    }
+    &::after {
+      content: "Browse";
+      position: absolute;
+      right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: right;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      color: #533434;
+      background-color: #fff;
+    }
+    &:focus {
+      border: 2px solid $border-focus;
+      outline: none;
+    }
+    &:disabled {
+      cursor: default;
+      border: 2px solid $border-focus;
+    }
+  }
+}
+@include media.sm {
+  .file-input {
+    border-radius: 5px;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    // padding: 6px 12px;
+    position: relative;
+    cursor: pointer;
+
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 8px 12px;
+    width: 100%;
+    height: auto;
+    &::-webkit-file-upload-button {
+      width: 0;
+      padding: 0;
+      margin: 0;
+      visibility: hidden;
+    }
+    &::after {
+      content: "Browse";
+      position: absolute;
+      right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: right;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      color: #533434;
+      background-color: #fff;
+    }
+    &:focus {
+      border: 2px solid $border-focus;
+      outline: none;
+    }
+    &:disabled {
+      cursor: default;
+      border: 2px solid $border-focus;
+    }
+  }
+}
+@include media.md {
+  .file-input {
+    border-radius: 5px;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    // padding: 6px 12px;
+    position: relative;
+    cursor: pointer;
+
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 8px 12px;
+    width: 100%;
+    height: auto;
+    &::-webkit-file-upload-button {
+      width: 0;
+      padding: 0;
+      margin: 0;
+      visibility: hidden;
+    }
+    &::after {
+      content: "Browse";
+      position: absolute;
+      right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: right;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      color: #533434;
+      background-color: #fff;
+    }
+    &:focus {
+      border: 2px solid $border-focus;
+      outline: none;
+    }
+    &:disabled {
+      cursor: default;
+      border: 2px solid $border-focus;
+    }
+  }
+}
+@include media.lg {
+  .file-input {
+    border-radius: 5px;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    // padding: 6px 12px;
+    position: relative;
+    cursor: pointer;
+
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 8px 12px;
+    width: 100%;
+    height: auto;
+    &::-webkit-file-upload-button {
+      width: 0;
+      padding: 0;
+      margin: 0;
+      visibility: hidden;
+    }
+    &::after {
+      content: "Browse";
+      position: absolute;
+      right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: right;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      color: #533434;
+      background-color: #fff;
+    }
+    &:focus {
+      border: 2px solid $border-focus;
+      outline: none;
+    }
+    &:disabled {
+      cursor: default;
+      border: 2px solid $border-focus;
+    }
+  }
+}
+@include media.xl {
+  .file-input {
+    border-radius: 5px;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    // padding: 6px 12px;
+    position: relative;
+    cursor: pointer;
+
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 8px 12px;
+    width: 100%;
+    height: auto;
+    &::-webkit-file-upload-button {
+      width: 0;
+      padding: 0;
+      margin: 0;
+      visibility: hidden;
+    }
+    &::after {
+      content: "Browse";
+      position: absolute;
+      right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: right;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      color: #533434;
+      background-color: #fff;
+    }
+    &:focus {
+      border: 2px solid $border-focus;
+      outline: none;
+    }
+    &:disabled {
+      cursor: default;
+      border: 2px solid $border-focus;
+    }
+  }
+}
+@include media.xxl {
+  .file-input {
+    border-radius: 5px;
+    border: 2px solid $border-active;
+    background-color: $color-white;
+    // padding: 6px 12px;
+    position: relative;
+    cursor: pointer;
+
+    font-family: Lato, sans-serif;
+    color: $text-dark;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 8px 12px;
+    width: 100%;
+    height: auto;
+    &::-webkit-file-upload-button {
+      width: 0;
+      padding: 0;
+      margin: 0;
+      visibility: hidden;
+    }
+    &::after {
+      content: "Browse";
+      position: absolute;
+      right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: right;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      color: #533434;
+      background-color: #fff;
+    }
+    &:focus {
+      border: 2px solid $border-focus;
+      outline: none;
+    }
+    &:disabled {
+      cursor: default;
+      border: 2px solid $border-focus;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+@include media.xs {
+  .form-group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    label {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      color: $text-dark;
+    }
+  }
+}
+@include media.sm {
+  .form-group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    label {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      color: $text-dark;
+    }
+  }
+}
+@include media.md {
+  .form-group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    label {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      color: $text-dark;
+    }
+  }
+}
+@include media.lg {
+  .form-group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    label {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      color: $text-dark;
+    }
+  }
+}
+@include media.xl {
+  .form-group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    label {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      color: $text-dark;
+    }
+  }
+}
+@include media.xxl {
+  .form-group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    label {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      color: $text-dark;
+    }
+  }
+}
