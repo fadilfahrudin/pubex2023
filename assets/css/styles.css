@@ -195,6 +195,9 @@ p {
   #page-emiten section .form-section .row .form-field h1 {
     text-align: center;
   }
+  #page-emiten section .form-section .row .form-field .file-note {
+    color: #5dcad1;
+  }
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
@@ -273,6 +276,9 @@ p {
   }
   #page-emiten section .form-section .row .form-field h1 {
     text-align: center;
+  }
+  #page-emiten section .form-section .row .form-field .file-note {
+    color: #5dcad1;
   }
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
@@ -353,6 +359,9 @@ p {
   #page-emiten section .form-section .row .form-field h1 {
     text-align: center;
   }
+  #page-emiten section .form-section .row .form-field .file-note {
+    color: #5dcad1;
+  }
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
@@ -431,6 +440,9 @@ p {
   }
   #page-emiten section .form-section .row .form-field h1 {
     text-align: center;
+  }
+  #page-emiten section .form-section .row .form-field .file-note {
+    color: #5dcad1;
   }
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
@@ -511,6 +523,9 @@ p {
   #page-emiten section .form-section .row .form-field h1 {
     text-align: center;
   }
+  #page-emiten section .form-section .row .form-field .file-note {
+    color: #5dcad1;
+  }
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
@@ -589,6 +604,9 @@ p {
   }
   #page-emiten section .form-section .row .form-field h1 {
     text-align: center;
+  }
+  #page-emiten section .form-section .row .form-field .file-note {
+    color: #5dcad1;
   }
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
@@ -1452,6 +1470,10 @@ p {
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
     display: none;
   }
+  #page-investor section .form-section .row .form-field #tipe-umum-active,
+  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
+    display: none;
+  }
   #page-investor section .form-section .row .form-field .btn-submit,
   #edit-page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
@@ -1605,6 +1627,10 @@ p {
   }
   #page-investor section .form-section .row .form-field #tipe-media-active,
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #tipe-umum-active,
+  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
     display: none;
   }
   #page-investor section .form-section .row .form-field .btn-submit,
@@ -1762,6 +1788,10 @@ p {
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
     display: none;
   }
+  #page-investor section .form-section .row .form-field #tipe-umum-active,
+  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
+    display: none;
+  }
   #page-investor section .form-section .row .form-field .btn-submit,
   #edit-page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
@@ -1917,6 +1947,10 @@ p {
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
     display: none;
   }
+  #page-investor section .form-section .row .form-field #tipe-umum-active,
+  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
+    display: none;
+  }
   #page-investor section .form-section .row .form-field .btn-submit,
   #edit-page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
@@ -2042,12 +2076,12 @@ p {
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
-    background-color: #ffe4da;
+    background-color: #e9ebff;
     border-radius: 6px;
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
-    background-color: #eb8455;
+    background-color: #04577c;
     border-radius: 6px;
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li,
@@ -2065,11 +2099,15 @@ p {
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #eb8455;
+    background-color: #04577c;
     color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active,
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #tipe-umum-active,
+  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
     display: none;
   }
   #page-investor section .form-section .row .form-field .btn-submit,
@@ -2225,6 +2263,10 @@ p {
   }
   #page-investor section .form-section .row .form-field #tipe-media-active,
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #tipe-umum-active,
+  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
     display: none;
   }
   #page-investor section .form-section .row .form-field .btn-submit,
@@ -3233,7 +3275,7 @@ p {
   display: flex;
   align-items: center;
   cursor: pointer;
-  background-color: #ffc07e;
+  background-color: #5dcad1;
   border: none;
   border-radius: 32px;
   padding: 4px;
@@ -3289,7 +3331,6 @@ p {
   display: none;
   flex-direction: column;
   overflow: hidden;
-  width: 172px;
   height: auto;
   border-radius: 12px;
   background-color: #fff;
@@ -3321,7 +3362,7 @@ p {
 #page-my-submission nav .navigation .modal-user .user-action:hover,
 #page-pubex-live nav .navigation .modal-user .user-action:hover,
 #edit-page-investor nav .navigation .modal-user .user-action:hover {
-  background-color: #ffc07e;
+  background-color: #5dcad1;
 }
 #page-emiten nav .navigation .modal-user .hidden,
 #page-investor nav .navigation .modal-user .hidden,
@@ -6472,7 +6513,7 @@ p {
     height: auto;
     padding: 8px 12px;
     user-select: none;
-    color: #f1e7dd;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -6487,7 +6528,13 @@ p {
   .form-select select:disabled {
     cursor: default;
     opacity: 100;
-    border: 2px solid #024c6c;
+    border: 2px solid #024c6c !important;
+  }
+  .form-select select:focus {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 2px solid #024c6c !important;
+    outline: none;
   }
   .form-select#act-select::after {
     position: absolute;
@@ -7007,7 +7054,7 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    color: #533434;
+    color: #04577c;
     background-color: #fff;
   }
   .file-input:focus {
@@ -7052,7 +7099,7 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    color: #533434;
+    color: #04577c;
     background-color: #fff;
   }
   .file-input:focus {
@@ -7097,7 +7144,7 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    color: #533434;
+    color: #04577c;
     background-color: #fff;
   }
   .file-input:focus {
@@ -7142,7 +7189,7 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    color: #533434;
+    color: #04577c;
     background-color: #fff;
   }
   .file-input:focus {
@@ -7187,7 +7234,7 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    color: #533434;
+    color: #04577c;
     background-color: #fff;
   }
   .file-input:focus {
@@ -7232,7 +7279,7 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    color: #533434;
+    color: #04577c;
     background-color: #fff;
   }
   .file-input:focus {
@@ -7250,6 +7297,7 @@ p {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    color: #04577c;
     line-height: 150%;
     border-radius: 5px;
     border: 2px solid #5dcad1;
@@ -7280,6 +7328,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    color: #04577c;
     border-radius: 5px;
     border: 2px solid #5dcad1;
     padding: 8px 12px;
@@ -7309,6 +7358,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    color: #04577c;
     border-radius: 5px;
     border: 2px solid #5dcad1;
     padding: 8px 12px;
@@ -7338,6 +7388,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    color: #04577c;
     border-radius: 5px;
     border: 2px solid #5dcad1;
     padding: 8px 12px;
@@ -7367,6 +7418,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    color: #04577c;
     border-radius: 5px;
     border: 2px solid #5dcad1;
     padding: 8px 12px;
@@ -7396,6 +7448,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    color: #04577c;
     border-radius: 5px;
     border: 2px solid #5dcad1;
     padding: 8px 12px;
@@ -7842,7 +7895,7 @@ p {
   }
   .chart-animate .wrapp-chart {
     width: 100%;
-    height: 35vh;
+    height: 20vh;
     display: flex;
     align-items: end;
     position: relative;
@@ -8288,5 +8341,101 @@ p {
     100% {
       height: 50%;
     }
+  }
+}
+@media (max-width: 375px) {
+  .premium-info {
+    color: #04577c;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+  }
+  .premium-info p {
+    text-align: start;
+  }
+  .premium-info p a {
+    color: #04577c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+@media (min-width: 376px) and (max-width: 467px) {
+  .premium-info {
+    color: #04577c;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+  }
+  .premium-info p {
+    text-align: start;
+  }
+  .premium-info p a {
+    color: #04577c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+@media (min-width: 468px) and (max-width: 767px) {
+  .premium-info {
+    color: #04577c;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+  }
+  .premium-info p {
+    text-align: start;
+  }
+  .premium-info p a {
+    color: #04577c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1075px) {
+  .premium-info {
+    color: #04577c;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+  }
+  .premium-info p {
+    text-align: start;
+  }
+  .premium-info p a {
+    color: #04577c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+@media (min-width: 1076px) and (max-width: 1919px) {
+  .premium-info {
+    color: #04577c;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+  }
+  .premium-info p {
+    text-align: start;
+  }
+  .premium-info p a {
+    color: #04577c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+@media (min-width: 1920px) {
+  .premium-info {
+    color: #04577c;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+  }
+  .premium-info p {
+    text-align: start;
+  }
+  .premium-info p a {
+    color: #04577c;
+    font-weight: bold;
+    text-decoration: none;
   }
 }/*# sourceMappingURL=styles.css.map */

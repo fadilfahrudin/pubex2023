@@ -119,12 +119,15 @@
 		if ($("#tipe-pengunjung").val() === "investor") {
 			$("#sekuritas-terdaftar-active").css('display', 'block');
 			$("#tipe-media-active").css('display', 'none');
+			$("#tipe-umum-active").css('display', 'none');
 		} else if($("#tipe-pengunjung").val() === "media"){
 			$("#tipe-media-active").css('display', 'block');
 			$("#sekuritas-terdaftar-active").css('display', 'none');
-		} else{
+			$("#tipe-umum-active").css('display', 'none');
+		} else if($("#tipe-pengunjung").val() === "umum"){
 			$("#sekuritas-terdaftar-active").css('display', 'none');
 			$("#tipe-media-active").css('display', 'none');
+			$("#tipe-umum-active").css('display', 'block');
 		}
 	})
 
@@ -132,7 +135,7 @@
 			// Displaying Tag
 			$(".bootstrap-tagsinput").click(()=>{
 				let content= []
-				$(".bootstrap-tagsinput").css("border-color", "#533434")
+				$(".bootstrap-tagsinput").css("border-color", "#04577c")
 				dataSekuritas.forEach((data) => {
 					content.push(`<li class="data-list" data-value="${data.name}" data-id="${data.id}">${data.name}</li>`)
 				})
@@ -162,7 +165,7 @@
 					})
 				})
 			},() => {
-				$(".bootstrap-tagsinput").css("border-color", "#ffc07e")
+				$(".bootstrap-tagsinput").css("border-color", "#5dcad1")
 				return $(".wrapp-list-sekuritas").html(``)
 			})
 			
@@ -185,20 +188,20 @@
 	// Select form
 		// Investor page
 		$("#tipe-pengunjung").on("click", () => {
-			$("#tipe-pengunjung").css("color", "#533434")
+			$("#tipe-pengunjung").css("color", "#04577c")
 			
 		}) 
 		$("#jenis-kelamin").on("click", () => {
-			$("#jenis-kelamin").css("color", "#533434")
+			$("#jenis-kelamin").css("color", "#04577c")
 		}) 
 		// Emiten page
 		$("#kategori-papan").on("click", () => {
-			$("#kategori-papan").css("color", "#533434")
+			$("#kategori-papan").css("color", "#04577c")
 		}) 
 
 	// Validate field Emitent
 	const checkFieldEmiten = () => {
-		if ($("#link-yt").val() == "") {
+		if ($("#kode-perusahaan").val() == "") {
 			$(".btn-submit").attr("disabled", true);
 		} else if($("#email-pic").val() == "") {
 			$(".btn-submit").attr("disabled", true);
@@ -254,6 +257,12 @@
 			}
 		} else if($("#tipe-pengunjung").val() == "media"){
 			if ($("#tipe-media").val() == "") {
+				$(".btn-submit").attr("disabled", true);
+			} else {
+				$(".btn-submit").attr("disabled", false);
+			}
+		}else if($("#tipe-pengunjung").val() == "umum"){
+			if ($("#umum").val() && $("#sid").val()  == "") {
 				$(".btn-submit").attr("disabled", true);
 			} else {
 				$(".btn-submit").attr("disabled", false);
@@ -383,8 +392,8 @@
 			});
 		} else if ($("body").has("#edit-page-investor").length >0){
 			// Edit Investor section
-			$("#jenis-kelamin").css("color", "#533434")
-			$("#tipe-pengunjung").css("color", "#533434")
+			$("#jenis-kelamin").css("color", "#04577c")
+			$("#tipe-pengunjung").css("color", "#04577c")
 
 			$("#nama").val("Revina Priagung")
 			$("#alamat").text("Bogor")

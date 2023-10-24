@@ -32,12 +32,10 @@
           <div class="modal-user">
             <!-- Add class hidden for hide button -->
             <a class="user-action" href="my-submission-page.html"
-              >My Submission</a
+              >Data Perusahaan</a
             >
-            <a class="user-action" href="pubex-live-page.html"
-              >PUBEX LIVE Info</a
-            >
-            <a href="index.html" class="user-action"> Log Out </a>
+            <a class="user-action" href="pubex-live-page.html">Data Saya</a>
+            <a href="index.html" class="user-action">Keluar</a>
           </div>
         </div>
       </nav>
@@ -45,28 +43,28 @@
       <!-- Form Section -->
       <section class="container">
         <div class="form-section">
-          <a class="back-btn" type="button" href="index.html">Home</a>
+          <a class="back-btn" type="button" href="index.html">Beranda</a>
           <div class="row">
             <!-- Form Description -->
             <div class="form-desc">
-              <h2>Kriteria</h2>
+              <h2>Info</h2>
               <ol>
-                <li>Semua field wajib diisi</li>
                 <li>
-                  Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
-                  dignissim, metus nec fringilla accumsan, risus sem
-                  sollicitudin lacus, ut interdum tellus elit sed risus.
+                  Pengunjung melakukan pendaftaran melalui website PUBEX LIVE
+                  2023.
                 </li>
                 <li>
-                  Maecenas eget condimentum velit, sit amet feugiat lectus.
+                  Setelah mendaftar, pengunjung dapat memilih untuk menyaksikan
+                  sesi presentasi dari perusahaan tercatat.
                 </li>
                 <li>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
+                  Pada setiap sesi akan ada hadiah menarik untuk 3 pengunjung
+                  yang terpilih.
                 </li>
                 <li>
-                  Praesent auctor purus luctus enim egestas, ac scelerisque ante
-                  pulvinar.
+                  Beberapa data auto filled by orion dan tidak dapat diubah,
+                  jika ingin mengubah data maka dapat dilakukan di
+                  orion.mncportal.id
                 </li>
               </ol>
             </div>
@@ -76,45 +74,7 @@
               <h1>Pendaftaran Investor & Umum</h1>
               <div class="form-group">
                 <label for="nama">Nama</label>
-                <input
-                  class="form-input"
-                  type="text"
-                  name="nama"
-                  id="nama"
-                  placeholder="Nama" />
-              </div>
-              <div class="form-group">
-                <label for="alamat">Alamat</label>
-                <textarea
-                  class="form-area"
-                  name="alamat"
-                  id="alamat"
-                  placeholder="Alamat"></textarea>
-              </div>
-              <div class="row">
-                <div class="form-group">
-                  <label for="ttl">Tanggal Lahir</label>
-                  <input class="form-input" type="date" name="ttl" id="ttl" />
-                </div>
-                <div class="form-group">
-                  <label for="jenis-kelamin">Jenis Kelamin</label>
-                  <div id="act-select" class="form-select">
-                    <select name="jenis-kelamin" id="jenis-kelamin">
-                      <option value="0">Jenis Kelamin</option>
-                      <option value="1">Laki-Laki</option>
-                      <option value="2">Perempuan</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="nik">NIK</label>
-                <input
-                  class="form-input"
-                  type="number"
-                  name="nik"
-                  id="nik"
-                  placeholder="nik" />
+                <input class="form-input" type="text" name="nama" id="nama" />
               </div>
               <div class="row">
                 <div class="form-group">
@@ -123,8 +83,7 @@
                     class="form-input"
                     type="number"
                     name="no-tel"
-                    id="no-tel"
-                    placeholder="No. telepon" />
+                    id="no-tel" />
                 </div>
                 <div class="form-group">
                   <div class="form-group">
@@ -133,8 +92,7 @@
                       class="form-input"
                       type="email"
                       name="email"
-                      id="email"
-                      placeholder="Email" />
+                      id="email" />
                   </div>
                 </div>
               </div>
@@ -142,7 +100,7 @@
                 <label for="tipe-pengunjung">Tipe Pengunjung</label>
                 <div id="act-select" class="form-select">
                   <select name="tipe-pengunjung" id="tipe-pengunjung">
-                    <option value="0">Tipe Pengunjung</option>
+                    <option value="0"></option>
                     <option value="investor">Investor</option>
                     <option value="media">Media</option>
                     <option value="umum">Umum</option>
@@ -175,7 +133,32 @@
                     id="tipe-media"
                     name="tipe-media" />
                 </div>
-                <div class="wrapp-list-sekuritas"></div>
+              </div>
+              <!-- Tipe Umum -->
+              <div id="tipe-umum-active">
+                <div class="form-group">
+                  <label for="umum"
+                    >Nama Perusahaan, Sekolah, atau Institusi
+                  </label>
+                  <input
+                    autocomplete="off"
+                    class="form-input"
+                    type="text"
+                    value=""
+                    id="umum"
+                    name="umum" />
+                </div>
+                <br />
+                <div class="form-group">
+                  <label for="sid">SID</label>
+                  <input
+                    autocomplete="off"
+                    class="form-input"
+                    type="number"
+                    value=""
+                    id="sid"
+                    name="sid" />
+                </div>
               </div>
               <button class="btn-submit" type="submit" disabled>Submit</button>
             </form>

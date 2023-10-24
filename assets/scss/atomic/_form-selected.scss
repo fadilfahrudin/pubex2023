@@ -209,7 +209,7 @@
       padding: 8px 12px;
       user-select: none;
 
-      color: #f1e7dd;
+      color: $text-dark;
       font-family: Lato, sans-serif;
       font-size: 16px;
       font-style: normal;
@@ -223,7 +223,13 @@
       &:disabled {
         cursor: default;
         opacity: 100;
-        border: 2px solid $border-focus;
+        border: 2px solid $border-focus !important;
+      }
+      &:focus {
+        appearance: none;
+        -webkit-appearance: none;
+        border: 2px solid $border-focus !important;
+        outline: none;
       }
     }
     &#act-select::after {

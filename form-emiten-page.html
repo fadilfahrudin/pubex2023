@@ -31,12 +31,10 @@
           <div class="modal-user">
             <!-- Add class hidden for hide button -->
             <a class="user-action" href="my-submission-page.html"
-              >My Submission</a
+              >Data Perusahaan</a
             >
-            <a class="user-action" href="pubex-live-page.html"
-              >PUBEX LIVE Info</a
-            >
-            <a href="index.html" class="user-action"> Log Out </a>
+            <a class="user-action" href="pubex-live-page.html">Data Saya</a>
+            <a href="index.html" class="user-action">Keluar</a>
           </div>
         </div>
       </nav>
@@ -44,43 +42,35 @@
       <!-- Form Section -->
       <section class="container">
         <div class="form-section">
-          <a href="index.html" class="back-btn" type="button">Home</a>
+          <a href="index.html" class="back-btn" type="button">Beranda</a>
           <div class="row">
             <!-- Form Description -->
             <div class="form-desc">
               <h2>Kriteria</h2>
               <ol>
-                <li>Semua field wajib diisi</li>
                 <li>
-                  Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
-                  dignissim, metus nec fringilla accumsan, risus sem
-                  sollicitudin lacus, ut interdum tellus elit sed risus.
+                  Peserta melakukan pendaftaran melalui website PUBEX LIVE 2023
+                  dan akan diseleksi oleh BEI.
                 </li>
                 <li>
-                  Maecenas eget condimentum velit, sit amet feugiat lectus.
+                  Total 46 perusahaan tercatat yang tepilih mengikuti PUBEX
+                  LIVE, mengikuti sistem first come first serve. Term &
+                  Condition Apply.
                 </li>
                 <li>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
+                  Peserta yang lolos akan mendapatkan jadwal yang telah
+                  ditentukan oleh panitia untuk melakukan presentasi.
                 </li>
                 <li>
-                  Praesent auctor purus luctus enim egestas, ac scelerisque ante
-                  pulvinar.
-                </li>
-                <li>
-                  Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor
-                  urna.
-                </li>
-                <li>
-                  Curabitur vel bibendum lorem. Morbi convallis convallis diam
-                  sit amet lacinia. Aliquam in elementum tellus.
+                  Presentasi pada slot premium akan ditayangkan di TV IDX
+                  Channel.
                 </li>
               </ol>
             </div>
 
             <!-- Form Field -->
             <form id="form-field" class="form-field">
-              <h1>Pendaftaran Emiten</h1>
+              <h1>Pendaftaran Perusahaan Tercatat</h1>
               <div class="form-group">
                 <label for="nama-perusahaan">Nama Perusahaan</label>
                 <!-- Add class "warning" for false data -->
@@ -88,11 +78,38 @@
                   class="form-input"
                   type="text"
                   name="nama-perusahaan"
-                  id="nama-perusahaan"
-                  placeholder="Nama Perusahaan" />
+                  id="nama-perusahaan" />
 
                 <!-- message punya class hidden-->
-                <span class="msg-input hidden">nama tidak tersedia</span>
+                <span class="msg-input hidden"
+                  >nama perusahaan sudah terdaftar</span
+                >
+              </div>
+              <div class="form-group">
+                <label for="nama-perusahaan">Kode Perusahaan Tercatat</label>
+                <!-- Add class "warning" for false data -->
+                <input
+                  class="form-input"
+                  type="number"
+                  name="kode-perusahaan"
+                  id="kode-perusahaan" />
+
+                <!-- message punya class hidden-->
+                <span class="msg-input hidden"
+                  >nomor perusahaan sudah terdaftar</span
+                >
+              </div>
+              <div class="form-group">
+                <label for="form-file-input"
+                  >Logo Perusahaan
+                  <span class="file-note">(Max:10mb)</span></label
+                >
+                <!-- Add class "warning" for false data -->
+                <input
+                  class="file-input"
+                  type="file"
+                  name="file-input"
+                  id="file-input" />
               </div>
               <div class="form-group">
                 <label for="deskripsi-perusahaan"
@@ -101,25 +118,18 @@
                 <textarea
                   class="form-area"
                   name="deskripsi-perusahaan"
-                  id="deskripsi-perusahaan"
-                  placeholder="Deskripsi Singkat Perusahaan"></textarea>
+                  id="deskripsi-perusahaan"></textarea>
               </div>
               <div class="form-group">
                 <label for="alamat-perusahaan">Alamat Perusahaan</label>
                 <textarea
                   class="form-area"
                   name="alamat-perusahaan"
-                  id="alamat-perusahaan"
-                  placeholder="Alamat Perusahaan"></textarea>
+                  id="alamat-perusahaan"></textarea>
               </div>
               <div class="form-group">
                 <label for="pic">PIC</label>
-                <input
-                  class="form-input"
-                  type="text"
-                  name="pic"
-                  id="pic"
-                  placeholder="Nama PIC" />
+                <input class="form-input" type="text" name="pic" id="pic" />
               </div>
               <div class="row">
                 <div class="form-group">
@@ -128,8 +138,7 @@
                     class="form-input"
                     type="number"
                     name="no-tel-pic"
-                    id="no-tel-pic"
-                    placeholder="No Telepon PIC" />
+                    id="no-tel-pic" />
                 </div>
                 <div class="form-group">
                   <label for="email-pic">Email PIC</label>
@@ -137,55 +146,29 @@
                     class="form-input"
                     type="email"
                     name="email-pic"
-                    id="email-pic"
-                    placeholder="Email PIC" />
+                    id="email-pic" />
                 </div>
               </div>
-              <!-- Select Form -->
+
               <div class="form-group">
-                <label for="pic">Kategori Papan</label>
-                <div id="act-select" class="form-select">
-                  <select name="kategori-papan" id="kategori-papan">
-                    <option value="0">Kategori Papan</option>
-                    <option value="1">Kategori A</option>
-                    <option value="2">Kategori B</option>
-                    <option value="3">Kategori C</option>
-                  </select>
-                </div>
+                <label for="link-yt">Link YouTube Company Profile</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="link-yt"
+                  id="link-yt" />
               </div>
-              <div class="row">
-                <div class="form-group">
-                  <label for="form-file-input">Laporan Keuangan PDF</label>
-                  <!-- Add class "warning" for false data -->
-                  <input
-                    class="file-input"
-                    type="file"
-                    name="file-input"
-                    id="file-input"
-                    accept=".pdf" />
-                  <!-- message -->
-                  <!-- Add class hidden to hide msg -->
-                  <span class="msg-input msg-input-file hidden"
-                    >Max file 20mb</span
-                  >
-                  <!-- Progress Bar -->
-                  <div class="progressBar-wrapp">
-                    <label for="progress" class="progress-info">
-                      <span class="info-upload-speed"></span>
-                      <span class="close-progress">x</span></label
-                    >
-                    <progress id="progress" value="0" max="0"></progress>
-                  </div>
-                  <!-- Progress Bar End -->
-                </div>
-                <div class="form-group">
-                  <label for="link-yt">Link YouTube Company Profile</label>
-                  <input
-                    class="form-input"
-                    type="text"
-                    name="link-yt"
-                    id="link-yt"
-                    placeholder="Link YouTube" />
+              <div class="form-group">
+                <div class="premium-info">
+                  <b>Slot Presentasi Premium</b>
+                  <p>
+                    Presentasi pada slot premium akan ditayangkan di TV IDX
+                    Channel dengan tambahan biaya berdasarkan paket yang
+                    tersedia. Lihat info paket premium
+                    <a href="#">di sini.</a> Jika Anda berminat, aktifkan
+                    pilihan di bawah dan panitia akan menghubungi Anda lebih
+                    lanjut.
+                  </p>
                 </div>
               </div>
               <div class="form-checkbox">

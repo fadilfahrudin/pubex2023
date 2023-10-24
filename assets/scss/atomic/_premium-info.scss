@@ -1,0 +1,96 @@
+@include media.xs {
+  .premium-info {
+    color: $text-dark;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    p {
+      text-align: start;
+      a {
+        color: $text-dark;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@include media.sm {
+  .premium-info {
+    color: $text-dark;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    p {
+      text-align: start;
+      a {
+        color: $text-dark;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@include media.md {
+  .premium-info {
+    color: $text-dark;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    p {
+      text-align: start;
+      a {
+        color: $text-dark;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@include media.lg {
+  .premium-info {
+    color: $text-dark;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    p {
+      text-align: start;
+      a {
+        color: $text-dark;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@include media.xl {
+  .premium-info {
+    color: $text-dark;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    p {
+      text-align: start;
+      a {
+        color: $text-dark;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@include media.xxl {
+  .premium-info {
+    color: $text-dark;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    p {
+      text-align: start;
+      a {
+        color: $text-dark;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -112,6 +112,9 @@
             #tipe-media-active {
               display: none;
             }
+            #tipe-umum-active {
+              display: none;
+            }
             .btn-submit {
               cursor: pointer;
               padding: 12px 0;
@@ -250,6 +253,9 @@
               }
             }
             #tipe-media-active {
+              display: none;
+            }
+            #tipe-umum-active {
               display: none;
             }
             .btn-submit {
@@ -392,6 +398,9 @@
             #tipe-media-active {
               display: none;
             }
+            #tipe-umum-active {
+              display: none;
+            }
             .btn-submit {
               cursor: pointer;
               padding: 12px 0;
@@ -532,6 +541,9 @@
             #tipe-media-active {
               display: none;
             }
+            #tipe-umum-active {
+              display: none;
+            }
             .btn-submit {
               cursor: pointer;
               padding: 12px 0;
@@ -641,11 +653,11 @@
                       width: 5px;
                     }
                     &::-webkit-scrollbar-track {
-                      background-color: #ffe4da;
+                      background-color: $color-light;
                       border-radius: 6px;
                     }
                     &::-webkit-scrollbar-thumb {
-                      background-color: #eb8455;
+                      background-color: $color-primary;
                       border-radius: 6px;
                     }
                     li {
@@ -661,7 +673,7 @@
                       font-style: normal;
                       font-weight: 400;
                       &:hover {
-                        background-color: #eb8455;
+                        background-color: $color-primary;
                         color: $text-light;
                       }
                     }
@@ -670,6 +682,9 @@
               }
             }
             #tipe-media-active {
+              display: none;
+            }
+            #tipe-umum-active {
               display: none;
             }
             .btn-submit {
@@ -810,6 +825,9 @@
               }
             }
             #tipe-media-active {
+              display: none;
+            }
+            #tipe-umum-active {
               display: none;
             }
             .btn-submit {
