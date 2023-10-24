@@ -1,23 +1,25 @@
 // Font Family: Lato & League Spartan
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=League+Spartan:wght@100;300;400;500;600;700&display=swap");
 
-$color-orange: #f2804c;
-$color-darkorange: #533434;
-$color-success: #668547;
+// Color palette
+$color-primary: #04577c;
+$color-secondary: #5dcad1;
 $color-white: #fff;
-$color-light: #ffe4da;
-$color-disabled: #cfad8a;
+$color-light: #e9ebff;
+$color-dark: #024c6c;
+$color-success: #668547;
+$color-disabled: #cacefa;
 $color-warning: #ff2634;
 
-$text-dark: $color-darkorange;
-$text-light: $color-white;
-$text-semilight: $color-light;
-$text-disabled: #ffe3c5;
+$text-dark: $color-primary;
+$text-white: $color-white;
+$text-light: $color-light;
+$text-disabled: $color-disabled;
 $text-warning: $color-warning;
 
-$btn-active: $color-orange;
+$btn-active: $color-primary;
 $btn-disabled: $color-disabled;
 
-$border-active: #ffc07e;
-$border-focus: $color-darkorange;
+$border-active: $color-secondary;
+$border-focus: $color-dark;
 $border-warning: $color-warning;

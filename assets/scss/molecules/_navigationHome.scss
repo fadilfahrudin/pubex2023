@@ -22,7 +22,7 @@
           display: flex;
           align-items: center;
           cursor: pointer;
-          background-color: #ffc07e;
+          background-color: $color-secondary;
           border: none;
           border-radius: 32px;
           padding: 2px;
@@ -112,7 +112,7 @@
           flex-direction: column;
           overflow: hidden;
 
-          width: 172px;
+          // width: 172px;
           height: auto;
           border-radius: 12px;
           background-color: $color-white;
@@ -133,7 +133,7 @@
             letter-spacing: -0.176px;
             cursor: pointer;
             &:hover {
-              background-color: #ffc07e;
+              background-color: $color-secondary;
             }
           }
           .hidden {
@@ -184,7 +184,7 @@
           display: flex;
           align-items: center;
           cursor: pointer;
-          background-color: #ffc07e;
+          background-color: $color-secondary;
           border: none;
           border-radius: 32px;
           padding: 2px;
@@ -274,7 +274,7 @@
           flex-direction: column;
           overflow: hidden;
 
-          width: 172px;
+          // width: 172px;
           height: auto;
           border-radius: 12px;
           background-color: $color-white;
@@ -295,7 +295,7 @@
             letter-spacing: -0.176px;
             cursor: pointer;
             &:hover {
-              background-color: #ffc07e;
+              background-color: $color-secondary;
             }
           }
           .hidden {
@@ -346,7 +346,7 @@
           display: flex;
           align-items: center;
           cursor: pointer;
-          background-color: #ffc07e;
+          background-color: $color-secondary;
           border: none;
           border-radius: 32px;
           padding: 2px;
@@ -436,7 +436,7 @@
           flex-direction: column;
           overflow: hidden;
 
-          width: 172px;
+          // width: 172px;
           height: auto;
           border-radius: 12px;
           background-color: $color-white;
@@ -457,7 +457,7 @@
             letter-spacing: -0.176px;
             cursor: pointer;
             &:hover {
-              background-color: #ffc07e;
+              background-color: $color-secondary;
             }
           }
           .hidden {
@@ -508,7 +508,7 @@
           display: flex;
           align-items: center;
           cursor: pointer;
-          background-color: #ffc07e;
+          background-color: $color-secondary;
           border: none;
           border-radius: 32px;
           padding: 2px;
@@ -598,7 +598,7 @@
           flex-direction: column;
           overflow: hidden;
 
-          width: 172px;
+          // width: 172px;
           height: auto;
           border-radius: 12px;
           background-color: $color-white;
@@ -619,7 +619,7 @@
             letter-spacing: -0.176px;
             cursor: pointer;
             &:hover {
-              background-color: #ffc07e;
+              background-color: $color-secondary;
             }
           }
           .hidden {
@@ -670,7 +670,7 @@
           display: flex;
           align-items: center;
           cursor: pointer;
-          background-color: #ffc07e;
+          background-color: $color-secondary;
           border: none;
           border-radius: 32px;
           padding: 2px;
@@ -760,7 +760,6 @@
           flex-direction: column;
           overflow: hidden;
 
-          width: 172px;
           height: auto;
           border-radius: 12px;
           background-color: $color-white;
@@ -781,7 +780,7 @@
             letter-spacing: -0.176px;
             cursor: pointer;
             &:hover {
-              background-color: #ffc07e;
+              background-color: $color-secondary;
             }
           }
           .hidden {
@@ -832,7 +831,7 @@
           display: flex;
           align-items: center;
           cursor: pointer;
-          background-color: #ffc07e;
+          background-color: $color-secondary;
           border: none;
           border-radius: 32px;
           padding: 2px;
@@ -922,7 +921,7 @@
           flex-direction: column;
           overflow: hidden;
 
-          width: 172px;
+          // width: 172px;
           height: auto;
           border-radius: 12px;
           background-color: $color-white;
@@ -943,7 +942,7 @@
             letter-spacing: -0.176px;
             cursor: pointer;
             &:hover {
-              background-color: #ffc07e;
+              background-color: $color-secondary;
             }
           }
           .hidden {

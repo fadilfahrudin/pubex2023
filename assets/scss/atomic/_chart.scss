@@ -1,0 +1,584 @@
+@include media.xs {
+  .chart-animate {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapp-chart {
+      width: 100%;
+      height: 30vh;
+      display: flex;
+      align-items: end;
+      position: relative;
+      overflow: hidden;
+
+      .chart {
+        position: absolute;
+        left: 10%;
+        transition: 2.5s ease-in-out;
+        width: 35%;
+        height: 50%;
+        border-radius: 10px;
+        background: var(
+          --Gradient-Blue1,
+          linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%)
+        );
+        /* Dark - M */
+        box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+        animation: chartOne 12s linear infinite alternate;
+
+        &:nth-child(2) {
+          left: 0;
+          right: 0;
+          display: block;
+          margin: 0 auto;
+          height: 70%;
+          animation: chartTwo 10s linear infinite alternate;
+        }
+        &:nth-child(3) {
+          left: unset;
+          right: 10%;
+          height: 100%;
+          animation: chartThree 11s linear infinite alternate;
+        }
+        &:nth-child(4) {
+          width: 100%;
+          height: 20px;
+          right: unset;
+          left: unset;
+          animation: unset;
+        }
+        @keyframes chartOne {
+          0% {
+            height: 50%;
+          }
+          25% {
+            height: 50%;
+          }
+          75% {
+            height: 79%;
+          }
+          100% {
+            height: 79%;
+          }
+        }
+        @keyframes chartTwo {
+          0% {
+            height: 70%;
+          }
+          25% {
+            height: 70%;
+          }
+          75% {
+            height: 89%;
+          }
+          100% {
+            height: 89%;
+          }
+        }
+        @keyframes chartThree {
+          0% {
+            height: 100%;
+          }
+          25% {
+            height: 100%;
+          }
+          75% {
+            height: 50%;
+          }
+          100% {
+            height: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+@include media.sm {
+  .chart-animate {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapp-chart {
+      width: 100%;
+      height: 35vh;
+      display: flex;
+      align-items: end;
+      position: relative;
+      overflow: hidden;
+
+      .chart {
+        position: absolute;
+        left: 10%;
+        transition: 2.5s ease-in-out;
+        width: 35%;
+        height: 50%;
+        border-radius: 22px;
+        background: var(
+          --Gradient-Blue1,
+          linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%)
+        );
+        /* Dark - M */
+        box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+        animation: chartOne 12s linear infinite alternate;
+
+        &:nth-child(2) {
+          left: 0;
+          right: 0;
+          display: block;
+          margin: 0 auto;
+          height: 70%;
+          animation: chartTwo 10s linear infinite alternate;
+        }
+        &:nth-child(3) {
+          left: unset;
+          right: 10%;
+          height: 100%;
+          animation: chartThree 11s linear infinite alternate;
+        }
+        &:nth-child(4) {
+          width: 100%;
+          height: 32px;
+          right: unset;
+          left: unset;
+          animation: unset;
+        }
+        @keyframes chartOne {
+          0% {
+            height: 50%;
+          }
+          25% {
+            height: 50%;
+          }
+          75% {
+            height: 79%;
+          }
+          100% {
+            height: 79%;
+          }
+        }
+        @keyframes chartTwo {
+          0% {
+            height: 70%;
+          }
+          25% {
+            height: 70%;
+          }
+          75% {
+            height: 89%;
+          }
+          100% {
+            height: 89%;
+          }
+        }
+        @keyframes chartThree {
+          0% {
+            height: 100%;
+          }
+          25% {
+            height: 100%;
+          }
+          75% {
+            height: 50%;
+          }
+          100% {
+            height: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+@include media.md {
+  .chart-animate {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapp-chart {
+      width: 100%;
+      height: 40vh;
+      display: flex;
+      align-items: end;
+      position: relative;
+      overflow: hidden;
+
+      .chart {
+        position: absolute;
+        left: 10%;
+        transition: 2.5s ease-in-out;
+        width: 35%;
+        height: 50%;
+        border-radius: 32px;
+        background: var(
+          --Gradient-Blue1,
+          linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%)
+        );
+        /* Dark - M */
+        box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+        animation: chartOne 12s linear infinite alternate;
+
+        &:nth-child(2) {
+          left: 0;
+          right: 0;
+          display: block;
+          margin: 0 auto;
+          height: 70%;
+          animation: chartTwo 10s linear infinite alternate;
+        }
+        &:nth-child(3) {
+          left: unset;
+          right: 10%;
+          height: 100%;
+          animation: chartThree 11s linear infinite alternate;
+        }
+        &:nth-child(4) {
+          width: 100%;
+          height: 52px;
+          right: unset;
+          left: unset;
+          animation: unset;
+        }
+        @keyframes chartOne {
+          0% {
+            height: 50%;
+          }
+          25% {
+            height: 50%;
+          }
+          75% {
+            height: 79%;
+          }
+          100% {
+            height: 79%;
+          }
+        }
+        @keyframes chartTwo {
+          0% {
+            height: 70%;
+          }
+          25% {
+            height: 70%;
+          }
+          75% {
+            height: 89%;
+          }
+          100% {
+            height: 89%;
+          }
+        }
+        @keyframes chartThree {
+          0% {
+            height: 100%;
+          }
+          25% {
+            height: 100%;
+          }
+          75% {
+            height: 50%;
+          }
+          100% {
+            height: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+@include media.lg {
+  .chart-animate {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapp-chart {
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      align-items: end;
+      position: relative;
+      overflow: hidden;
+
+      .chart {
+        position: absolute;
+        left: 10%;
+        transition: 2.5s ease-in-out;
+        width: 35%;
+        height: 50%;
+        border-radius: 20px;
+        background: var(
+          --Gradient-Blue1,
+          linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%)
+        );
+        /* Dark - M */
+        box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+        animation: chartOne 12s linear infinite alternate;
+
+        &:nth-child(2) {
+          left: 0;
+          right: 0;
+          display: block;
+          margin: 0 auto;
+          height: 70%;
+          animation: chartTwo 10s linear infinite alternate;
+        }
+        &:nth-child(3) {
+          left: unset;
+          right: 10%;
+          height: 100%;
+          animation: chartThree 11s linear infinite alternate;
+        }
+        &:nth-child(4) {
+          width: 100%;
+          height: 42px;
+          right: unset;
+          left: unset;
+          animation: unset;
+        }
+        @keyframes chartOne {
+          0% {
+            height: 50%;
+          }
+          25% {
+            height: 50%;
+          }
+          75% {
+            height: 79%;
+          }
+          100% {
+            height: 79%;
+          }
+        }
+        @keyframes chartTwo {
+          0% {
+            height: 70%;
+          }
+          25% {
+            height: 70%;
+          }
+          75% {
+            height: 89%;
+          }
+          100% {
+            height: 89%;
+          }
+        }
+        @keyframes chartThree {
+          0% {
+            height: 100%;
+          }
+          25% {
+            height: 100%;
+          }
+          75% {
+            height: 50%;
+          }
+          100% {
+            height: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+@include media.xl {
+  .chart-animate {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapp-chart {
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      align-items: end;
+      position: relative;
+      overflow: hidden;
+
+      .chart {
+        position: absolute;
+        left: 10%;
+        transition: 2.5s ease-in-out;
+        width: 35%;
+        height: 50%;
+        border-radius: 32px;
+        background: var(
+          --Gradient-Blue1,
+          linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%)
+        );
+        box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+        animation: chartOne 12s linear 2s infinite alternate;
+
+        &:nth-child(2) {
+          left: 0;
+          right: 0;
+          display: block;
+          margin: 0 auto;
+          height: 70%;
+          animation: chartTwo 10s linear infinite alternate;
+        }
+        &:nth-child(3) {
+          left: unset;
+          right: 10%;
+          height: 100%;
+          animation: chartThree 11s linear infinite alternate;
+        }
+        &:nth-child(4) {
+          width: 100%;
+          height: 52px;
+          right: unset;
+          left: unset;
+          animation: unset;
+        }
+        @keyframes chartOne {
+          0% {
+            height: 50%;
+          }
+          25% {
+            height: 50%;
+          }
+          75% {
+            height: 79%;
+          }
+          100% {
+            height: 79%;
+          }
+        }
+        @keyframes chartTwo {
+          0% {
+            height: 70%;
+          }
+          25% {
+            height: 70%;
+          }
+          75% {
+            height: 89%;
+          }
+          100% {
+            height: 89%;
+          }
+        }
+        @keyframes chartThree {
+          0% {
+            height: 100%;
+          }
+          25% {
+            height: 100%;
+          }
+          75% {
+            height: 50%;
+          }
+          100% {
+            height: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+@include media.xxl {
+  .chart-animate {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapp-chart {
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      align-items: end;
+      position: relative;
+      overflow: hidden;
+
+      .chart {
+        position: absolute;
+        left: 10%;
+        transition: 2.5s ease-in-out;
+        width: 35%;
+        height: 50%;
+        border-radius: 32px;
+        background: var(
+          --Gradient-Blue1,
+          linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%)
+        );
+        /* Dark - M */
+        box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+        animation: chartOne 12s linear infinite alternate;
+
+        &:nth-child(2) {
+          left: 0;
+          right: 0;
+          display: block;
+          margin: 0 auto;
+          height: 70%;
+          animation: chartTwo 10s linear infinite alternate;
+        }
+        &:nth-child(3) {
+          left: unset;
+          right: 10%;
+          height: 100%;
+          animation: chartThree 11s linear infinite alternate;
+        }
+        &:nth-child(4) {
+          width: 100%;
+          height: 52px;
+          right: unset;
+          left: unset;
+          animation: unset;
+        }
+        @keyframes chartOne {
+          0% {
+            height: 50%;
+          }
+          25% {
+            height: 50%;
+          }
+          75% {
+            height: 79%;
+          }
+          100% {
+            height: 79%;
+          }
+        }
+        @keyframes chartTwo {
+          0% {
+            height: 70%;
+          }
+          25% {
+            height: 70%;
+          }
+          75% {
+            height: 89%;
+          }
+          100% {
+            height: 89%;
+          }
+        }
+        @keyframes chartThree {
+          0% {
+            height: 100%;
+          }
+          25% {
+            height: 100%;
+          }
+          75% {
+            height: 50%;
+          }
+          100% {
+            height: 50%;
+          }
+        }
+      }
+    }
+  }
+}

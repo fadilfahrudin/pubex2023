@@ -19,7 +19,7 @@ h1 {
   font-family: Lato, sans-serif;
   font-style: normal;
   font-weight: 700;
-  color: #533434;
+  color: #04577c;
 }
 
 h2 {
@@ -27,10 +27,11 @@ h2 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  color: #533434;
+  color: #04577c;
 }
 
 p {
+  color: #04577c;
   text-align: center;
   font-family: Lato, sans-serif;
   font-size: 16px;
@@ -155,7 +156,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-emiten section .form-section .back-btn::before {
@@ -181,7 +182,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-emiten section .form-section .row .form-field {
     display: flex;
@@ -197,11 +198,11 @@ p {
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -210,7 +211,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-emiten section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -234,7 +235,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-emiten section .form-section .back-btn::before {
@@ -260,7 +261,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-emiten section .form-section .row .form-field {
     display: flex;
@@ -276,11 +277,11 @@ p {
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -289,7 +290,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-emiten section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -313,7 +314,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-emiten section .form-section .back-btn::before {
@@ -339,7 +340,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-emiten section .form-section .row .form-field {
     display: flex;
@@ -355,11 +356,11 @@ p {
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -368,7 +369,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-emiten section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -392,7 +393,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-emiten section .form-section .back-btn::before {
@@ -418,7 +419,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-emiten section .form-section .row .form-field {
     display: flex;
@@ -434,11 +435,11 @@ p {
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -447,7 +448,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-emiten section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -471,7 +472,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-emiten section .form-section .back-btn::before {
@@ -497,7 +498,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-emiten section .form-section .row .form-field {
     display: flex;
@@ -513,11 +514,11 @@ p {
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -526,7 +527,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-emiten section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -550,7 +551,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-emiten section .form-section .back-btn::before {
@@ -576,7 +577,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-emiten section .form-section .row .form-field {
     display: flex;
@@ -592,11 +593,11 @@ p {
   #page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -605,7 +606,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-emiten section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -637,7 +638,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .row .form-field {
     display: flex;
@@ -664,11 +665,11 @@ p {
   #page-my-submission section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -677,7 +678,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
   #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
@@ -699,7 +700,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .back-and-alert .back-btn::before {
     content: url("../img/icon/arrow-left.png");
@@ -716,7 +717,7 @@ p {
     width: 80%;
     padding: 8px;
     border-radius: 5px;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -758,7 +759,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .row .form-field {
     display: flex;
@@ -785,11 +786,11 @@ p {
   #page-my-submission section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -798,7 +799,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
   #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
@@ -820,7 +821,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .back-and-alert .back-btn::before {
     content: url("../img/icon/arrow-left.png");
@@ -837,7 +838,7 @@ p {
     width: 80%;
     padding: 8px;
     border-radius: 5px;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -879,7 +880,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .row .form-field {
     display: flex;
@@ -906,11 +907,11 @@ p {
   #page-my-submission section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -919,7 +920,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
   #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
@@ -941,7 +942,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .back-and-alert .back-btn::before {
     content: url("../img/icon/arrow-left.png");
@@ -958,7 +959,7 @@ p {
     width: 80%;
     padding: 8px;
     border-radius: 5px;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -1000,7 +1001,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .row .form-field {
     display: flex;
@@ -1025,11 +1026,11 @@ p {
   #page-my-submission section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -1038,7 +1039,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
   #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
@@ -1061,7 +1062,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .back-and-alert .back-btn::before {
     content: url("../img/icon/arrow-left.png");
@@ -1074,7 +1075,7 @@ p {
     width: 671px;
     padding: 8px;
     border-radius: 5px;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -1116,7 +1117,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .row .form-field {
     display: flex;
@@ -1141,11 +1142,11 @@ p {
   #page-my-submission section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -1154,7 +1155,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
   #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
@@ -1176,7 +1177,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .back-and-alert .back-btn::before {
     content: url("../img/icon/arrow-left.png");
@@ -1189,7 +1190,7 @@ p {
     width: 72%;
     padding: 8px;
     border-radius: 5px;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -1231,7 +1232,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .row .form-field {
     display: flex;
@@ -1256,11 +1257,11 @@ p {
   #page-my-submission section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -1269,7 +1270,7 @@ p {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
   #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
   #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
@@ -1291,7 +1292,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
   }
   #page-my-submission section .form-section .back-and-alert .back-btn::before {
     content: url("../img/icon/arrow-left.png");
@@ -1304,7 +1305,7 @@ p {
     width: 70%;
     padding: 8px;
     border-radius: 5px;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -1341,7 +1342,7 @@ p {
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-investor section .form-section .back-btn::before,
@@ -1372,7 +1373,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-investor section .form-section .row .form-field,
   #edit-page-investor section .form-section .row .form-field {
@@ -1398,7 +1399,7 @@ p {
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     width: 197px;
     height: 162px;
     padding: 8px;
@@ -1436,7 +1437,7 @@ p {
     cursor: pointer;
     width: 98%;
     border-radius: 5px;
-    color: #533434;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -1445,7 +1446,7 @@ p {
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
     background-color: #eb8455;
-    color: #fff;
+    color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active,
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
@@ -1455,11 +1456,11 @@ p {
   #edit-page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -1469,7 +1470,7 @@ p {
   }
   #page-investor section .form-section .row .form-field .btn-submit:disabled,
   #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -1496,7 +1497,7 @@ p {
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-investor section .form-section .back-btn::before,
@@ -1527,7 +1528,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-investor section .form-section .row .form-field,
   #edit-page-investor section .form-section .row .form-field {
@@ -1553,7 +1554,7 @@ p {
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     width: 197px;
     height: 162px;
     padding: 8px;
@@ -1591,7 +1592,7 @@ p {
     cursor: pointer;
     width: 98%;
     border-radius: 5px;
-    color: #533434;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -1600,7 +1601,7 @@ p {
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
     background-color: #eb8455;
-    color: #fff;
+    color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active,
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
@@ -1610,11 +1611,11 @@ p {
   #edit-page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -1624,7 +1625,7 @@ p {
   }
   #page-investor section .form-section .row .form-field .btn-submit:disabled,
   #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -1651,7 +1652,7 @@ p {
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-investor section .form-section .back-btn::before,
@@ -1682,7 +1683,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-investor section .form-section .row .form-field,
   #edit-page-investor section .form-section .row .form-field {
@@ -1708,7 +1709,7 @@ p {
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     width: 197px;
     height: 162px;
     padding: 8px;
@@ -1746,7 +1747,7 @@ p {
     cursor: pointer;
     width: 98%;
     border-radius: 5px;
-    color: #533434;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -1755,7 +1756,7 @@ p {
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
     background-color: #eb8455;
-    color: #fff;
+    color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active,
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
@@ -1765,11 +1766,11 @@ p {
   #edit-page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -1779,7 +1780,7 @@ p {
   }
   #page-investor section .form-section .row .form-field .btn-submit:disabled,
   #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -1806,7 +1807,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-investor section .form-section .back-btn::before,
@@ -1837,7 +1838,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-investor section .form-section .row .form-field,
   #edit-page-investor section .form-section .row .form-field {
@@ -1863,7 +1864,7 @@ p {
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     width: 197px;
     height: 162px;
     padding: 8px;
@@ -1901,7 +1902,7 @@ p {
     cursor: pointer;
     width: 98%;
     border-radius: 5px;
-    color: #533434;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -1910,7 +1911,7 @@ p {
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
     background-color: #eb8455;
-    color: #fff;
+    color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active,
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
@@ -1920,11 +1921,11 @@ p {
   #edit-page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -1934,7 +1935,7 @@ p {
   }
   #page-investor section .form-section .row .form-field .btn-submit:disabled,
   #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -1961,7 +1962,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-investor section .form-section .back-btn::before,
@@ -1992,7 +1993,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-investor section .form-section .row .form-field,
   #edit-page-investor section .form-section .row .form-field {
@@ -2018,7 +2019,7 @@ p {
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     width: 197px;
     height: 162px;
     padding: 8px;
@@ -2056,7 +2057,7 @@ p {
     cursor: pointer;
     width: 98%;
     border-radius: 5px;
-    color: #533434;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -2065,7 +2066,7 @@ p {
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
     background-color: #eb8455;
-    color: #fff;
+    color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active,
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
@@ -2075,11 +2076,11 @@ p {
   #edit-page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -2089,7 +2090,7 @@ p {
   }
   #page-investor section .form-section .row .form-field .btn-submit:disabled,
   #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -2116,7 +2117,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-investor section .form-section .back-btn::before,
@@ -2147,7 +2148,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
   #page-investor section .form-section .row .form-field,
   #edit-page-investor section .form-section .row .form-field {
@@ -2173,7 +2174,7 @@ p {
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     width: 197px;
     height: 162px;
     padding: 8px;
@@ -2211,7 +2212,7 @@ p {
     cursor: pointer;
     width: 98%;
     border-radius: 5px;
-    color: #533434;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -2220,7 +2221,7 @@ p {
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
   #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
     background-color: #eb8455;
-    color: #fff;
+    color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active,
   #edit-page-investor section .form-section .row .form-field #tipe-media-active {
@@ -2230,11 +2231,11 @@ p {
   #edit-page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -2244,7 +2245,7 @@ p {
   }
   #page-investor section .form-section .row .form-field .btn-submit:disabled,
   #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cfad8a;
+    background-color: #cacefa;
     cursor: default;
   }
 }
@@ -2280,12 +2281,12 @@ p {
     cursor: pointer;
     width: max-content;
     margin: 0 auto;
-    background-color: #f2804c;
+    background-color: #04577c;
     border: none;
     border-radius: 8px;
     padding: 12px 32px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -2324,12 +2325,12 @@ p {
     cursor: pointer;
     width: max-content;
     margin: 0 auto;
-    background-color: #f2804c;
+    background-color: #04577c;
     border: none;
     border-radius: 8px;
     padding: 12px 32px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -2368,12 +2369,12 @@ p {
     cursor: pointer;
     width: max-content;
     margin: 0 auto;
-    background-color: #f2804c;
+    background-color: #04577c;
     border: none;
     border-radius: 8px;
     padding: 12px 32px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -2412,12 +2413,12 @@ p {
     cursor: pointer;
     width: max-content;
     margin: 0 auto;
-    background-color: #f2804c;
+    background-color: #04577c;
     border: none;
     border-radius: 8px;
     padding: 12px 32px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -2456,12 +2457,12 @@ p {
     cursor: pointer;
     width: max-content;
     margin: 0 auto;
-    background-color: #f2804c;
+    background-color: #04577c;
     border: none;
     border-radius: 8px;
     padding: 12px 32px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -2500,12 +2501,12 @@ p {
     cursor: pointer;
     width: max-content;
     margin: 0 auto;
-    background-color: #f2804c;
+    background-color: #04577c;
     border: none;
     border-radius: 8px;
     padding: 12px 32px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -2530,7 +2531,7 @@ p {
     padding: 8px;
     border-radius: 5px;
     margin: 0 auto;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -2555,7 +2556,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-pubex-live section .content-section .back-btn::before {
@@ -2597,11 +2598,11 @@ p {
     align-self: center;
     padding: 4px 12px;
     border-radius: 5px;
-    background-color: #f2804c;
-    color: #fff;
+    background-color: #04577c;
+    color: #e9ebff;
   }
   #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info {
     display: flex;
@@ -2611,7 +2612,7 @@ p {
     overflow: hidden;
   }
   #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info ol {
     margin: 0;
@@ -2622,7 +2623,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (min-width: 376px) and (max-width: 467px) {
@@ -2643,7 +2644,7 @@ p {
     padding: 8px;
     border-radius: 5px;
     margin: 0 auto;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -2668,7 +2669,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-pubex-live section .content-section .back-btn::before {
@@ -2710,11 +2711,11 @@ p {
     align-self: center;
     padding: 4px 12px;
     border-radius: 5px;
-    background-color: #f2804c;
-    color: #fff;
+    background-color: #04577c;
+    color: #e9ebff;
   }
   #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info {
     display: flex;
@@ -2724,7 +2725,7 @@ p {
     overflow: hidden;
   }
   #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info ol {
     margin: 0;
@@ -2735,7 +2736,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (min-width: 468px) and (max-width: 767px) {
@@ -2756,7 +2757,7 @@ p {
     padding: 8px;
     border-radius: 5px;
     margin: 0 auto;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -2781,7 +2782,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-pubex-live section .content-section .back-btn::before {
@@ -2823,11 +2824,11 @@ p {
     align-self: center;
     padding: 4px 12px;
     border-radius: 5px;
-    background-color: #f2804c;
-    color: #fff;
+    background-color: #04577c;
+    color: #e9ebff;
   }
   #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info {
     display: flex;
@@ -2837,7 +2838,7 @@ p {
     overflow: hidden;
   }
   #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info ol {
     margin: 0;
@@ -2848,7 +2849,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (min-width: 768px) and (max-width: 1075px) {
@@ -2869,7 +2870,7 @@ p {
     padding: 8px;
     border-radius: 5px;
     margin: 0 auto;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -2894,7 +2895,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-pubex-live section .content-section .back-btn::before {
@@ -2936,11 +2937,11 @@ p {
     align-self: center;
     padding: 4px 12px;
     border-radius: 5px;
-    background-color: #f2804c;
-    color: #fff;
+    background-color: #04577c;
+    color: #e9ebff;
   }
   #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info {
     display: flex;
@@ -2950,7 +2951,7 @@ p {
     overflow: hidden;
   }
   #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info ol {
     margin: 0;
@@ -2961,7 +2962,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (min-width: 1076px) and (max-width: 1919px) {
@@ -2982,7 +2983,7 @@ p {
     padding: 8px;
     border-radius: 5px;
     margin: 0 auto;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3007,7 +3008,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-pubex-live section .content-section .back-btn::before {
@@ -3049,11 +3050,11 @@ p {
     align-self: center;
     padding: 4px 12px;
     border-radius: 5px;
-    background-color: #f2804c;
-    color: #fff;
+    background-color: #04577c;
+    color: #e9ebff;
   }
   #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info {
     display: flex;
@@ -3063,7 +3064,7 @@ p {
     overflow: hidden;
   }
   #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info ol {
     margin: 0;
@@ -3074,7 +3075,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (min-width: 1920px) {
@@ -3095,7 +3096,7 @@ p {
     padding: 8px;
     border-radius: 5px;
     margin: 0 auto;
-    color: #fff;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3120,7 +3121,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #533434;
+    color: #04577c;
     align-items: center;
   }
   #page-pubex-live section .content-section .back-btn::before {
@@ -3162,11 +3163,11 @@ p {
     align-self: center;
     padding: 4px 12px;
     border-radius: 5px;
-    background-color: #f2804c;
-    color: #fff;
+    background-color: #04577c;
+    color: #e9ebff;
   }
   #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info {
     display: flex;
@@ -3176,7 +3177,7 @@ p {
     overflow: hidden;
   }
   #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #533434;
+    color: #04577c;
   }
   #page-pubex-live section .content-section .row .pubex-live-info ol {
     margin: 0;
@@ -3187,7 +3188,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: #533434;
+    color: #04577c;
   }
 }
 #page-emiten nav,
@@ -3196,7 +3197,7 @@ p {
 #page-my-submission nav,
 #page-pubex-live nav,
 #edit-page-investor nav {
-  background-color: #f2804c;
+  background-color: #04577c;
   padding: 8px 0;
 }
 #page-emiten nav .navigation,
@@ -3209,7 +3210,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color: #e9ebff;
   font-family: League Spartan, sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -3305,7 +3306,7 @@ p {
   background-color: transparent;
   text-align: left;
   text-decoration: none;
-  color: #533434;
+  color: #04577c;
   font-family: League Spartan, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -3360,7 +3361,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: end;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3370,7 +3371,7 @@ p {
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: #ffc07e;
+    background-color: #5dcad1;
     border: none;
     border-radius: 32px;
     padding: 2px;
@@ -3403,7 +3404,7 @@ p {
   }
   #home-page nav .navigation ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3419,7 +3420,7 @@ p {
     transition: all 0.5s ease-in-out;
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 0%;
     left: 0;
     right: 0;
@@ -3429,7 +3430,7 @@ p {
   #home-page nav .navigation ul li a.nav-link:hover::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -3442,7 +3443,7 @@ p {
   #home-page nav .navigation ul li a.nav-link.nav-active::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -3456,7 +3457,6 @@ p {
     display: none;
     flex-direction: column;
     overflow: hidden;
-    width: 172px;
     height: auto;
     border-radius: 12px;
     background-color: #fff;
@@ -3468,7 +3468,7 @@ p {
     background-color: transparent;
     text-align: left;
     text-decoration: none;
-    color: #533434;
+    color: #04577c;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3478,7 +3478,7 @@ p {
     cursor: pointer;
   }
   #home-page nav .navigation .modal-user .user-action:hover {
-    background-color: #ffc07e;
+    background-color: #5dcad1;
   }
   #home-page nav .navigation .modal-user .hidden {
     display: none;
@@ -3513,7 +3513,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: end;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3523,7 +3523,7 @@ p {
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: #ffc07e;
+    background-color: #5dcad1;
     border: none;
     border-radius: 32px;
     padding: 2px;
@@ -3556,7 +3556,7 @@ p {
   }
   #home-page nav .navigation ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3572,7 +3572,7 @@ p {
     transition: all 0.5s ease-in-out;
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 0%;
     left: 0;
     right: 0;
@@ -3582,7 +3582,7 @@ p {
   #home-page nav .navigation ul li a.nav-link:hover::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -3595,7 +3595,7 @@ p {
   #home-page nav .navigation ul li a.nav-link.nav-active::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -3609,7 +3609,6 @@ p {
     display: none;
     flex-direction: column;
     overflow: hidden;
-    width: 172px;
     height: auto;
     border-radius: 12px;
     background-color: #fff;
@@ -3621,7 +3620,7 @@ p {
     background-color: transparent;
     text-align: left;
     text-decoration: none;
-    color: #533434;
+    color: #04577c;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3631,7 +3630,7 @@ p {
     cursor: pointer;
   }
   #home-page nav .navigation .modal-user .user-action:hover {
-    background-color: #ffc07e;
+    background-color: #5dcad1;
   }
   #home-page nav .navigation .modal-user .hidden {
     display: none;
@@ -3666,7 +3665,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: end;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3676,7 +3675,7 @@ p {
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: #ffc07e;
+    background-color: #5dcad1;
     border: none;
     border-radius: 32px;
     padding: 2px;
@@ -3709,7 +3708,7 @@ p {
   }
   #home-page nav .navigation ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3725,7 +3724,7 @@ p {
     transition: all 0.5s ease-in-out;
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 0%;
     left: 0;
     right: 0;
@@ -3735,7 +3734,7 @@ p {
   #home-page nav .navigation ul li a.nav-link:hover::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -3748,7 +3747,7 @@ p {
   #home-page nav .navigation ul li a.nav-link.nav-active::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -3762,7 +3761,6 @@ p {
     display: none;
     flex-direction: column;
     overflow: hidden;
-    width: 172px;
     height: auto;
     border-radius: 12px;
     background-color: #fff;
@@ -3774,7 +3772,7 @@ p {
     background-color: transparent;
     text-align: left;
     text-decoration: none;
-    color: #533434;
+    color: #04577c;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3784,7 +3782,7 @@ p {
     cursor: pointer;
   }
   #home-page nav .navigation .modal-user .user-action:hover {
-    background-color: #ffc07e;
+    background-color: #5dcad1;
   }
   #home-page nav .navigation .modal-user .hidden {
     display: none;
@@ -3819,7 +3817,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: end;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 32px;
     font-style: normal;
@@ -3829,7 +3827,7 @@ p {
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: #ffc07e;
+    background-color: #5dcad1;
     border: none;
     border-radius: 32px;
     padding: 2px;
@@ -3862,7 +3860,7 @@ p {
   }
   #home-page nav .navigation ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -3878,7 +3876,7 @@ p {
     transition: all 0.5s ease-in-out;
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 0%;
     left: 0;
     right: 0;
@@ -3888,7 +3886,7 @@ p {
   #home-page nav .navigation ul li a.nav-link:hover::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -3901,7 +3899,7 @@ p {
   #home-page nav .navigation ul li a.nav-link.nav-active::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -3915,7 +3913,6 @@ p {
     display: none;
     flex-direction: column;
     overflow: hidden;
-    width: 172px;
     height: auto;
     border-radius: 12px;
     background-color: #fff;
@@ -3927,7 +3924,7 @@ p {
     background-color: transparent;
     text-align: left;
     text-decoration: none;
-    color: #533434;
+    color: #04577c;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -3937,7 +3934,7 @@ p {
     cursor: pointer;
   }
   #home-page nav .navigation .modal-user .user-action:hover {
-    background-color: #ffc07e;
+    background-color: #5dcad1;
   }
   #home-page nav .navigation .modal-user .hidden {
     display: none;
@@ -3972,7 +3969,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: end;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 32px;
     font-style: normal;
@@ -3982,7 +3979,7 @@ p {
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: #ffc07e;
+    background-color: #5dcad1;
     border: none;
     border-radius: 32px;
     padding: 2px;
@@ -4015,7 +4012,7 @@ p {
   }
   #home-page nav .navigation ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -4031,7 +4028,7 @@ p {
     transition: all 0.5s ease-in-out;
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 0%;
     left: 0;
     right: 0;
@@ -4041,7 +4038,7 @@ p {
   #home-page nav .navigation ul li a.nav-link:hover::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -4054,7 +4051,7 @@ p {
   #home-page nav .navigation ul li a.nav-link.nav-active::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -4068,7 +4065,6 @@ p {
     display: none;
     flex-direction: column;
     overflow: hidden;
-    width: 172px;
     height: auto;
     border-radius: 12px;
     background-color: #fff;
@@ -4080,7 +4076,7 @@ p {
     background-color: transparent;
     text-align: left;
     text-decoration: none;
-    color: #533434;
+    color: #04577c;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -4090,7 +4086,7 @@ p {
     cursor: pointer;
   }
   #home-page nav .navigation .modal-user .user-action:hover {
-    background-color: #ffc07e;
+    background-color: #5dcad1;
   }
   #home-page nav .navigation .modal-user .hidden {
     display: none;
@@ -4125,7 +4121,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: end;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 32px;
     font-style: normal;
@@ -4135,7 +4131,7 @@ p {
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: #ffc07e;
+    background-color: #5dcad1;
     border: none;
     border-radius: 32px;
     padding: 2px;
@@ -4168,7 +4164,7 @@ p {
   }
   #home-page nav .navigation ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -4184,7 +4180,7 @@ p {
     transition: all 0.5s ease-in-out;
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 0%;
     left: 0;
     right: 0;
@@ -4194,7 +4190,7 @@ p {
   #home-page nav .navigation ul li a.nav-link:hover::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -4207,7 +4203,7 @@ p {
   #home-page nav .navigation ul li a.nav-link.nav-active::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #e9ebff;
     width: 100%;
     left: 0;
     right: 0;
@@ -4221,7 +4217,6 @@ p {
     display: none;
     flex-direction: column;
     overflow: hidden;
-    width: 172px;
     height: auto;
     border-radius: 12px;
     background-color: #fff;
@@ -4233,7 +4228,7 @@ p {
     background-color: transparent;
     text-align: left;
     text-decoration: none;
-    color: #533434;
+    color: #04577c;
     font-family: League Spartan, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -4243,7 +4238,7 @@ p {
     cursor: pointer;
   }
   #home-page nav .navigation .modal-user .user-action:hover {
-    background-color: #ffc07e;
+    background-color: #5dcad1;
   }
   #home-page nav .navigation .modal-user .hidden {
     display: none;
@@ -4274,21 +4269,24 @@ p {
     overflow: hidden;
   }
   #home-page section #header {
+    padding: 20px 0;
     position: relative;
     display: flex;
     align-items: center;
     gap: 50px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     background-image: url("../img/bg-header-mobile.png");
     background-repeat: no-repeat;
-    background-position: 0px 50px;
+    background-position: 0px 0px;
     background-size: contain;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
   }
   #home-page section #header .row {
+    margin-top: 50px;
+    height: max-content;
     flex-direction: column-reverse;
-    gap: 0 50px;
+    gap: 20px;
   }
   #home-page section #header .row .text-header-wrapper {
     display: flex;
@@ -4300,22 +4298,18 @@ p {
     display: flex;
     gap: 0 20px;
     padding: 24px;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    border: 8px solid #ffe4da;
+    border: 8px solid #6989ae;
   }
   #home-page section #header .row .text-header-wrapper p {
     text-align: start;
-    color: #fff;
+    color: #e9ebff;
     font-size: 16px;
-  }
-  #home-page section #header .row .chart-img {
-    width: 60%;
-    height: auto;
   }
   #home-page section #header .more-page {
     cursor: pointer;
@@ -4326,34 +4320,57 @@ p {
     margin: 0 auto;
     width: max-content;
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     text-align: center;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    transform: translateY(0);
+    animation: scrollDown 2.5s linear infinite alternate-reverse;
   }
   #home-page section #header .more-page::after {
     content: url("../img/icon/expand_more.png");
     display: block;
   }
+  #home-page section #header .more-page:hover {
+    animation: scrollDown 2.5s linear forwards;
+  }
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+    75% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
   #home-page section .element-1 {
     position: absolute;
-    top: 86vh;
+    top: -25px;
     z-index: 99;
-    width: 100px;
-    height: 250px;
+    width: 170px;
+    height: 200px;
     background-image: url("../img/element.png");
     background-repeat: no-repeat;
-    background-position: -55px 0;
-    background-size: cover;
+    background-position: -5px 0;
+    background-size: 150px;
   }
   #home-page section #about {
-    background-color: #ffe3c5;
+    position: relative;
+    background-color: #e9ebff;
     min-height: 100vh;
     width: 100%;
-    padding: 16px 0;
+    padding: 48px 0;
     display: flex;
     align-items: center;
   }
@@ -4382,9 +4399,21 @@ p {
     cursor: default;
     font-size: 16px;
   }
+  #home-page section .element-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    width: 150px;
+    height: 40px;
+    background-image: url("../img/element-3.png");
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 150px;
+  }
   #home-page section .element-2 {
     position: absolute;
-    top: 180vh;
+    bottom: 0;
     right: 0;
     z-index: 99;
     width: 140px;
@@ -4395,7 +4424,7 @@ p {
     background-size: 60px;
   }
   #home-page section #pendaftaran {
-    background-color: #f2804c;
+    background-color: #04577c;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -4417,13 +4446,12 @@ p {
     padding: 24px 24px;
     gap: 32px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-    background-color: #ffe3c5;
+    background-color: #e9ebff;
     position: relative;
     overflow: hidden;
   }
   #home-page section #pendaftaran .row .card-pendaftaran h1 {
     text-align: center;
-    color: #cc5717;
     font-size: 32px;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
@@ -4450,19 +4478,20 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ffc07e;
-    border: 2px solid #f3804c;
+    background-color: #e9ebff;
+    border: 2px solid #04577c;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
-    background-color: #f3804c !important;
+    background-color: #04577c !important;
+    color: #e9ebff !important;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
@@ -4474,21 +4503,24 @@ p {
     margin: 0 auto;
     width: 50%;
     height: 2px;
-    background-color: #fe7933;
+    background-color: #04577c;
+  }
+  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.display-line::before {
+    display: none;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -4501,7 +4533,7 @@ p {
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
-    background-color: #cfad8a;
+    background-color: #cacefa;
   }
   #home-page section #pendaftaran.hidden {
     display: none;
@@ -4524,21 +4556,23 @@ p {
     overflow: hidden;
   }
   #home-page section #header {
+    padding: 20px 0;
     position: relative;
     display: flex;
     align-items: center;
     gap: 50px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     background-image: url("../img/bg-header-mobile.png");
     background-repeat: no-repeat;
-    background-position: 0px 50px;
+    background-position: 0px 0px;
     background-size: contain;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
   }
   #home-page section #header .row {
+    height: max-content;
     flex-direction: column-reverse;
-    gap: 0 50px;
+    gap: 20px;
   }
   #home-page section #header .row .text-header-wrapper {
     display: flex;
@@ -4550,22 +4584,18 @@ p {
     display: flex;
     gap: 0 20px;
     padding: 24px;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    border: 8px solid #ffe4da;
+    border: 8px solid #6989ae;
   }
   #home-page section #header .row .text-header-wrapper p {
     text-align: start;
-    color: #fff;
+    color: #e9ebff;
     font-size: 16px;
-  }
-  #home-page section #header .row .chart-img {
-    width: 60%;
-    height: auto;
   }
   #home-page section #header .more-page {
     cursor: pointer;
@@ -4576,34 +4606,57 @@ p {
     margin: 0 auto;
     width: max-content;
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     text-align: center;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    transform: translateY(0);
+    animation: scrollDown 2.5s linear infinite alternate-reverse;
   }
   #home-page section #header .more-page::after {
     content: url("../img/icon/expand_more.png");
     display: block;
   }
+  #home-page section #header .more-page:hover {
+    animation: scrollDown 2.5s linear forwards;
+  }
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+    75% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
   #home-page section .element-1 {
     position: absolute;
-    top: 90vh;
+    top: -28px;
     z-index: 99;
-    width: 100px;
-    height: 250px;
+    width: 170px;
+    height: 200px;
     background-image: url("../img/element.png");
     background-repeat: no-repeat;
-    background-position: -55px 0;
-    background-size: cover;
+    background-position: -15px 0;
+    background-size: 150px;
   }
   #home-page section #about {
-    background-color: #ffe3c5;
+    position: relative;
+    background-color: #e9ebff;
     min-height: 100vh;
     width: 100%;
-    padding: 16px 0;
+    padding: 48px 0;
     display: flex;
     align-items: center;
   }
@@ -4632,9 +4685,21 @@ p {
     cursor: default;
     font-size: 16px;
   }
+  #home-page section .element-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    width: 150px;
+    height: 40px;
+    background-image: url("../img/element-3.png");
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 150px;
+  }
   #home-page section .element-2 {
     position: absolute;
-    top: 180vh;
+    bottom: 0;
     right: 0;
     z-index: 99;
     width: 140px;
@@ -4645,7 +4710,7 @@ p {
     background-size: 60px;
   }
   #home-page section #pendaftaran {
-    background-color: #f2804c;
+    background-color: #04577c;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -4663,17 +4728,16 @@ p {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-height: 70vh;
+    height: max-content;
     padding: 24px 24px;
     gap: 32px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-    background-color: #ffe3c5;
+    background-color: #e9ebff;
     position: relative;
     overflow: hidden;
   }
   #home-page section #pendaftaran .row .card-pendaftaran h1 {
     text-align: center;
-    color: #cc5717;
     font-size: 32px;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
@@ -4700,19 +4764,20 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ffc07e;
-    border: 2px solid #f3804c;
+    background-color: #e9ebff;
+    border: 2px solid #04577c;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
-    background-color: #f3804c !important;
+    background-color: #04577c !important;
+    color: #e9ebff !important;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
@@ -4724,21 +4789,24 @@ p {
     margin: 0 auto;
     width: 50%;
     height: 2px;
-    background-color: #fe7933;
+    background-color: #04577c;
+  }
+  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.display-line::before {
+    display: none;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -4751,7 +4819,7 @@ p {
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
-    background-color: #cfad8a;
+    background-color: #cacefa;
   }
   #home-page section #pendaftaran.hidden {
     display: none;
@@ -4774,21 +4842,23 @@ p {
     overflow: hidden;
   }
   #home-page section #header {
+    padding: 20px 0;
     position: relative;
     display: flex;
     align-items: center;
     gap: 50px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     background-image: url("../img/bg-header-mobile.png");
     background-repeat: no-repeat;
-    background-position: 0px 50px;
+    background-position: 0px 0px;
     background-size: contain;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
   }
   #home-page section #header .row {
+    height: max-content;
     flex-direction: column-reverse;
-    gap: 0 50px;
+    gap: 20px;
   }
   #home-page section #header .row .text-header-wrapper {
     display: flex;
@@ -4800,22 +4870,18 @@ p {
     display: flex;
     gap: 0 20px;
     padding: 24px;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    border: 8px solid #ffe4da;
+    border: 8px solid #6989ae;
   }
   #home-page section #header .row .text-header-wrapper p {
     text-align: start;
-    color: #fff;
+    color: #e9ebff;
     font-size: 16px;
-  }
-  #home-page section #header .row .chart-img {
-    width: 80%;
-    height: auto;
   }
   #home-page section #header .more-page {
     cursor: pointer;
@@ -4826,34 +4892,57 @@ p {
     margin: 0 auto;
     width: max-content;
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     text-align: center;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    transform: translateY(0);
+    animation: scrollDown 2.5s linear infinite alternate-reverse;
   }
   #home-page section #header .more-page::after {
     content: url("../img/icon/expand_more.png");
     display: block;
   }
+  #home-page section #header .more-page:hover {
+    animation: scrollDown 2.5s linear forwards;
+  }
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+    75% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
   #home-page section .element-1 {
     position: absolute;
-    top: 92vh;
+    top: -30px;
     z-index: 99;
-    width: 100px;
-    height: 250px;
+    width: 170px;
+    height: 200px;
     background-image: url("../img/element.png");
     background-repeat: no-repeat;
-    background-position: -55px 0;
-    background-size: cover;
+    background-position: -15px 0;
+    background-size: 150px;
   }
   #home-page section #about {
-    background-color: #ffe3c5;
+    position: relative;
+    background-color: #e9ebff;
     min-height: 100vh;
     width: 100%;
-    padding: 16px 0;
+    padding: 48px 0;
     display: flex;
     align-items: center;
   }
@@ -4871,8 +4960,8 @@ p {
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
   #home-page section #about .row .card-about img {
-    width: 145px;
-    height: 145px;
+    width: 72px;
+    height: 72px;
   }
   #home-page section #about .row .card-about .info {
     width: 100%;
@@ -4882,9 +4971,21 @@ p {
     cursor: default;
     font-size: 16px;
   }
+  #home-page section .element-3 {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 99;
+    width: 250px;
+    height: 40px;
+    background-image: url("../img/element-3.png");
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 250px;
+  }
   #home-page section .element-2 {
     position: absolute;
-    top: 172vh;
+    bottom: 0;
     right: 0;
     z-index: 99;
     width: 140px;
@@ -4892,10 +4993,10 @@ p {
     background-image: url("../img/element-2.png");
     background-repeat: no-repeat;
     background-position: right 0;
-    background-size: 70px;
+    background-size: 60px;
   }
   #home-page section #pendaftaran {
-    background-color: #f2804c;
+    background-color: #04577c;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -4913,16 +5014,16 @@ p {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: max-content;
     padding: 24px 24px;
     gap: 32px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-    background-color: #ffe3c5;
+    background-color: #e9ebff;
     position: relative;
     overflow: hidden;
   }
   #home-page section #pendaftaran .row .card-pendaftaran h1 {
     text-align: center;
-    color: #cc5717;
     font-size: 32px;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
@@ -4937,7 +5038,7 @@ p {
     padding: 8px;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
-    width: 40%;
+    width: 25%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -4949,19 +5050,20 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ffc07e;
-    border: 2px solid #f3804c;
+    background-color: #e9ebff;
+    border: 2px solid #04577c;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
-    background-color: #f3804c !important;
+    background-color: #04577c !important;
+    color: #e9ebff !important;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
@@ -4971,23 +5073,29 @@ p {
     right: 0;
     left: 0;
     margin: 0 auto;
-    width: 46%;
+    width: 50%;
     height: 2px;
-    background-color: #fe7933;
+    background-color: #04577c;
+  }
+  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.display-line::before {
+    display: block;
+  }
+  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
+    width: 25%;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -5000,7 +5108,7 @@ p {
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
-    background-color: #cfad8a;
+    background-color: #cacefa;
   }
   #home-page section #pendaftaran.hidden {
     display: none;
@@ -5026,10 +5134,10 @@ p {
     position: relative;
     display: flex;
     align-items: center;
-    background-color: #f2804c;
+    background-color: #04577c;
     background-image: url("../img/bg-header.png");
     background-repeat: no-repeat;
-    background-position: 0px -120px;
+    background-position: 0px 0px;
     height: 100vh;
     width: 100%;
   }
@@ -5047,21 +5155,17 @@ p {
     display: flex;
     gap: 0 20px;
     padding: 24px;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    border: 8px solid #ffe4da;
+    border: 8px solid #6989ae;
   }
   #home-page section #header .row .text-header-wrapper p {
     text-align: start;
-    color: #fff;
-  }
-  #home-page section #header .row .chart-img {
-    width: 100%;
-    height: auto;
+    color: #e9ebff;
   }
   #home-page section #header .more-page {
     cursor: pointer;
@@ -5072,31 +5176,55 @@ p {
     margin: 0 auto;
     width: max-content;
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     text-align: center;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    transform: translateY(0);
+    animation: scrollDown 2.5s linear infinite alternate-reverse;
   }
   #home-page section #header .more-page::after {
     content: url("../img/icon/expand_more.png");
     display: block;
   }
+  #home-page section #header .more-page:hover {
+    animation: scrollDown 2.5s linear forwards;
+  }
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+    75% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
   #home-page section .element-1 {
     position: absolute;
-    top: 82vh;
+    top: -48px;
+    left: 0;
     z-index: 99;
-    width: 200px;
+    width: 230px;
     height: 322px;
     background-image: url("../img/element.png");
     background-repeat: no-repeat;
-    background-position: -55px 0;
+    background-position: 0px 0;
   }
   #home-page section #about {
-    background-color: #ffe3c5;
-    padding: 24px;
+    position: relative;
+    background-color: #e9ebff;
+    padding: 48px 24px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -5104,7 +5232,7 @@ p {
   #home-page section #about .row {
     flex-direction: column;
     width: 100%;
-    gap: 0 24px;
+    gap: 24px;
   }
   #home-page section #about .row .card-about {
     display: flex;
@@ -5126,9 +5254,21 @@ p {
   #home-page section #about .row .card-about .info p {
     cursor: default;
   }
+  #home-page section .element-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    width: 280px;
+    height: 80px;
+    background-image: url("../img/element-3.png");
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 280px;
+  }
   #home-page section .element-2 {
     position: absolute;
-    top: 130vh;
+    bottom: 0;
     right: 0;
     z-index: 99;
     width: 140px;
@@ -5139,7 +5279,7 @@ p {
     background-size: 120px;
   }
   #home-page section #pendaftaran {
-    background-color: #f2804c;
+    background-color: #04577c;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -5159,7 +5299,7 @@ p {
     padding: 32px 24px;
     gap: 32px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-    background-color: #ffe3c5;
+    background-color: #e9ebff;
     position: relative;
     overflow: hidden;
   }
@@ -5185,19 +5325,20 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ffc07e;
-    border: 2px solid #f3804c;
+    background-color: #e9ebff;
+    border: 2px solid #04577c;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
-    background-color: #f3804c !important;
+    background-color: #04577c !important;
+    color: #e9ebff !important;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
@@ -5206,9 +5347,9 @@ p {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
     height: 1px;
-    background-color: #fe7933;
+    background-color: #04577c;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
     content: "";
@@ -5219,23 +5360,23 @@ p {
     margin: 0 auto;
     width: 50%;
     height: 1px;
-    background-color: #fe7933;
+    background-color: #04577c;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info {
     width: 100%;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
-    color: #533434;
+    color: #04577c;
     font-size: 14px;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -5248,7 +5389,7 @@ p {
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
-    background-color: #cfad8a;
+    background-color: #cacefa;
   }
   #home-page section #pendaftaran.hidden {
     display: none;
@@ -5274,10 +5415,11 @@ p {
     position: relative;
     display: flex;
     align-items: center;
-    background-color: #f2804c;
+    background-color: #04577c;
     background-image: url("../img/bg-header.png");
     background-repeat: no-repeat;
-    background-position: 0px -120px;
+    background-size: cover;
+    background-position: 0px 0px;
     height: 100vh;
     width: 100%;
   }
@@ -5295,21 +5437,17 @@ p {
     display: flex;
     gap: 0 20px;
     padding: 24px;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    border: 8px solid #ffe4da;
+    border: 8px solid #6989ae;
   }
   #home-page section #header .row .text-header-wrapper p {
     text-align: start;
-    color: #fff;
-  }
-  #home-page section #header .row .chart-img {
-    width: 100%;
-    height: auto;
+    color: #e9ebff;
   }
   #home-page section #header .more-page {
     cursor: pointer;
@@ -5321,21 +5459,43 @@ p {
     margin: 0 auto;
     width: max-content;
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     text-align: center;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    transform: translateY(0);
+    animation: scrollDown 2.5s linear infinite alternate-reverse;
   }
   #home-page section #header .more-page::after {
     content: url("../img/icon/expand_more.png");
     display: block;
   }
+  #home-page section #header .more-page:hover {
+    animation: scrollDown 2.5s linear forwards;
+  }
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+    75% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
   #home-page section .element-1 {
     position: absolute;
-    top: 78vh;
+    top: -68px;
     z-index: 99;
     width: 200px;
     height: 322px;
@@ -5344,7 +5504,8 @@ p {
     background-position: -55px 0;
   }
   #home-page section #about {
-    background-color: #ffe3c5;
+    position: relative;
+    background-color: #e9ebff;
     padding: 54px 0;
     min-height: 100vh;
     width: 100%;
@@ -5375,9 +5536,21 @@ p {
   #home-page section #about .row .card-about .info p {
     cursor: default;
   }
+  #home-page section .element-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    width: 280px;
+    height: 80px;
+    background-image: url("../img/element-3.png");
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 280px;
+  }
   #home-page section .element-2 {
     position: absolute;
-    top: 130vh;
+    bottom: 0;
     right: 0;
     z-index: 99;
     width: 140px;
@@ -5388,7 +5561,7 @@ p {
     background-size: 120px;
   }
   #home-page section #pendaftaran {
-    background-color: #f2804c;
+    background-color: #04577c;
     min-height: 100vh;
     width: 100%;
     padding: 45px 0;
@@ -5408,7 +5581,7 @@ p {
     padding: 32px 24px;
     gap: 32px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-    background-color: #ffe3c5;
+    background-color: #e9ebff;
     position: relative;
     overflow: hidden;
   }
@@ -5434,19 +5607,20 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ffc07e;
-    border: 2px solid #f3804c;
+    background-color: #e9ebff;
+    border: 2px solid #04577c;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
-    background-color: #f3804c !important;
+    background-color: #04577c !important;
+    color: #e9ebff !important;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
@@ -5455,9 +5629,9 @@ p {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
     height: 1px;
-    background-color: #fe7933;
+    background-color: #04577c;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
     content: "";
@@ -5468,24 +5642,24 @@ p {
     margin: 0 auto;
     width: 50%;
     height: 1px;
-    background-color: #fe7933;
+    background-color: #04577c;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info {
     width: 100%;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
-    color: #533434;
+    color: #04577c;
     font-size: 14px;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -5498,7 +5672,7 @@ p {
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
-    background-color: #cfad8a;
+    background-color: #cacefa;
   }
   #home-page section #pendaftaran.hidden {
     display: none;
@@ -5524,10 +5698,11 @@ p {
     position: relative;
     display: flex;
     align-items: center;
-    background-color: #f2804c;
+    background-color: #04577c;
     background-image: url("../img/bg-header.png");
     background-repeat: no-repeat;
-    background-position: 0px -120px;
+    background-position: 0px 0px;
+    background-size: cover;
     height: 100vh;
     width: 100%;
   }
@@ -5545,21 +5720,17 @@ p {
     display: flex;
     gap: 0 20px;
     padding: 24px;
-    color: #fff;
+    color: #e9ebff;
     font-family: League Spartan, sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    border: 8px solid #ffe4da;
+    border: 8px solid #6989ae;
   }
   #home-page section #header .row .text-header-wrapper p {
     text-align: start;
-    color: #fff;
-  }
-  #home-page section #header .row .chart-img {
-    width: 100%;
-    height: auto;
+    color: #e9ebff;
   }
   #home-page section #header .more-page {
     cursor: pointer;
@@ -5570,21 +5741,43 @@ p {
     margin: 0 auto;
     width: max-content;
     text-decoration: none;
-    color: #fff;
+    color: #e9ebff;
     text-align: center;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    transform: translateY(0);
+    animation: scrollDown 2.5s linear infinite alternate-reverse;
   }
   #home-page section #header .more-page::after {
     content: url("../img/icon/expand_more.png");
     display: block;
   }
+  #home-page section #header .more-page:hover {
+    animation: scrollDown 2.5s linear forwards;
+  }
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+    75% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
   #home-page section .element-1 {
     position: absolute;
-    top: 80vh;
+    top: -58px;
     z-index: 99;
     width: 200px;
     height: 322px;
@@ -5593,7 +5786,8 @@ p {
     background-position: -55px 0;
   }
   #home-page section #about {
-    background-color: #ffe3c5;
+    position: relative;
+    background-color: #e9ebff;
     min-height: 100vh;
     width: 100%;
     padding: 54px 0;
@@ -5624,9 +5818,21 @@ p {
   #home-page section #about .row .card-about .info p {
     cursor: default;
   }
+  #home-page section .element-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    width: 280px;
+    height: 80px;
+    background-image: url("../img/element-3.png");
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 280px;
+  }
   #home-page section .element-2 {
     position: absolute;
-    top: 140vh;
+    bottom: 0;
     right: 0;
     z-index: 99;
     width: 140px;
@@ -5637,7 +5843,7 @@ p {
     background-size: 120px;
   }
   #home-page section #pendaftaran {
-    background-color: #f2804c;
+    background-color: #04577c;
     padding: 45px 0;
     min-height: 100vh;
     width: 100%;
@@ -5653,11 +5859,11 @@ p {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-height: 70vh;
+    height: auto;
     padding: 32px 24px;
     gap: 32px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-    background-color: #ffe3c5;
+    background-color: #e9ebff;
     position: relative;
     overflow: hidden;
   }
@@ -5683,19 +5889,20 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ffc07e;
-    border: 2px solid #f3804c;
+    background-color: #e9ebff;
+    border: 2px solid #04577c;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
-    background-color: #f3804c !important;
+    background-color: #04577c !important;
+    color: #e9ebff !important;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
@@ -5704,9 +5911,9 @@ p {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
     height: 1px;
-    background-color: #fe7933;
+    background-color: #04577c;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
     content: "";
@@ -5717,24 +5924,24 @@ p {
     margin: 0 auto;
     width: 50%;
     height: 1px;
-    background-color: #fe7933;
+    background-color: #04577c;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info {
     width: 100%;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
-    color: #533434;
+    color: #04577c;
     font-size: 14px;
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
-    background-color: #f2804c;
+    background-color: #04577c;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: #e9ebff;
     border: none;
     width: 179px;
     display: block;
@@ -5747,7 +5954,7 @@ p {
   }
   #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
-    background-color: #cfad8a;
+    background-color: #cacefa;
   }
   #home-page section #pendaftaran.hidden {
     display: none;
@@ -5763,7 +5970,7 @@ p {
 }
 @media (max-width: 375px) {
   footer {
-    background-color: #533434;
+    background-color: #024c6c;
     padding: 19px 0;
   }
   footer .footer {
@@ -5773,7 +5980,7 @@ p {
     gap: 16px 0;
   }
   footer .footer .license {
-    color: #ffe4da;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -5807,7 +6014,7 @@ p {
 }
 @media (min-width: 376px) and (max-width: 467px) {
   footer {
-    background-color: #533434;
+    background-color: #024c6c;
     padding: 19px 0;
   }
   footer .footer {
@@ -5817,7 +6024,7 @@ p {
     gap: 16px 0;
   }
   footer .footer .license {
-    color: #ffe4da;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -5851,7 +6058,7 @@ p {
 }
 @media (min-width: 468px) and (max-width: 767px) {
   footer {
-    background-color: #533434;
+    background-color: #024c6c;
     padding: 19px 0;
   }
   footer .footer {
@@ -5861,7 +6068,7 @@ p {
     gap: 16px 0;
   }
   footer .footer .license {
-    color: #ffe4da;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -5895,7 +6102,7 @@ p {
 }
 @media (min-width: 768px) and (max-width: 1075px) {
   footer {
-    background-color: #533434;
+    background-color: #024c6c;
     padding: 16px 0;
   }
   footer .footer {
@@ -5904,7 +6111,7 @@ p {
     align-items: center;
   }
   footer .footer .license {
-    color: #ffe4da;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -5938,7 +6145,7 @@ p {
 }
 @media (min-width: 1076px) and (max-width: 1919px) {
   footer {
-    background-color: #533434;
+    background-color: #024c6c;
     padding: 16px 0;
   }
   footer .footer {
@@ -5947,7 +6154,7 @@ p {
     align-items: center;
   }
   footer .footer .license {
-    color: #ffe4da;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -5981,7 +6188,7 @@ p {
 }
 @media (min-width: 1920px) {
   footer {
-    background-color: #533434;
+    background-color: #024c6c;
     padding: 16px 0;
   }
   footer .footer {
@@ -5990,7 +6197,7 @@ p {
     align-items: center;
   }
   footer .footer .license {
-    color: #ffe4da;
+    color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -6068,7 +6275,7 @@ p {
     -webkit-appearance: none;
     cursor: pointer;
     background-color: #fff;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     border-radius: 5px;
     width: 100%;
     height: auto;
@@ -6090,7 +6297,7 @@ p {
   .form-select select:disabled {
     cursor: default;
     opacity: 100;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-select#act-select::after {
     position: absolute;
@@ -6116,7 +6323,7 @@ p {
     -webkit-appearance: none;
     cursor: pointer;
     background-color: #fff;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     border-radius: 5px;
     width: 100%;
     height: auto;
@@ -6138,7 +6345,7 @@ p {
   .form-select select:disabled {
     cursor: default;
     opacity: 100;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-select#act-select::after {
     position: absolute;
@@ -6164,7 +6371,7 @@ p {
     -webkit-appearance: none;
     cursor: pointer;
     background-color: #fff;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     border-radius: 5px;
     width: 100%;
     height: auto;
@@ -6186,7 +6393,7 @@ p {
   .form-select select:disabled {
     cursor: default;
     opacity: 100;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-select#act-select::after {
     position: absolute;
@@ -6212,7 +6419,7 @@ p {
     -webkit-appearance: none;
     cursor: pointer;
     background-color: #fff;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     border-radius: 5px;
     width: 100%;
     height: auto;
@@ -6233,7 +6440,7 @@ p {
   .form-select select:disabled {
     cursor: default;
     opacity: 100;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-select#act-select::after {
     position: absolute;
@@ -6259,7 +6466,7 @@ p {
     -webkit-appearance: none;
     cursor: pointer;
     background-color: #fff;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     border-radius: 5px;
     width: 100%;
     height: auto;
@@ -6280,7 +6487,7 @@ p {
   .form-select select:disabled {
     cursor: default;
     opacity: 100;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-select#act-select::after {
     position: absolute;
@@ -6306,7 +6513,7 @@ p {
     -webkit-appearance: none;
     cursor: pointer;
     background-color: #fff;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     border-radius: 5px;
     width: 100%;
     height: auto;
@@ -6327,7 +6534,7 @@ p {
   .form-select select:disabled {
     cursor: default;
     opacity: 100;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-select#act-select::after {
     position: absolute;
@@ -6354,7 +6561,7 @@ p {
     gap: 5px;
   }
   .progressBar-wrapp .progress-info .info-upload-speed {
-    color: #f2804c;
+    color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -6362,7 +6569,7 @@ p {
   }
   .progressBar-wrapp .progress-info .close-progress {
     font-size: 12px;
-    color: #533434;
+    color: #04577c;
     margin-left: 5px;
     cursor: pointer;
   }
@@ -6390,7 +6597,7 @@ p {
     gap: 5px;
   }
   .progressBar-wrapp .progress-info .info-upload-speed {
-    color: #f2804c;
+    color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -6398,7 +6605,7 @@ p {
   }
   .progressBar-wrapp .progress-info .close-progress {
     font-size: 12px;
-    color: #533434;
+    color: #04577c;
     margin-left: 5px;
     cursor: pointer;
   }
@@ -6426,7 +6633,7 @@ p {
     gap: 5px;
   }
   .progressBar-wrapp .progress-info .info-upload-speed {
-    color: #f2804c;
+    color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -6434,7 +6641,7 @@ p {
   }
   .progressBar-wrapp .progress-info .close-progress {
     font-size: 12px;
-    color: #533434;
+    color: #04577c;
     margin-left: 5px;
     cursor: pointer;
   }
@@ -6462,7 +6669,7 @@ p {
     gap: 5px;
   }
   .progressBar-wrapp .progress-info .info-upload-speed {
-    color: #f2804c;
+    color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -6470,7 +6677,7 @@ p {
   }
   .progressBar-wrapp .progress-info .close-progress {
     font-size: 12px;
-    color: #533434;
+    color: #04577c;
     margin-left: 5px;
     cursor: pointer;
   }
@@ -6498,7 +6705,7 @@ p {
     gap: 5px;
   }
   .progressBar-wrapp .progress-info .info-upload-speed {
-    color: #f2804c;
+    color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -6506,7 +6713,7 @@ p {
   }
   .progressBar-wrapp .progress-info .close-progress {
     font-size: 12px;
-    color: #533434;
+    color: #04577c;
     margin-left: 5px;
     cursor: pointer;
   }
@@ -6534,7 +6741,7 @@ p {
     gap: 5px;
   }
   .progressBar-wrapp .progress-info .info-upload-speed {
-    color: #f2804c;
+    color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -6542,7 +6749,7 @@ p {
   }
   .progressBar-wrapp .progress-info .close-progress {
     font-size: 12px;
-    color: #533434;
+    color: #04577c;
     margin-left: 5px;
     cursor: pointer;
   }
@@ -6567,7 +6774,7 @@ p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  color: #533434;
+  color: #04577c;
 }
 .form-checkbox input[type=checkbox] {
   /* Add if not using autoprefixer */
@@ -6577,13 +6784,13 @@ p {
   background-color: #fff;
   width: 1.15em;
   height: 1.15em;
-  border: 0.15em solid #ffc07e;
+  border: 0.15em solid #5dcad1;
   border-radius: 0.15em;
   display: grid;
   place-content: center;
 }
 .form-checkbox input[type=checkbox]:checked {
-  background-color: #ffc07e;
+  background-color: #5dcad1;
 }
 .form-checkbox input[type=checkbox]::before {
   content: "";
@@ -6602,11 +6809,11 @@ p {
 @media (max-width: 375px) {
   .form-input {
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     padding: 8px 12px;
     border-radius: 5px;
@@ -6615,7 +6822,7 @@ p {
   }
   .form-input:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-input::placeholder {
     color: #f1e7dd;
@@ -6624,17 +6831,17 @@ p {
     font-weight: 400;
   }
   .form-input:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 376px) and (max-width: 467px) {
   .form-input {
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     padding: 8px 12px;
     border-radius: 5px;
@@ -6643,7 +6850,7 @@ p {
   }
   .form-input:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-input::placeholder {
     color: #f1e7dd;
@@ -6652,17 +6859,17 @@ p {
     font-weight: 400;
   }
   .form-input:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 468px) and (max-width: 767px) {
   .form-input {
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     padding: 8px 12px;
     border-radius: 5px;
@@ -6671,7 +6878,7 @@ p {
   }
   .form-input:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-input::placeholder {
     color: #f1e7dd;
@@ -6680,17 +6887,17 @@ p {
     font-weight: 400;
   }
   .form-input:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 768px) and (max-width: 1075px) {
   .form-input {
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     padding: 8px 12px;
     border-radius: 5px;
@@ -6699,7 +6906,7 @@ p {
   }
   .form-input:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-input::placeholder {
     color: #f1e7dd;
@@ -6708,17 +6915,17 @@ p {
     font-weight: 400;
   }
   .form-input:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 1076px) and (max-width: 1919px) {
   .form-input {
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     padding: 8px 12px;
     border-radius: 5px;
@@ -6727,7 +6934,7 @@ p {
   }
   .form-input:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-input::placeholder {
     color: #f1e7dd;
@@ -6736,17 +6943,17 @@ p {
     font-weight: 400;
   }
   .form-input:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 1920px) {
   .form-input {
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     padding: 8px 12px;
     border-radius: 5px;
@@ -6755,7 +6962,7 @@ p {
   }
   .form-input:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-input::placeholder {
     color: #f1e7dd;
@@ -6764,18 +6971,18 @@ p {
     font-weight: 400;
   }
   .form-input:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (max-width: 375px) {
   .file-input {
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     position: relative;
     cursor: pointer;
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -6804,23 +7011,23 @@ p {
     background-color: #fff;
   }
   .file-input:focus {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
     outline: none;
   }
   .file-input:disabled {
     cursor: default;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 376px) and (max-width: 467px) {
   .file-input {
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     position: relative;
     cursor: pointer;
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -6849,23 +7056,23 @@ p {
     background-color: #fff;
   }
   .file-input:focus {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
     outline: none;
   }
   .file-input:disabled {
     cursor: default;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 468px) and (max-width: 767px) {
   .file-input {
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     position: relative;
     cursor: pointer;
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -6894,23 +7101,23 @@ p {
     background-color: #fff;
   }
   .file-input:focus {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
     outline: none;
   }
   .file-input:disabled {
     cursor: default;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 768px) and (max-width: 1075px) {
   .file-input {
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     position: relative;
     cursor: pointer;
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -6939,23 +7146,23 @@ p {
     background-color: #fff;
   }
   .file-input:focus {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
     outline: none;
   }
   .file-input:disabled {
     cursor: default;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 1076px) and (max-width: 1919px) {
   .file-input {
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     position: relative;
     cursor: pointer;
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -6984,23 +7191,23 @@ p {
     background-color: #fff;
   }
   .file-input:focus {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
     outline: none;
   }
   .file-input:disabled {
     cursor: default;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 1920px) {
   .file-input {
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     background-color: #fff;
     position: relative;
     cursor: pointer;
     font-family: Lato, sans-serif;
-    color: #533434;
+    color: #04577c;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -7029,12 +7236,12 @@ p {
     background-color: #fff;
   }
   .file-input:focus {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
     outline: none;
   }
   .file-input:disabled {
     cursor: default;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (max-width: 375px) {
@@ -7045,7 +7252,7 @@ p {
     font-weight: 400;
     line-height: 150%;
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     padding: 8px 12px;
     min-height: 112px;
     width: 100%;
@@ -7054,7 +7261,7 @@ p {
   }
   .form-area:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-area::placeholder {
     color: #f1e7dd;
@@ -7063,7 +7270,7 @@ p {
     font-weight: 400;
   }
   .form-area:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 376px) and (max-width: 467px) {
@@ -7074,7 +7281,7 @@ p {
     font-weight: 400;
     line-height: 150%;
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     padding: 8px 12px;
     min-height: 112px;
     width: 100%;
@@ -7083,7 +7290,7 @@ p {
   }
   .form-area:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-area::placeholder {
     color: #f1e7dd;
@@ -7092,7 +7299,7 @@ p {
     font-weight: 400;
   }
   .form-area:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 468px) and (max-width: 767px) {
@@ -7103,7 +7310,7 @@ p {
     font-weight: 400;
     line-height: 150%;
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     padding: 8px 12px;
     min-height: 112px;
     width: 100%;
@@ -7112,7 +7319,7 @@ p {
   }
   .form-area:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-area::placeholder {
     color: #f1e7dd;
@@ -7121,7 +7328,7 @@ p {
     font-weight: 400;
   }
   .form-area:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 768px) and (max-width: 1075px) {
@@ -7132,7 +7339,7 @@ p {
     font-weight: 400;
     line-height: 150%;
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     padding: 8px 12px;
     min-height: 112px;
     width: 100%;
@@ -7141,7 +7348,7 @@ p {
   }
   .form-area:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-area::placeholder {
     color: #f1e7dd;
@@ -7150,7 +7357,7 @@ p {
     font-weight: 400;
   }
   .form-area:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 1076px) and (max-width: 1919px) {
@@ -7161,7 +7368,7 @@ p {
     font-weight: 400;
     line-height: 150%;
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     padding: 8px 12px;
     min-height: 112px;
     width: 100%;
@@ -7170,7 +7377,7 @@ p {
   }
   .form-area:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-area::placeholder {
     color: #f1e7dd;
@@ -7179,7 +7386,7 @@ p {
     font-weight: 400;
   }
   .form-area:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (min-width: 1920px) {
@@ -7190,7 +7397,7 @@ p {
     font-weight: 400;
     line-height: 150%;
     border-radius: 5px;
-    border: 2px solid #ffc07e;
+    border: 2px solid #5dcad1;
     padding: 8px 12px;
     min-height: 112px;
     width: 100%;
@@ -7199,7 +7406,7 @@ p {
   }
   .form-area:focus {
     outline: none;
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
   .form-area::placeholder {
     color: #f1e7dd;
@@ -7208,7 +7415,7 @@ p {
     font-weight: 400;
   }
   .form-area:disabled {
-    border: 2px solid #533434;
+    border: 2px solid #024c6c;
   }
 }
 @media (max-width: 375px) {
@@ -7223,7 +7430,7 @@ p {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (min-width: 376px) and (max-width: 467px) {
@@ -7238,7 +7445,7 @@ p {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (min-width: 468px) and (max-width: 767px) {
@@ -7253,7 +7460,7 @@ p {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (min-width: 768px) and (max-width: 1075px) {
@@ -7268,7 +7475,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (min-width: 1076px) and (max-width: 1919px) {
@@ -7283,7 +7490,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (min-width: 1920px) {
@@ -7298,7 +7505,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    color: #533434;
+    color: #04577c;
   }
 }
 @media (max-width: 375px) {
@@ -7533,5 +7740,553 @@ p {
   }
   .modal.hidden {
     display: none;
+  }
+}
+@media (max-width: 375px) {
+  .chart-animate {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart-animate .wrapp-chart {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .chart-animate .wrapp-chart .chart {
+    position: absolute;
+    left: 10%;
+    transition: 2.5s ease-in-out;
+    width: 35%;
+    height: 50%;
+    border-radius: 10px;
+    background: var(--Gradient-Blue1, linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%));
+    /* Dark - M */
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+    animation: chartOne 12s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(2) {
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+    animation: chartTwo 10s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(3) {
+    left: unset;
+    right: 10%;
+    height: 100%;
+    animation: chartThree 11s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(4) {
+    width: 100%;
+    height: 20px;
+    right: unset;
+    left: unset;
+    animation: unset;
+  }
+  @keyframes chartOne {
+    0% {
+      height: 50%;
+    }
+    25% {
+      height: 50%;
+    }
+    75% {
+      height: 79%;
+    }
+    100% {
+      height: 79%;
+    }
+  }
+  @keyframes chartTwo {
+    0% {
+      height: 70%;
+    }
+    25% {
+      height: 70%;
+    }
+    75% {
+      height: 89%;
+    }
+    100% {
+      height: 89%;
+    }
+  }
+  @keyframes chartThree {
+    0% {
+      height: 100%;
+    }
+    25% {
+      height: 100%;
+    }
+    75% {
+      height: 50%;
+    }
+    100% {
+      height: 50%;
+    }
+  }
+}
+@media (min-width: 376px) and (max-width: 467px) {
+  .chart-animate {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart-animate .wrapp-chart {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .chart-animate .wrapp-chart .chart {
+    position: absolute;
+    left: 10%;
+    transition: 2.5s ease-in-out;
+    width: 35%;
+    height: 50%;
+    border-radius: 22px;
+    background: var(--Gradient-Blue1, linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%));
+    /* Dark - M */
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+    animation: chartOne 12s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(2) {
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+    animation: chartTwo 10s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(3) {
+    left: unset;
+    right: 10%;
+    height: 100%;
+    animation: chartThree 11s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(4) {
+    width: 100%;
+    height: 32px;
+    right: unset;
+    left: unset;
+    animation: unset;
+  }
+  @keyframes chartOne {
+    0% {
+      height: 50%;
+    }
+    25% {
+      height: 50%;
+    }
+    75% {
+      height: 79%;
+    }
+    100% {
+      height: 79%;
+    }
+  }
+  @keyframes chartTwo {
+    0% {
+      height: 70%;
+    }
+    25% {
+      height: 70%;
+    }
+    75% {
+      height: 89%;
+    }
+    100% {
+      height: 89%;
+    }
+  }
+  @keyframes chartThree {
+    0% {
+      height: 100%;
+    }
+    25% {
+      height: 100%;
+    }
+    75% {
+      height: 50%;
+    }
+    100% {
+      height: 50%;
+    }
+  }
+}
+@media (min-width: 468px) and (max-width: 767px) {
+  .chart-animate {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart-animate .wrapp-chart {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .chart-animate .wrapp-chart .chart {
+    position: absolute;
+    left: 10%;
+    transition: 2.5s ease-in-out;
+    width: 35%;
+    height: 50%;
+    border-radius: 32px;
+    background: var(--Gradient-Blue1, linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%));
+    /* Dark - M */
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+    animation: chartOne 12s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(2) {
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+    animation: chartTwo 10s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(3) {
+    left: unset;
+    right: 10%;
+    height: 100%;
+    animation: chartThree 11s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(4) {
+    width: 100%;
+    height: 52px;
+    right: unset;
+    left: unset;
+    animation: unset;
+  }
+  @keyframes chartOne {
+    0% {
+      height: 50%;
+    }
+    25% {
+      height: 50%;
+    }
+    75% {
+      height: 79%;
+    }
+    100% {
+      height: 79%;
+    }
+  }
+  @keyframes chartTwo {
+    0% {
+      height: 70%;
+    }
+    25% {
+      height: 70%;
+    }
+    75% {
+      height: 89%;
+    }
+    100% {
+      height: 89%;
+    }
+  }
+  @keyframes chartThree {
+    0% {
+      height: 100%;
+    }
+    25% {
+      height: 100%;
+    }
+    75% {
+      height: 50%;
+    }
+    100% {
+      height: 50%;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1075px) {
+  .chart-animate {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart-animate .wrapp-chart {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .chart-animate .wrapp-chart .chart {
+    position: absolute;
+    left: 10%;
+    transition: 2.5s ease-in-out;
+    width: 35%;
+    height: 50%;
+    border-radius: 20px;
+    background: var(--Gradient-Blue1, linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%));
+    /* Dark - M */
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+    animation: chartOne 12s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(2) {
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+    animation: chartTwo 10s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(3) {
+    left: unset;
+    right: 10%;
+    height: 100%;
+    animation: chartThree 11s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(4) {
+    width: 100%;
+    height: 42px;
+    right: unset;
+    left: unset;
+    animation: unset;
+  }
+  @keyframes chartOne {
+    0% {
+      height: 50%;
+    }
+    25% {
+      height: 50%;
+    }
+    75% {
+      height: 79%;
+    }
+    100% {
+      height: 79%;
+    }
+  }
+  @keyframes chartTwo {
+    0% {
+      height: 70%;
+    }
+    25% {
+      height: 70%;
+    }
+    75% {
+      height: 89%;
+    }
+    100% {
+      height: 89%;
+    }
+  }
+  @keyframes chartThree {
+    0% {
+      height: 100%;
+    }
+    25% {
+      height: 100%;
+    }
+    75% {
+      height: 50%;
+    }
+    100% {
+      height: 50%;
+    }
+  }
+}
+@media (min-width: 1076px) and (max-width: 1919px) {
+  .chart-animate {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart-animate .wrapp-chart {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .chart-animate .wrapp-chart .chart {
+    position: absolute;
+    left: 10%;
+    transition: 2.5s ease-in-out;
+    width: 35%;
+    height: 50%;
+    border-radius: 32px;
+    background: var(--Gradient-Blue1, linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%));
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+    animation: chartOne 12s linear 2s infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(2) {
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+    animation: chartTwo 10s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(3) {
+    left: unset;
+    right: 10%;
+    height: 100%;
+    animation: chartThree 11s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(4) {
+    width: 100%;
+    height: 52px;
+    right: unset;
+    left: unset;
+    animation: unset;
+  }
+  @keyframes chartOne {
+    0% {
+      height: 50%;
+    }
+    25% {
+      height: 50%;
+    }
+    75% {
+      height: 79%;
+    }
+    100% {
+      height: 79%;
+    }
+  }
+  @keyframes chartTwo {
+    0% {
+      height: 70%;
+    }
+    25% {
+      height: 70%;
+    }
+    75% {
+      height: 89%;
+    }
+    100% {
+      height: 89%;
+    }
+  }
+  @keyframes chartThree {
+    0% {
+      height: 100%;
+    }
+    25% {
+      height: 100%;
+    }
+    75% {
+      height: 50%;
+    }
+    100% {
+      height: 50%;
+    }
+  }
+}
+@media (min-width: 1920px) {
+  .chart-animate {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart-animate .wrapp-chart {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .chart-animate .wrapp-chart .chart {
+    position: absolute;
+    left: 10%;
+    transition: 2.5s ease-in-out;
+    width: 35%;
+    height: 50%;
+    border-radius: 32px;
+    background: var(--Gradient-Blue1, linear-gradient(90deg, #47a1c9 0%, #3185ab 32.81%, #013b55 99.99%));
+    /* Dark - M */
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+    animation: chartOne 12s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(2) {
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+    animation: chartTwo 10s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(3) {
+    left: unset;
+    right: 10%;
+    height: 100%;
+    animation: chartThree 11s linear infinite alternate;
+  }
+  .chart-animate .wrapp-chart .chart:nth-child(4) {
+    width: 100%;
+    height: 52px;
+    right: unset;
+    left: unset;
+    animation: unset;
+  }
+  @keyframes chartOne {
+    0% {
+      height: 50%;
+    }
+    25% {
+      height: 50%;
+    }
+    75% {
+      height: 79%;
+    }
+    100% {
+      height: 79%;
+    }
+  }
+  @keyframes chartTwo {
+    0% {
+      height: 70%;
+    }
+    25% {
+      height: 70%;
+    }
+    75% {
+      height: 89%;
+    }
+    100% {
+      height: 89%;
+    }
+  }
+  @keyframes chartThree {
+    0% {
+      height: 100%;
+    }
+    25% {
+      height: 100%;
+    }
+    75% {
+      height: 50%;
+    }
+    100% {
+      height: 50%;
+    }
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -12,3 +12,26 @@
  2. Button Active + Disable
  3. Form Input + Lable
  4. Form select
+
+
+ Variable color
+
+semi-light: #E9EBFF
+light: #FFF
+
+bg: #04577C 
+ header: #04577C
+ p: #04577C
+ h: #04577C
+ footer: #024C6C
+
+ border default: #5DCAD1
+ border active : #024C6C
+ border danger: #FF2634
+
+profile dropdown : #5DCAD1
+bg-alert-success: #668547
+
+disable: #CACEFA
+
+gradient: background: linear-gradient(90deg, #47A1C9 0%, #3185AB 32.81%, #013B55 99.99%);
