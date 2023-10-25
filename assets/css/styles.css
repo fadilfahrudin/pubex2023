@@ -1338,18 +1338,15 @@ p {
   }
 }
 @media (max-width: 375px) {
-  #page-investor,
-  #edit-page-investor {
+  #page-investor {
     font-family: Lato, sans-serif;
   }
-  #page-investor section .form-section,
-  #edit-page-investor section .form-section {
+  #page-investor section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
   }
-  #page-investor section .form-section .back-btn,
-  #edit-page-investor section .form-section .back-btn {
+  #page-investor section .form-section .back-btn {
     cursor: pointer;
     background-color: transparent;
     border: unset;
@@ -1363,38 +1360,32 @@ p {
     color: #04577c;
     align-items: center;
   }
-  #page-investor section .form-section .back-btn::before,
-  #edit-page-investor section .form-section .back-btn::before {
+  #page-investor section .form-section .back-btn::before {
     padding-top: 4px;
     content: url("../img/icon/arrow-left.png");
   }
-  #page-investor section .form-section .row,
-  #edit-page-investor section .form-section .row {
+  #page-investor section .form-section .row {
     gap: 24px;
   }
-  #page-investor section .form-section .row .form-desc,
-  #edit-page-investor section .form-section .row .form-desc {
+  #page-investor section .form-section .row .form-desc {
     display: flex;
     flex-direction: column;
     gap: 8px;
     width: 371px;
     padding: 24px;
   }
-  #page-investor section .form-section .row .form-desc ol,
-  #edit-page-investor section .form-section .row .form-desc ol {
+  #page-investor section .form-section .row .form-desc ol {
     margin: 0;
     padding: 0 14px;
   }
-  #page-investor section .form-section .row .form-desc ol li,
-  #edit-page-investor section .form-section .row .form-desc ol li {
+  #page-investor section .form-section .row .form-desc ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
   }
-  #page-investor section .form-section .row .form-field,
-  #edit-page-investor section .form-section .row .form-field {
+  #page-investor section .form-section .row .form-field {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -1402,29 +1393,24 @@ p {
     padding: 24px;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #page-investor section .form-section .row .form-field h1,
-  #edit-page-investor section .form-section .row .form-field h1 {
+  #page-investor section .form-section .row .form-field h1 {
     text-align: center;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
     display: none;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
     margin-top: 8px;
     width: max-content;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
     border: 2px solid #5dcad1;
     width: 197px;
     height: 162px;
     padding: 8px;
     border-radius: 5px;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
     overflow-y: scroll;
     width: 100%;
     height: 100%;
@@ -1434,658 +1420,18 @@ p {
     margin: unset;
     gap: 4px;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
     width: 5px;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
-    background-color: #ffe4da;
-    border-radius: 6px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
-    background-color: #eb8455;
-    border-radius: 6px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
-    list-style: none;
-    padding: 4px 12px;
-    cursor: pointer;
-    width: 98%;
-    border-radius: 5px;
-    color: #04577c;
-    font-family: Lato, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #eb8455;
-    color: #e9ebff;
-  }
-  #page-investor section .form-section .row .form-field #tipe-media-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-media-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field #tipe-umum-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field .btn-submit,
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
-    cursor: pointer;
-    padding: 12px 0;
-    background-color: #04577c;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #e9ebff;
-    border: none;
-    width: 179px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-  }
-  #page-investor section .form-section .row .form-field .btn-submit:disabled,
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cacefa;
-    cursor: default;
-  }
-}
-@media (min-width: 376px) and (max-width: 467px) {
-  #page-investor,
-  #edit-page-investor {
-    font-family: Lato, sans-serif;
-  }
-  #page-investor section .form-section,
-  #edit-page-investor section .form-section {
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 41px;
-  }
-  #page-investor section .form-section .back-btn,
-  #edit-page-investor section .form-section .back-btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    display: flex;
-    margin-top: 26px;
-    margin-bottom: 14px;
-    text-decoration: none;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    color: #04577c;
-    align-items: center;
-  }
-  #page-investor section .form-section .back-btn::before,
-  #edit-page-investor section .form-section .back-btn::before {
-    padding-top: 4px;
-    content: url("../img/icon/arrow-left.png");
-  }
-  #page-investor section .form-section .row,
-  #edit-page-investor section .form-section .row {
-    gap: 24px;
-  }
-  #page-investor section .form-section .row .form-desc,
-  #edit-page-investor section .form-section .row .form-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 371px;
-    padding: 24px;
-  }
-  #page-investor section .form-section .row .form-desc ol,
-  #edit-page-investor section .form-section .row .form-desc ol {
-    margin: 0;
-    padding: 0 14px;
-  }
-  #page-investor section .form-section .row .form-desc ol li,
-  #edit-page-investor section .form-section .row .form-desc ol li {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    color: #04577c;
-  }
-  #page-investor section .form-section .row .form-field,
-  #edit-page-investor section .form-section .row .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 100%;
-    padding: 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-investor section .form-section .row .form-field h1,
-  #edit-page-investor section .form-section .row .form-field h1 {
-    text-align: center;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
-    margin-top: 8px;
-    width: max-content;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
-    border: 2px solid #5dcad1;
-    width: 197px;
-    height: 162px;
-    padding: 8px;
-    border-radius: 5px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
-    overflow-y: scroll;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    margin: unset;
-    gap: 4px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
-    width: 5px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
-    background-color: #ffe4da;
-    border-radius: 6px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
-    background-color: #eb8455;
-    border-radius: 6px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
-    list-style: none;
-    padding: 4px 12px;
-    cursor: pointer;
-    width: 98%;
-    border-radius: 5px;
-    color: #04577c;
-    font-family: Lato, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #eb8455;
-    color: #e9ebff;
-  }
-  #page-investor section .form-section .row .form-field #tipe-media-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-media-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field #tipe-umum-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field .btn-submit,
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
-    cursor: pointer;
-    padding: 12px 0;
-    background-color: #04577c;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #e9ebff;
-    border: none;
-    width: 179px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-  }
-  #page-investor section .form-section .row .form-field .btn-submit:disabled,
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cacefa;
-    cursor: default;
-  }
-}
-@media (min-width: 468px) and (max-width: 767px) {
-  #page-investor,
-  #edit-page-investor {
-    font-family: Lato, sans-serif;
-  }
-  #page-investor section .form-section,
-  #edit-page-investor section .form-section {
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 41px;
-  }
-  #page-investor section .form-section .back-btn,
-  #edit-page-investor section .form-section .back-btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    display: flex;
-    margin-top: 26px;
-    margin-bottom: 14px;
-    text-decoration: none;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    color: #04577c;
-    align-items: center;
-  }
-  #page-investor section .form-section .back-btn::before,
-  #edit-page-investor section .form-section .back-btn::before {
-    padding-top: 4px;
-    content: url("../img/icon/arrow-left.png");
-  }
-  #page-investor section .form-section .row,
-  #edit-page-investor section .form-section .row {
-    gap: 24px;
-  }
-  #page-investor section .form-section .row .form-desc,
-  #edit-page-investor section .form-section .row .form-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 371px;
-    padding: 24px;
-  }
-  #page-investor section .form-section .row .form-desc ol,
-  #edit-page-investor section .form-section .row .form-desc ol {
-    margin: 0;
-    padding: 0 14px;
-  }
-  #page-investor section .form-section .row .form-desc ol li,
-  #edit-page-investor section .form-section .row .form-desc ol li {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    color: #04577c;
-  }
-  #page-investor section .form-section .row .form-field,
-  #edit-page-investor section .form-section .row .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 100%;
-    padding: 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-investor section .form-section .row .form-field h1,
-  #edit-page-investor section .form-section .row .form-field h1 {
-    text-align: center;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
-    margin-top: 8px;
-    width: max-content;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
-    border: 2px solid #5dcad1;
-    width: 197px;
-    height: 162px;
-    padding: 8px;
-    border-radius: 5px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
-    overflow-y: scroll;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    margin: unset;
-    gap: 4px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
-    width: 5px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
-    background-color: #ffe4da;
-    border-radius: 6px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
-    background-color: #eb8455;
-    border-radius: 6px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
-    list-style: none;
-    padding: 4px 12px;
-    cursor: pointer;
-    width: 98%;
-    border-radius: 5px;
-    color: #04577c;
-    font-family: Lato, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #eb8455;
-    color: #e9ebff;
-  }
-  #page-investor section .form-section .row .form-field #tipe-media-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-media-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field #tipe-umum-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field .btn-submit,
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
-    cursor: pointer;
-    padding: 12px 0;
-    background-color: #04577c;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #e9ebff;
-    border: none;
-    width: 179px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-  }
-  #page-investor section .form-section .row .form-field .btn-submit:disabled,
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cacefa;
-    cursor: default;
-  }
-}
-@media (min-width: 768px) and (max-width: 1075px) {
-  #page-investor,
-  #edit-page-investor {
-    font-family: Lato, sans-serif;
-  }
-  #page-investor section .form-section,
-  #edit-page-investor section .form-section {
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 41px;
-  }
-  #page-investor section .form-section .back-btn,
-  #edit-page-investor section .form-section .back-btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    display: flex;
-    margin-top: 26px;
-    margin-bottom: 14px;
-    text-decoration: none;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #04577c;
-    align-items: center;
-  }
-  #page-investor section .form-section .back-btn::before,
-  #edit-page-investor section .form-section .back-btn::before {
-    padding-top: 4px;
-    content: url("../img/icon/arrow-left.png");
-  }
-  #page-investor section .form-section .row,
-  #edit-page-investor section .form-section .row {
-    gap: 24px;
-  }
-  #page-investor section .form-section .row .form-desc,
-  #edit-page-investor section .form-section .row .form-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 371px;
-    padding: 24px;
-  }
-  #page-investor section .form-section .row .form-desc ol,
-  #edit-page-investor section .form-section .row .form-desc ol {
-    margin: 0;
-    padding: 0 14px;
-  }
-  #page-investor section .form-section .row .form-desc ol li,
-  #edit-page-investor section .form-section .row .form-desc ol li {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    color: #04577c;
-  }
-  #page-investor section .form-section .row .form-field,
-  #edit-page-investor section .form-section .row .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 100%;
-    padding: 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-investor section .form-section .row .form-field h1,
-  #edit-page-investor section .form-section .row .form-field h1 {
-    text-align: center;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
-    margin-top: 8px;
-    width: max-content;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
-    border: 2px solid #5dcad1;
-    width: 197px;
-    height: 162px;
-    padding: 8px;
-    border-radius: 5px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
-    overflow-y: scroll;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    margin: unset;
-    gap: 4px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
-    width: 5px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
-    background-color: #ffe4da;
-    border-radius: 6px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
-    background-color: #eb8455;
-    border-radius: 6px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
-    list-style: none;
-    padding: 4px 12px;
-    cursor: pointer;
-    width: 98%;
-    border-radius: 5px;
-    color: #04577c;
-    font-family: Lato, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #eb8455;
-    color: #e9ebff;
-  }
-  #page-investor section .form-section .row .form-field #tipe-media-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-media-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field #tipe-umum-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field .btn-submit,
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
-    cursor: pointer;
-    padding: 12px 0;
-    background-color: #04577c;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #e9ebff;
-    border: none;
-    width: 179px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-  }
-  #page-investor section .form-section .row .form-field .btn-submit:disabled,
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cacefa;
-    cursor: default;
-  }
-}
-@media (min-width: 1076px) and (max-width: 1919px) {
-  #page-investor,
-  #edit-page-investor {
-    font-family: Lato, sans-serif;
-  }
-  #page-investor section .form-section,
-  #edit-page-investor section .form-section {
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 41px;
-  }
-  #page-investor section .form-section .back-btn,
-  #edit-page-investor section .form-section .back-btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    display: flex;
-    margin-top: 26px;
-    margin-bottom: 14px;
-    text-decoration: none;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #04577c;
-    align-items: center;
-  }
-  #page-investor section .form-section .back-btn::before,
-  #edit-page-investor section .form-section .back-btn::before {
-    padding-top: 4px;
-    content: url("../img/icon/arrow-left.png");
-  }
-  #page-investor section .form-section .row,
-  #edit-page-investor section .form-section .row {
-    gap: 24px;
-  }
-  #page-investor section .form-section .row .form-desc,
-  #edit-page-investor section .form-section .row .form-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 371px;
-    padding: 24px;
-  }
-  #page-investor section .form-section .row .form-desc ol,
-  #edit-page-investor section .form-section .row .form-desc ol {
-    margin: 0;
-    padding: 0 14px;
-  }
-  #page-investor section .form-section .row .form-desc ol li,
-  #edit-page-investor section .form-section .row .form-desc ol li {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    color: #04577c;
-  }
-  #page-investor section .form-section .row .form-field,
-  #edit-page-investor section .form-section .row .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 100%;
-    padding: 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-investor section .form-section .row .form-field h1,
-  #edit-page-investor section .form-section .row .form-field h1 {
-    text-align: center;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
-    display: none;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
-    margin-top: 8px;
-    width: max-content;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
-    border: 2px solid #5dcad1;
-    width: 197px;
-    height: 162px;
-    padding: 8px;
-    border-radius: 5px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
-    overflow-y: scroll;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    margin: unset;
-    gap: 4px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
-    width: 5px;
-  }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
     background-color: #e9ebff;
     border-radius: 6px;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
     background-color: #04577c;
     border-radius: 6px;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
     list-style: none;
     padding: 4px 12px;
     cursor: pointer;
@@ -2097,21 +1443,17 @@ p {
     font-style: normal;
     font-weight: 400;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #04577c;
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
+    background-color: #eb8455;
     color: #e9ebff;
   }
-  #page-investor section .form-section .row .form-field #tipe-media-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-media-active {
+  #page-investor section .form-section .row .form-field #tipe-media-active {
     display: none;
   }
-  #page-investor section .form-section .row .form-field #tipe-umum-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
+  #page-investor section .form-section .row .form-field #tipe-umum-active {
     display: none;
   }
-  #page-investor section .form-section .row .form-field .btn-submit,
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
+  #page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -2126,25 +1468,21 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #page-investor section .form-section .row .form-field .btn-submit:disabled,
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+  #page-investor section .form-section .row .form-field .btn-submit:disabled {
     background-color: #cacefa;
     cursor: default;
   }
 }
-@media (min-width: 1920px) {
-  #page-investor,
-  #edit-page-investor {
+@media (min-width: 376px) and (max-width: 467px) {
+  #page-investor {
     font-family: Lato, sans-serif;
   }
-  #page-investor section .form-section,
-  #edit-page-investor section .form-section {
+  #page-investor section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
   }
-  #page-investor section .form-section .back-btn,
-  #edit-page-investor section .form-section .back-btn {
+  #page-investor section .form-section .back-btn {
     cursor: pointer;
     background-color: transparent;
     border: unset;
@@ -2152,44 +1490,38 @@ p {
     margin-top: 26px;
     margin-bottom: 14px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     color: #04577c;
     align-items: center;
   }
-  #page-investor section .form-section .back-btn::before,
-  #edit-page-investor section .form-section .back-btn::before {
+  #page-investor section .form-section .back-btn::before {
     padding-top: 4px;
     content: url("../img/icon/arrow-left.png");
   }
-  #page-investor section .form-section .row,
-  #edit-page-investor section .form-section .row {
+  #page-investor section .form-section .row {
     gap: 24px;
   }
-  #page-investor section .form-section .row .form-desc,
-  #edit-page-investor section .form-section .row .form-desc {
+  #page-investor section .form-section .row .form-desc {
     display: flex;
     flex-direction: column;
     gap: 8px;
     width: 371px;
     padding: 24px;
   }
-  #page-investor section .form-section .row .form-desc ol,
-  #edit-page-investor section .form-section .row .form-desc ol {
+  #page-investor section .form-section .row .form-desc ol {
     margin: 0;
     padding: 0 14px;
   }
-  #page-investor section .form-section .row .form-desc ol li,
-  #edit-page-investor section .form-section .row .form-desc ol li {
+  #page-investor section .form-section .row .form-desc ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
   }
-  #page-investor section .form-section .row .form-field,
-  #edit-page-investor section .form-section .row .form-field {
+  #page-investor section .form-section .row .form-field {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -2197,29 +1529,24 @@ p {
     padding: 24px;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #page-investor section .form-section .row .form-field h1,
-  #edit-page-investor section .form-section .row .form-field h1 {
+  #page-investor section .form-section .row .form-field h1 {
     text-align: center;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
     display: none;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
     margin-top: 8px;
     width: max-content;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
     border: 2px solid #5dcad1;
     width: 197px;
     height: 162px;
     padding: 8px;
     border-radius: 5px;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
     overflow-y: scroll;
     width: 100%;
     height: 100%;
@@ -2229,22 +1556,18 @@ p {
     margin: unset;
     gap: 4px;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
     width: 5px;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
-    background-color: #ffe4da;
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
+    background-color: #e9ebff;
     border-radius: 6px;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
-    background-color: #eb8455;
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
+    background-color: #04577c;
     border-radius: 6px;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
     list-style: none;
     padding: 4px 12px;
     cursor: pointer;
@@ -2256,21 +1579,17 @@ p {
     font-style: normal;
     font-weight: 400;
   }
-  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
-  #edit-page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
     background-color: #eb8455;
     color: #e9ebff;
   }
-  #page-investor section .form-section .row .form-field #tipe-media-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-media-active {
+  #page-investor section .form-section .row .form-field #tipe-media-active {
     display: none;
   }
-  #page-investor section .form-section .row .form-field #tipe-umum-active,
-  #edit-page-investor section .form-section .row .form-field #tipe-umum-active {
+  #page-investor section .form-section .row .form-field #tipe-umum-active {
     display: none;
   }
-  #page-investor section .form-section .row .form-field .btn-submit,
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
+  #page-investor section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -2285,8 +1604,551 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #page-investor section .form-section .row .form-field .btn-submit:disabled,
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+  #page-investor section .form-section .row .form-field .btn-submit:disabled {
+    background-color: #cacefa;
+    cursor: default;
+  }
+}
+@media (min-width: 468px) and (max-width: 767px) {
+  #page-investor {
+    font-family: Lato, sans-serif;
+  }
+  #page-investor section .form-section {
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 41px;
+  }
+  #page-investor section .form-section .back-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+    display: flex;
+    margin-top: 26px;
+    margin-bottom: 14px;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: #04577c;
+    align-items: center;
+  }
+  #page-investor section .form-section .back-btn::before {
+    padding-top: 4px;
+    content: url("../img/icon/arrow-left.png");
+  }
+  #page-investor section .form-section .row {
+    gap: 24px;
+  }
+  #page-investor section .form-section .row .form-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 371px;
+    padding: 24px;
+  }
+  #page-investor section .form-section .row .form-desc ol {
+    margin: 0;
+    padding: 0 14px;
+  }
+  #page-investor section .form-section .row .form-desc ol li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: #04577c;
+  }
+  #page-investor section .form-section .row .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+  }
+  #page-investor section .form-section .row .form-field h1 {
+    text-align: center;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
+    margin-top: 8px;
+    width: max-content;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
+    border: 2px solid #5dcad1;
+    width: 197px;
+    height: 162px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+    gap: 4px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
+    width: 5px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
+    background-color: #e9ebff;
+    border-radius: 6px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
+    background-color: #04577c;
+    border-radius: 6px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
+    list-style: none;
+    padding: 4px 12px;
+    cursor: pointer;
+    width: 98%;
+    border-radius: 5px;
+    color: #04577c;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
+    background-color: #eb8455;
+    color: #e9ebff;
+  }
+  #page-investor section .form-section .row .form-field #tipe-media-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #tipe-umum-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field .btn-submit {
+    cursor: pointer;
+    padding: 12px 0;
+    background-color: #04577c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e9ebff;
+    border: none;
+    width: 179px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  #page-investor section .form-section .row .form-field .btn-submit:disabled {
+    background-color: #cacefa;
+    cursor: default;
+  }
+}
+@media (min-width: 768px) and (max-width: 1075px) {
+  #page-investor {
+    font-family: Lato, sans-serif;
+  }
+  #page-investor section .form-section {
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 41px;
+  }
+  #page-investor section .form-section .back-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+    display: flex;
+    margin-top: 26px;
+    margin-bottom: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #04577c;
+    align-items: center;
+  }
+  #page-investor section .form-section .back-btn::before {
+    padding-top: 4px;
+    content: url("../img/icon/arrow-left.png");
+  }
+  #page-investor section .form-section .row {
+    gap: 24px;
+  }
+  #page-investor section .form-section .row .form-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 371px;
+    padding: 24px;
+  }
+  #page-investor section .form-section .row .form-desc ol {
+    margin: 0;
+    padding: 0 14px;
+  }
+  #page-investor section .form-section .row .form-desc ol li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: #04577c;
+  }
+  #page-investor section .form-section .row .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+  }
+  #page-investor section .form-section .row .form-field h1 {
+    text-align: center;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
+    margin-top: 8px;
+    width: max-content;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
+    border: 2px solid #5dcad1;
+    width: 197px;
+    height: 162px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+    gap: 4px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
+    width: 5px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
+    background-color: #e9ebff;
+    border-radius: 6px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
+    background-color: #04577c;
+    border-radius: 6px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
+    list-style: none;
+    padding: 4px 12px;
+    cursor: pointer;
+    width: 98%;
+    border-radius: 5px;
+    color: #04577c;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
+    background-color: #eb8455;
+    color: #e9ebff;
+  }
+  #page-investor section .form-section .row .form-field #tipe-media-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #tipe-umum-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field .btn-submit {
+    cursor: pointer;
+    padding: 12px 0;
+    background-color: #04577c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e9ebff;
+    border: none;
+    width: 179px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  #page-investor section .form-section .row .form-field .btn-submit:disabled {
+    background-color: #cacefa;
+    cursor: default;
+  }
+}
+@media (min-width: 1076px) and (max-width: 1919px) {
+  #page-investor {
+    font-family: Lato, sans-serif;
+  }
+  #page-investor section .form-section {
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 41px;
+  }
+  #page-investor section .form-section .back-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+    display: flex;
+    margin-top: 26px;
+    margin-bottom: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #04577c;
+    align-items: center;
+  }
+  #page-investor section .form-section .back-btn::before {
+    padding-top: 4px;
+    content: url("../img/icon/arrow-left.png");
+  }
+  #page-investor section .form-section .row {
+    gap: 24px;
+  }
+  #page-investor section .form-section .row .form-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 371px;
+    padding: 24px;
+  }
+  #page-investor section .form-section .row .form-desc ol {
+    margin: 0;
+    padding: 0 14px;
+  }
+  #page-investor section .form-section .row .form-desc ol li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: #04577c;
+  }
+  #page-investor section .form-section .row .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+  }
+  #page-investor section .form-section .row .form-field h1 {
+    text-align: center;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
+    margin-top: 8px;
+    width: max-content;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
+    border: 2px solid #5dcad1;
+    width: 197px;
+    height: 162px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+    gap: 4px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
+    width: 5px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
+    background-color: #e9ebff;
+    border-radius: 6px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
+    background-color: #04577c;
+    border-radius: 6px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
+    list-style: none;
+    padding: 4px 12px;
+    cursor: pointer;
+    width: 98%;
+    border-radius: 5px;
+    color: #04577c;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
+    background-color: #04577c;
+    color: #e9ebff;
+  }
+  #page-investor section .form-section .row .form-field #tipe-media-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #tipe-umum-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field .btn-submit {
+    cursor: pointer;
+    padding: 12px 0;
+    background-color: #04577c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e9ebff;
+    border: none;
+    width: 179px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  #page-investor section .form-section .row .form-field .btn-submit:disabled {
+    background-color: #cacefa;
+    cursor: default;
+  }
+}
+@media (min-width: 1920px) {
+  #page-investor {
+    font-family: Lato, sans-serif;
+  }
+  #page-investor section .form-section {
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 41px;
+  }
+  #page-investor section .form-section .back-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+    display: flex;
+    margin-top: 26px;
+    margin-bottom: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #04577c;
+    align-items: center;
+  }
+  #page-investor section .form-section .back-btn::before {
+    padding-top: 4px;
+    content: url("../img/icon/arrow-left.png");
+  }
+  #page-investor section .form-section .row {
+    gap: 24px;
+  }
+  #page-investor section .form-section .row .form-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 371px;
+    padding: 24px;
+  }
+  #page-investor section .form-section .row .form-desc ol {
+    margin: 0;
+    padding: 0 14px;
+  }
+  #page-investor section .form-section .row .form-desc ol li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: #04577c;
+  }
+  #page-investor section .form-section .row .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+  }
+  #page-investor section .form-section .row .form-field h1 {
+    text-align: center;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas {
+    margin-top: 8px;
+    width: max-content;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
+    border: 2px solid #5dcad1;
+    width: 197px;
+    height: 162px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+    gap: 4px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
+    width: 5px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
+    background-color: #e9ebff;
+    border-radius: 6px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
+    background-color: #04577c;
+    border-radius: 6px;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
+    list-style: none;
+    padding: 4px 12px;
+    cursor: pointer;
+    width: 98%;
+    border-radius: 5px;
+    color: #04577c;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
+    background-color: #eb8455;
+    color: #e9ebff;
+  }
+  #page-investor section .form-section .row .form-field #tipe-media-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field #tipe-umum-active {
+    display: none;
+  }
+  #page-investor section .form-section .row .form-field .btn-submit {
+    cursor: pointer;
+    padding: 12px 0;
+    background-color: #04577c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e9ebff;
+    border: none;
+    width: 179px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  #page-investor section .form-section .row .form-field .btn-submit:disabled {
     background-color: #cacefa;
     cursor: default;
   }
@@ -2556,681 +2418,792 @@ p {
   }
 }
 @media (max-width: 375px) {
-  #page-pubex-live {
+  #edit-page-investor {
     font-family: Lato, sans-serif;
   }
-  #page-pubex-live section .content-section {
+  #edit-page-investor section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
-    padding: 16px 0;
   }
-  #page-pubex-live section .content-section .success-edited-alert {
+  #edit-page-investor section .form-section .row {
+    gap: 0px;
+  }
+  #edit-page-investor section .form-section .row .form-desc {
+    padding: 24px 0;
     display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 100%;
-    padding: 8px;
-    border-radius: 5px;
-    margin: 0 auto;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    flex-direction: column;
+    gap: 22px;
+    width: 371px;
   }
-  #page-pubex-live section .content-section .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-pubex-live section .content-section .success-edited-alert.hidden {
-    display: none;
-  }
-  #page-pubex-live section .content-section .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
+    width: max-content;
     border: unset;
     display: flex;
-    margin-top: 26px;
-    margin-bottom: 14px;
-    width: max-content;
     text-decoration: none;
+    align-items: start;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     color: #04577c;
-    align-items: center;
   }
-  #page-pubex-live section .content-section .back-btn::before {
-    padding-top: 4px;
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #page-pubex-live section .content-section .row {
-    gap: 24px;
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+    padding: 24px;
   }
-  #page-pubex-live section .content-section .row .user-profile {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 32px 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    align-self: self-end;
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    gap: 16px 0;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp img {
-    width: 150px;
-    height: 150px;
-    align-self: center;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp .user-type {
-    width: max-content;
-    align-self: center;
-    padding: 4px 12px;
-    border-radius: 5px;
-    background-color: #04577c;
-    color: #e9ebff;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 100%;
-    overflow: hidden;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #page-pubex-live section .content-section .row .pubex-live-info ol li {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
+  }
+  #edit-page-investor section .form-section .row .form-field {
+    width: 100%;
+    padding: 24px 0;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+    display: flex;
+    background-color: #668547;
+    gap: 8px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+    align-items: center;
+    content: url("../img/icon/check-circle.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+    text-align: center;
+    width: 100%;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit {
+    position: absolute;
+    align-self: self-end;
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+    content: url("../img/icon/edit-ic.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit {
+    cursor: pointer;
+    padding: 12px 0;
+    background-color: #04577c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e9ebff;
+    border: none;
+    width: 179px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+    background-color: #cacefa;
+    cursor: default;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+    display: none;
   }
 }
 @media (min-width: 376px) and (max-width: 467px) {
-  #page-pubex-live {
+  #edit-page-investor {
     font-family: Lato, sans-serif;
   }
-  #page-pubex-live section .content-section {
+  #edit-page-investor section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
-    padding: 16px 0;
   }
-  #page-pubex-live section .content-section .success-edited-alert {
+  #edit-page-investor section .form-section .row {
+    gap: 0px;
+  }
+  #edit-page-investor section .form-section .row .form-desc {
+    padding: 24px 0;
     display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 100%;
-    padding: 8px;
-    border-radius: 5px;
-    margin: 0 auto;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    flex-direction: column;
+    gap: 22px;
+    width: 371px;
   }
-  #page-pubex-live section .content-section .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-pubex-live section .content-section .success-edited-alert.hidden {
-    display: none;
-  }
-  #page-pubex-live section .content-section .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
+    width: max-content;
     border: unset;
     display: flex;
-    margin-top: 26px;
-    margin-bottom: 14px;
-    width: max-content;
     text-decoration: none;
+    align-items: start;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     color: #04577c;
-    align-items: center;
   }
-  #page-pubex-live section .content-section .back-btn::before {
-    padding-top: 4px;
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #page-pubex-live section .content-section .row {
-    gap: 24px;
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+    padding: 24px;
   }
-  #page-pubex-live section .content-section .row .user-profile {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 32px 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    align-self: self-end;
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    gap: 16px 0;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp img {
-    width: 150px;
-    height: 150px;
-    align-self: center;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp .user-type {
-    width: max-content;
-    align-self: center;
-    padding: 4px 12px;
-    border-radius: 5px;
-    background-color: #04577c;
-    color: #e9ebff;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 100%;
-    overflow: hidden;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #page-pubex-live section .content-section .row .pubex-live-info ol li {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
+  }
+  #edit-page-investor section .form-section .row .form-field {
+    width: 100%;
+    padding: 24px 0;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+    display: flex;
+    background-color: #668547;
+    gap: 8px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+    align-items: center;
+    content: url("../img/icon/check-circle.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+    text-align: center;
+    width: 100%;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit {
+    position: absolute;
+    align-self: self-end;
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+    content: url("../img/icon/edit-ic.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit {
+    cursor: pointer;
+    padding: 12px 0;
+    background-color: #04577c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e9ebff;
+    border: none;
+    width: 179px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+    background-color: #cacefa;
+    cursor: default;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+    display: none;
   }
 }
 @media (min-width: 468px) and (max-width: 767px) {
-  #page-pubex-live {
+  #edit-page-investor {
     font-family: Lato, sans-serif;
   }
-  #page-pubex-live section .content-section {
+  #edit-page-investor section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
-    padding: 16px 0;
   }
-  #page-pubex-live section .content-section .success-edited-alert {
+  #edit-page-investor section .form-section .row {
+    gap: 0px;
+  }
+  #edit-page-investor section .form-section .row .form-desc {
+    padding: 24px 0;
     display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 100%;
-    padding: 8px;
-    border-radius: 5px;
-    margin: 0 auto;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    flex-direction: column;
+    gap: 22px;
+    width: 371px;
   }
-  #page-pubex-live section .content-section .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-pubex-live section .content-section .success-edited-alert.hidden {
-    display: none;
-  }
-  #page-pubex-live section .content-section .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
+    width: max-content;
     border: unset;
     display: flex;
-    margin-top: 26px;
-    margin-bottom: 14px;
-    width: max-content;
     text-decoration: none;
+    align-items: start;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     color: #04577c;
-    align-items: center;
   }
-  #page-pubex-live section .content-section .back-btn::before {
-    padding-top: 4px;
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #page-pubex-live section .content-section .row {
-    gap: 24px;
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+    padding: 24px;
   }
-  #page-pubex-live section .content-section .row .user-profile {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 32px 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    align-self: self-end;
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    gap: 16px 0;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp img {
-    width: 150px;
-    height: 150px;
-    align-self: center;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp .user-type {
-    width: max-content;
-    align-self: center;
-    padding: 4px 12px;
-    border-radius: 5px;
-    background-color: #04577c;
-    color: #e9ebff;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 100%;
-    overflow: hidden;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #page-pubex-live section .content-section .row .pubex-live-info ol li {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
   }
-}
-@media (min-width: 768px) and (max-width: 1075px) {
-  #page-pubex-live {
-    font-family: Lato, sans-serif;
-  }
-  #page-pubex-live section .content-section {
-    min-height: 100vh;
+  #edit-page-investor section .form-section .row .form-field {
     width: 100%;
-    margin-bottom: 41px;
-    padding: 32px 0;
+    padding: 24px 0;
   }
-  #page-pubex-live section .content-section .success-edited-alert {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
     display: flex;
     background-color: #668547;
     gap: 8px;
-    width: 70%;
-    padding: 8px;
+    width: 100%;
     border-radius: 5px;
-    margin: 0 auto;
+    padding: 8px;
     color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
   }
-  #page-pubex-live section .content-section .success-edited-alert::before {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
     align-items: center;
     content: url("../img/icon/check-circle.png");
   }
-  #page-pubex-live section .content-section .success-edited-alert.hidden {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
     display: none;
   }
-  #page-pubex-live section .content-section .back-btn {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+    text-align: center;
+    width: 100%;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit {
+    position: absolute;
+    align-self: self-end;
     cursor: pointer;
     background-color: transparent;
     border: unset;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+    content: url("../img/icon/edit-ic.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit {
+    cursor: pointer;
+    padding: 12px 0;
+    background-color: #04577c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e9ebff;
+    border: none;
+    width: 179px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+    background-color: #cacefa;
+    cursor: default;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1075px) {
+  #edit-page-investor {
+    font-family: Lato, sans-serif;
+  }
+  #edit-page-investor section .form-section {
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 41px;
+  }
+  #edit-page-investor section .form-section .row {
+    gap: 24px;
+  }
+  #edit-page-investor section .form-section .row .form-desc {
+    padding: 24px 0;
     display: flex;
-    margin-top: 26px;
-    margin-bottom: 14px;
+    flex-direction: column;
+    gap: 22px;
+    width: 371px;
+  }
+  #edit-page-investor section .form-section .row .form-desc .back-btn {
+    cursor: pointer;
+    background-color: transparent;
     width: max-content;
+    border: unset;
+    display: flex;
     text-decoration: none;
+    align-items: start;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     color: #04577c;
-    align-items: center;
   }
-  #page-pubex-live section .content-section .back-btn::before {
-    padding-top: 4px;
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #page-pubex-live section .content-section .row {
-    gap: 24px;
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+    padding: 24px;
   }
-  #page-pubex-live section .content-section .row .user-profile {
-    display: flex;
-    flex-direction: column;
-    width: 481px;
-    padding: 32px 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    align-self: self-end;
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    gap: 16px 0;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp img {
-    width: 150px;
-    height: 150px;
-    align-self: center;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp .user-type {
-    width: max-content;
-    align-self: center;
-    padding: 4px 12px;
-    border-radius: 5px;
-    background-color: #04577c;
-    color: #e9ebff;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 100%;
-    overflow: hidden;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #page-pubex-live section .content-section .row .pubex-live-info ol li {
-    font-size: 16px;
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
+  }
+  #edit-page-investor section .form-section .row .form-field {
+    width: 100%;
+    padding: 24px 0;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 11px;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+    display: flex;
+    background-color: #668547;
+    gap: 8px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+    align-items: center;
+    content: url("../img/icon/check-circle.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0;
+    width: 100%;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+    text-align: center;
+    width: 100%;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit {
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+    content: url("../img/icon/edit-ic.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit {
+    cursor: pointer;
+    padding: 12px 0;
+    background-color: #04577c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e9ebff;
+    border: none;
+    width: 179px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+    background-color: #cacefa;
+    cursor: default;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+    display: none;
   }
 }
 @media (min-width: 1076px) and (max-width: 1919px) {
-  #page-pubex-live {
+  #edit-page-investor {
     font-family: Lato, sans-serif;
   }
-  #page-pubex-live section .content-section {
+  #edit-page-investor section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
-    padding: 32px 0;
   }
-  #page-pubex-live section .content-section .success-edited-alert {
+  #edit-page-investor section .form-section .row {
+    gap: 24px;
+  }
+  #edit-page-investor section .form-section .row .form-desc {
+    padding: 24px 0;
     display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 70%;
-    padding: 8px;
-    border-radius: 5px;
-    margin: 0 auto;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    flex-direction: column;
+    gap: 22px;
+    width: 371px;
   }
-  #page-pubex-live section .content-section .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-pubex-live section .content-section .success-edited-alert.hidden {
-    display: none;
-  }
-  #page-pubex-live section .content-section .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
+    width: max-content;
     border: unset;
     display: flex;
-    margin-top: 26px;
-    margin-bottom: 14px;
-    width: max-content;
     text-decoration: none;
+    align-items: start;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     color: #04577c;
-    align-items: center;
   }
-  #page-pubex-live section .content-section .back-btn::before {
-    padding-top: 4px;
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #page-pubex-live section .content-section .row {
-    gap: 24px;
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+    padding: 24px;
   }
-  #page-pubex-live section .content-section .row .user-profile {
-    display: flex;
-    flex-direction: column;
-    width: 481px;
-    padding: 32px 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    align-self: self-end;
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    gap: 16px 0;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp img {
-    width: 150px;
-    height: 150px;
-    align-self: center;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp .user-type {
-    width: max-content;
-    align-self: center;
-    padding: 4px 12px;
-    border-radius: 5px;
-    background-color: #04577c;
-    color: #e9ebff;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 100%;
-    overflow: hidden;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #page-pubex-live section .content-section .row .pubex-live-info ol li {
-    font-size: 16px;
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
+  }
+  #edit-page-investor section .form-section .row .form-field {
+    width: 100%;
+    padding: 24px 0;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 11px;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+    display: flex;
+    background-color: #668547;
+    gap: 8px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+    align-items: center;
+    content: url("../img/icon/check-circle.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0;
+    width: 100%;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+    text-align: center;
+    width: 100%;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit {
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+    content: url("../img/icon/edit-ic.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit {
+    cursor: pointer;
+    padding: 12px 0;
+    background-color: #04577c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e9ebff;
+    border: none;
+    width: 179px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+    background-color: #cacefa;
+    cursor: default;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+    display: none;
   }
 }
 @media (min-width: 1920px) {
-  #page-pubex-live {
+  #edit-page-investor {
     font-family: Lato, sans-serif;
   }
-  #page-pubex-live section .content-section {
+  #edit-page-investor section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
-    padding: 32px 0;
   }
-  #page-pubex-live section .content-section .success-edited-alert {
+  #edit-page-investor section .form-section .row {
+    gap: 24px;
+  }
+  #edit-page-investor section .form-section .row .form-desc {
+    padding: 24px 0;
     display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 70%;
-    padding: 8px;
-    border-radius: 5px;
-    margin: 0 auto;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    flex-direction: column;
+    gap: 22px;
+    width: 371px;
   }
-  #page-pubex-live section .content-section .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-pubex-live section .content-section .success-edited-alert.hidden {
-    display: none;
-  }
-  #page-pubex-live section .content-section .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
+    width: max-content;
     border: unset;
     display: flex;
-    margin-top: 26px;
-    margin-bottom: 14px;
-    width: max-content;
     text-decoration: none;
+    align-items: start;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     color: #04577c;
-    align-items: center;
   }
-  #page-pubex-live section .content-section .back-btn::before {
-    padding-top: 4px;
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #page-pubex-live section .content-section .row {
-    gap: 24px;
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+    padding: 24px;
   }
-  #page-pubex-live section .content-section .row .user-profile {
-    display: flex;
-    flex-direction: column;
-    width: 481px;
-    padding: 32px 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    align-self: self-end;
-  }
-  #page-pubex-live section .content-section .row .user-profile .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    gap: 16px 0;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp img {
-    width: 150px;
-    height: 150px;
-    align-self: center;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp .user-type {
-    width: max-content;
-    align-self: center;
-    padding: 4px 12px;
-    border-radius: 5px;
-    background-color: #04577c;
-    color: #e9ebff;
-  }
-  #page-pubex-live section .content-section .row .user-profile .profile-wrapp p {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 100%;
-    overflow: hidden;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info h2 {
-    color: #04577c;
-  }
-  #page-pubex-live section .content-section .row .pubex-live-info ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #page-pubex-live section .content-section .row .pubex-live-info ol li {
-    font-size: 16px;
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
+  }
+  #edit-page-investor section .form-section .row .form-field {
+    width: 100%;
+    padding: 24px 0;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 11px;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+    display: flex;
+    background-color: #668547;
+    gap: 8px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+    align-items: center;
+    content: url("../img/icon/check-circle.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0;
+    width: 100%;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+    text-align: center;
+    width: 100%;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+    display: none;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit {
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+    content: url("../img/icon/edit-ic.png");
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit {
+    cursor: pointer;
+    padding: 12px 0;
+    background-color: #04577c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e9ebff;
+    border: none;
+    width: 179px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+    background-color: #cacefa;
+    cursor: default;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+    display: none;
   }
 }
 #page-emiten nav,

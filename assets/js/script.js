@@ -134,24 +134,26 @@
 		// Input Tags Section
 			// Displaying Tag
 			$(".bootstrap-tagsinput").click(()=>{
-				let content= []
-				$(".bootstrap-tagsinput").css("border-color", "#04577c")
-				dataSekuritas.forEach((data) => {
-					content.push(`<li class="data-list" data-value="${data.name}" data-id="${data.id}">${data.name}</li>`)
-				})
-
-				// dropdown hidde after clicking outframe dropdown
-				// $(window).click((e) => {
-				// 	if (e.target !== $(".bootstrap-tagsinput").get(0)){
-				// 		$(".wrapp-list-sekuritas").html(``)
-				// 	}
-				// })
-
-				return $(".wrapp-list-sekuritas").html(`
-					<div class="list-sekuritas">
-						<ul>${content.join("")}</ul>
-					</div>
-				`)
+				if ($("#page-investor").length > 0) {
+					let content= []
+					$(".bootstrap-tagsinput").css("border-color", "#04577c")
+					dataSekuritas.forEach((data) => {
+						content.push(`<li class="data-list" data-value="${data.name}" data-id="${data.id}">${data.name}</li>`)
+					})
+	
+					// dropdown hidde after clicking outframe dropdown
+					// $(window).click((e) => {
+					// 	if (e.target !== $(".bootstrap-tagsinput").get(0)){
+					// 		$(".wrapp-list-sekuritas").html(``)
+					// 	}
+					// })
+	
+					return $(".wrapp-list-sekuritas").html(`
+						<div class="list-sekuritas">
+							<ul>${content.join("")}</ul>
+						</div>
+					`)
+				} 
 			})
 
 			// Set Tag			
@@ -391,9 +393,48 @@
 				})
 			});
 		} else if ($("body").has("#edit-page-investor").length >0){
+			$(".btn-edit").click(() => {
+				// Show submit button
+				$(".btn-submit").removeClass("hidden")
+				// Change title form
+				$("h1").text("Edit Data Saya")
+				$(".bootstrap-tagsinput").css("border-color", "#5dcad1")
+				$(".bootstrap-tagsinput").css("cursor", "pointer")
+				
+				// Enable edit field
+				$("input").attr("disabled", false)
+				$("select").attr("disabled", false)
+				$("select").attr("disabled", false)
+				
+				$("option").each(function(i, el) {
+					if (i == 0) {
+						$(el).css("display", "none")
+					}
+				})
+
+				$("textarea").attr("disabled", false)
+				$("#file-input").attr("type", "file")
+				
+				$(".btn-edit").css("display", "none")
+
+				$(".bootstrap-tagsinput").click(()=>{
+						let content= []
+						$(".bootstrap-tagsinput").css("border-color", "#04577c")
+						dataSekuritas.forEach((data) => {
+							content.push(`<li class="data-list" data-value="${data.name}" data-id="${data.id}">${data.name}</li>`)
+						})
+						return $(".wrapp-list-sekuritas").html(`
+							<div class="list-sekuritas">
+								<ul>${content.join("")}</ul>
+							</div>
+						`)
+				})
+			})
 			// Edit Investor section
 			$("#jenis-kelamin").css("color", "#04577c")
 			$("#tipe-pengunjung").css("color", "#04577c")
+			$(".bootstrap-tagsinput").css("cursor", "default")
+			$(".bootstrap-tagsinput").css("border-color", "#04577c")
 
 			$("#nama").val("Revina Priagung")
 			$("#alamat").text("Bogor")
@@ -440,6 +481,7 @@
 	// My Submissions Section
 		const setDisabledForm = () => {
 			$(".btn-submit").addClass("hidden")
+			$(".bootstrap-tagsinput").css("border-color", "#04577c")
 			// Change to default title
 			$("h1").text("Data Perusahaan")
 			// Disable edit field
@@ -449,6 +491,11 @@
 
 			$("textarea").attr("disabled", true)
 			$("#file-input").attr("type", "text")
+
+			$(".bootstrap-tagsinput").css("cursor", "default")
+			$(".bootstrap-tagsinput").click(()=>{
+				return $(".wrapp-list-sekuritas").html(``)
+			});
 
 			// Set value refrence database
 			$("#file-input").val("nama-file-di-db")
@@ -472,6 +519,7 @@
 				$(".btn-submit").removeClass("hidden")
 				// Change title form
 				$("h1").text("Edit Data Perusahaan")
+				
 				// Enable edit field
 				$("input").attr("disabled", false)
 				$("select").attr("disabled", false)
@@ -586,7 +634,7 @@
 					$(".progressBar-wrapp").css("display", "none");
 					setDisabledForm()
 				} else if($("body").has("#edit-page-investor").length >0){
-					window.location.href = "pubex-live-page.html?edited";
+					setDisabledForm()
 				}
 			
 		});

@@ -1,0 +1,11 @@
+@include media.xl {
+  .btn-edit {
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+    align-self: self-end;
+    .ic-edit {
+      content: url("../img/icon/edit-ic.png");
+    }
+  }
+}

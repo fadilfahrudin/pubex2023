@@ -34,7 +34,7 @@
             <a class="user-action" href="my-submission-page.html"
               >Data Perusahaan</a
             >
-            <a class="user-action" href="pubex-live-page.html">Data Saya</a>
+            <a class="user-action" href="edit-form-investor.html">Data Saya</a>
             <a href="index.html" class="user-action">Keluar</a>
           </div>
         </div>
@@ -43,148 +43,150 @@
       <!-- Form Section -->
       <section class="container">
         <div class="form-section">
-          <a class="back-btn" type="button" href="index.html">Beranda</a>
           <div class="row">
             <!-- Form Description -->
             <div class="form-desc">
-              <h2>Kriteria</h2>
-              <ol>
-                <li>Semua field wajib diisi</li>
-                <li>
-                  Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
-                  dignissim, metus nec fringilla accumsan, risus sem
-                  sollicitudin lacus, ut interdum tellus elit sed risus.
-                </li>
-                <li>
-                  Maecenas eget condimentum velit, sit amet feugiat lectus.
-                </li>
-                <li>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-                </li>
-                <li>
-                  Praesent auctor purus luctus enim egestas, ac scelerisque ante
-                  pulvinar.
-                </li>
-              </ol>
+              <a class="back-btn" href="index.html">Beranda</a>
+              <div class="form-desc-wrapper">
+                <h2>Kriteria</h2>
+                <ol>
+                  <li>
+                    Pengunjung melakukan pendaftaran melalui website PUBEX LIVE
+                    2023.
+                  </li>
+                  <li>
+                    Setelah mendaftar, pengunjung dapat memilih untuk
+                    menyaksikan sesi presentasi dari perusahaan tercatat.
+                  </li>
+                  <li>
+                    Beberapa data auto filled by orion dan tidak dapat diubah,
+                    jika ingin mengubah data maka dapat dilakukan di
+                    orion.mncportal.id
+                  </li>
+                </ol>
+              </div>
             </div>
 
             <!-- Form Field -->
             <form id="form-field" class="form-field">
-              <h1>Edit Profil</h1>
-              <div class="form-group">
-                <label for="nama">Nama</label>
-                <input
-                  class="form-input"
-                  type="text"
-                  name="nama"
-                  id="nama"
-                  value=""
-                  placeholder="Nama" />
+              <div class="alert-wrapper">
+                <!-- Set hidden class for hide alert -->
+                <div class="success-edited-alert hidden">
+                  Data berhasil diedit
+                </div>
               </div>
-              <div class="form-group">
-                <label for="alamat">Alamat</label>
-                <textarea
-                  class="form-area"
-                  name="alamat"
-                  id="alamat"
-                  placeholder="Alamat"></textarea>
-              </div>
-              <div class="row">
-                <div class="form-group">
-                  <label for="ttl">Tanggal Lahir</label>
-                  <input
-                    class="form-input"
-                    type="date"
-                    name="ttl"
-                    id="ttl"
-                    value="" />
+              <div class="form-wrapper">
+                <div class="row">
+                  <h1>Data Saya</h1>
+                  <button type="button" class="btn-edit">
+                    <i class="ic-edit"></i>
+                  </button>
                 </div>
                 <div class="form-group">
-                  <label for="jenis-kelamin">Jenis Kelamin</label>
+                  <label for="nama">Nama</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="nama"
+                    id="nama"
+                    disabled />
+                </div>
+                <div class="row">
+                  <div class="form-group">
+                    <label for="no-tel">No. telepon</label>
+                    <input
+                      class="form-input"
+                      type="number"
+                      name="no-tel"
+                      id="no-tel"
+                      disabled />
+                  </div>
+                  <div class="form-group">
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input
+                        class="form-input"
+                        type="email"
+                        name="email"
+                        id="email"
+                        disabled />
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="tipe-pengunjung">Tipe Pengunjung</label>
                   <div id="act-select" class="form-select">
-                    <select name="jenis-kelamin" id="jenis-kelamin">
-                      <option value="0">Jenis Kelamin</option>
-                      <option value="laki-laki">Laki-Laki</option>
-                      <option value="perempuan">Perempuan</option>
+                    <select
+                      name="tipe-pengunjung"
+                      id="tipe-pengunjung"
+                      disabled>
+                      <option value="0"></option>
+                      <option value="investor">Investor</option>
+                      <option value="media">Media</option>
+                      <option value="umum">Umum</option>
                     </select>
                   </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="nik">NIK</label>
-                <input
-                  class="form-input"
-                  type="number"
-                  name="nik"
-                  id="nik"
-                  value=""
-                  placeholder="nik" />
-              </div>
-              <div class="row">
-                <div class="form-group">
-                  <label for="no-tel">No. telepon</label>
-                  <input
-                    class="form-input"
-                    type="number"
-                    name="no-tel"
-                    id="no-tel"
-                    value=""
-                    placeholder="No. telepon" />
-                </div>
-                <div class="form-group">
+                <div id="sekuritas-terdaftar-active">
                   <div class="form-group">
-                    <label for="email">Email</label>
+                    <label for="sekuritas-terdaftar">Sekuritas Terdaftar</label>
                     <input
+                      autocomplete="off"
                       class="form-input"
-                      type="email"
-                      name="email"
-                      id="email"
+                      type="text"
                       value=""
-                      placeholder="Email" />
+                      id="sekuritas-terdaftar"
+                      data-role="tagsinput"
+                      data-value=""
+                      name="sekuritas-terdaftar"
+                      disabled />
+                  </div>
+                  <div class="wrapp-list-sekuritas"></div>
+                </div>
+                <div id="tipe-media-active">
+                  <div class="form-group">
+                    <label for="tipe-media">Asal Media</label>
+                    <input
+                      autocomplete="off"
+                      class="form-input"
+                      type="text"
+                      value=""
+                      id="tipe-media"
+                      name="tipe-media"
+                      disabled />
                   </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="tipe-pengunjung">Tipe Pengunjung</label>
-                <div id="act-select" class="form-select">
-                  <select name="tipe-pengunjung" id="tipe-pengunjung">
-                    <option value="0">Tipe Pengunjung</option>
-                    <option value="investor">Investor</option>
-                    <option value="media">Media</option>
-                    <option value="umum">Umum</option>
-                  </select>
+                <!-- Tipe Umum -->
+                <div id="tipe-umum-active">
+                  <div class="form-group">
+                    <label for="umum"
+                      >Nama Perusahaan, Sekolah, atau Institusi
+                    </label>
+                    <input
+                      autocomplete="off"
+                      class="form-input"
+                      type="text"
+                      value=""
+                      id="umum"
+                      name="umum"
+                      disabled />
+                  </div>
+                  <br />
+                  <div class="form-group">
+                    <label for="sid">SID</label>
+                    <input
+                      autocomplete="off"
+                      class="form-input"
+                      type="number"
+                      value=""
+                      id="sid"
+                      name="sid"
+                      disabled />
+                  </div>
                 </div>
+                <!-- Punya class hidden -->
+                <button class="btn-submit hidden" type="submit">Save</button>
               </div>
-              <div id="sekuritas-terdaftar-active">
-                <div class="form-group">
-                  <label for="sekuritas-terdaftar">Sekuritas Terdaftar</label>
-                  <input
-                    autocomplete="off"
-                    class="form-input"
-                    type="text"
-                    value=""
-                    id="sekuritas-terdaftar"
-                    data-role="tagsinput"
-                    data-value=""
-                    name="sekuritas-terdaftar" />
-                </div>
-                <div class="wrapp-list-sekuritas"></div>
-              </div>
-              <div id="tipe-media-active">
-                <div class="form-group">
-                  <label for="tipe-media">Asal Media</label>
-                  <input
-                    autocomplete="off"
-                    class="form-input"
-                    type="text"
-                    value=""
-                    id="tipe-media"
-                    name="tipe-media" />
-                </div>
-                <div class="wrapp-list-sekuritas"></div>
-              </div>
-              <button class="btn-submit" type="submit">Save</button>
             </form>
           </div>
         </div>

@@ -1,6 +1,5 @@
 @include media.xs {
-  #page-investor,
-  #edit-page-investor {
+  #page-investor {
     font-family: Lato, sans-serif;
     section {
       .form-section {
@@ -81,11 +80,11 @@
                       width: 5px;
                     }
                     &::-webkit-scrollbar-track {
-                      background-color: #ffe4da;
+                      background-color: $color-light;
                       border-radius: 6px;
                     }
                     &::-webkit-scrollbar-thumb {
-                      background-color: #eb8455;
+                      background-color: $color-primary;
                       border-radius: 6px;
                     }
                     li {
@@ -142,8 +141,7 @@
   }
 }
 @include media.sm {
-  #page-investor,
-  #edit-page-investor {
+  #page-investor {
     font-family: Lato, sans-serif;
     section {
       .form-section {
@@ -224,11 +222,11 @@
                       width: 5px;
                     }
                     &::-webkit-scrollbar-track {
-                      background-color: #ffe4da;
+                      background-color: $color-light;
                       border-radius: 6px;
                     }
                     &::-webkit-scrollbar-thumb {
-                      background-color: #eb8455;
+                      background-color: $color-primary;
                       border-radius: 6px;
                     }
                     li {
@@ -285,8 +283,7 @@
   }
 }
 @include media.md {
-  #page-investor,
-  #edit-page-investor {
+  #page-investor {
     font-family: Lato, sans-serif;
     section {
       .form-section {
@@ -367,11 +364,11 @@
                       width: 5px;
                     }
                     &::-webkit-scrollbar-track {
-                      background-color: #ffe4da;
+                      background-color: $color-light;
                       border-radius: 6px;
                     }
                     &::-webkit-scrollbar-thumb {
-                      background-color: #eb8455;
+                      background-color: $color-primary;
                       border-radius: 6px;
                     }
                     li {
@@ -428,8 +425,7 @@
   }
 }
 @include media.lg {
-  #page-investor,
-  #edit-page-investor {
+  #page-investor {
     font-family: Lato, sans-serif;
     section {
       .form-section {
@@ -510,11 +506,11 @@
                       width: 5px;
                     }
                     &::-webkit-scrollbar-track {
-                      background-color: #ffe4da;
+                      background-color: $color-light;
                       border-radius: 6px;
                     }
                     &::-webkit-scrollbar-thumb {
-                      background-color: #eb8455;
+                      background-color: $color-primary;
                       border-radius: 6px;
                     }
                     li {
@@ -571,8 +567,7 @@
   }
 }
 @include media.xl {
-  #page-investor,
-  #edit-page-investor {
+  #page-investor {
     font-family: Lato, sans-serif;
     section {
       .form-section {
@@ -714,8 +709,7 @@
   }
 }
 @include media.xxl {
-  #page-investor,
-  #edit-page-investor {
+  #page-investor {
     font-family: Lato, sans-serif;
     section {
       .form-section {
@@ -796,11 +790,11 @@
                       width: 5px;
                     }
                     &::-webkit-scrollbar-track {
-                      background-color: #ffe4da;
+                      background-color: $color-light;
                       border-radius: 6px;
                     }
                     &::-webkit-scrollbar-thumb {
-                      background-color: #eb8455;
+                      background-color: $color-primary;
                       border-radius: 6px;
                     }
                     li {
