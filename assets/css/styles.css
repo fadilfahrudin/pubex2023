@@ -629,715 +629,6 @@ p {
   }
 }
 @media (max-width: 375px) {
-  #page-my-submission {
-    font-family: Lato, sans-serif;
-  }
-  #page-my-submission section .form-section {
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 41px;
-  }
-  #page-my-submission section .form-section .row {
-    gap: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 371px;
-    padding: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol {
-    margin: 0;
-    padding: 0 14px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol li {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .row .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 24px 0;
-    width: 100%;
-    padding: 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-my-submission section .form-section .row .form-field h1 {
-    text-align: center;
-    width: 100%;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit {
-    position: absolute;
-    align-self: self-end;
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit {
-    cursor: pointer;
-    padding: 12px 0;
-    background-color: #04577c;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    color: #e9ebff;
-    border: none;
-    width: 179px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cacefa;
-    cursor: default;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
-    display: none;
-  }
-  #page-my-submission section .form-section .back-and-alert {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 26px;
-    margin-bottom: 14px;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn::before {
-    content: url("../img/icon/arrow-left.png");
-    padding-top: 4px;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert {
-    position: absolute;
-    top: 330px;
-    left: 10%;
-    right: 10%;
-    display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 80%;
-    padding: 8px;
-    border-radius: 5px;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert.hidden {
-    display: none;
-  }
-}
-@media (min-width: 376px) and (max-width: 467px) {
-  #page-my-submission {
-    font-family: Lato, sans-serif;
-  }
-  #page-my-submission section .form-section {
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 41px;
-  }
-  #page-my-submission section .form-section .row {
-    gap: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 371px;
-    padding: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol {
-    margin: 0;
-    padding: 0 14px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol li {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .row .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 24px 0;
-    width: 100%;
-    padding: 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-my-submission section .form-section .row .form-field h1 {
-    text-align: center;
-    width: 100%;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit {
-    position: absolute;
-    align-self: self-end;
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit {
-    cursor: pointer;
-    padding: 12px 0;
-    background-color: #04577c;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    color: #e9ebff;
-    border: none;
-    width: 179px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cacefa;
-    cursor: default;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
-    display: none;
-  }
-  #page-my-submission section .form-section .back-and-alert {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 26px;
-    margin-bottom: 14px;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn::before {
-    content: url("../img/icon/arrow-left.png");
-    padding-top: 4px;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert {
-    position: absolute;
-    top: 330px;
-    left: 10%;
-    right: 10%;
-    display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 80%;
-    padding: 8px;
-    border-radius: 5px;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert.hidden {
-    display: none;
-  }
-}
-@media (min-width: 468px) and (max-width: 767px) {
-  #page-my-submission {
-    font-family: Lato, sans-serif;
-  }
-  #page-my-submission section .form-section {
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 41px;
-  }
-  #page-my-submission section .form-section .row {
-    gap: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 371px;
-    padding: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol {
-    margin: 0;
-    padding: 0 14px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol li {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .row .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 24px 0;
-    width: 100%;
-    padding: 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-my-submission section .form-section .row .form-field h1 {
-    text-align: center;
-    width: 100%;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit {
-    position: absolute;
-    align-self: self-end;
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit {
-    cursor: pointer;
-    padding: 12px 0;
-    background-color: #04577c;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    color: #e9ebff;
-    border: none;
-    width: 179px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cacefa;
-    cursor: default;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
-    display: none;
-  }
-  #page-my-submission section .form-section .back-and-alert {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 26px;
-    margin-bottom: 14px;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn::before {
-    content: url("../img/icon/arrow-left.png");
-    padding-top: 4px;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert {
-    position: absolute;
-    top: 330px;
-    left: 10%;
-    right: 10%;
-    display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 80%;
-    padding: 8px;
-    border-radius: 5px;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert.hidden {
-    display: none;
-  }
-}
-@media (min-width: 768px) and (max-width: 1075px) {
-  #page-my-submission {
-    font-family: Lato, sans-serif;
-  }
-  #page-my-submission section .form-section {
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 41px;
-  }
-  #page-my-submission section .form-section .row {
-    gap: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 371px;
-    padding: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol {
-    margin: 0;
-    padding: 0 14px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol li {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .row .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 24px 0;
-    width: 100%;
-    padding: 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-my-submission section .form-section .row .form-field h1 {
-    text-align: center;
-    width: 100%;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit {
-    cursor: pointer;
-    padding: 12px 0;
-    background-color: #04577c;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #e9ebff;
-    border: none;
-    width: 179px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cacefa;
-    cursor: default;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
-    display: none;
-  }
-  #page-my-submission section .form-section .back-and-alert {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 26px;
-    margin-bottom: 14px;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn {
-    cursor: pointer;
-    background-color: transparent;
-    margin-right: 24%;
-    border: unset;
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn::before {
-    content: url("../img/icon/arrow-left.png");
-    padding-top: 4px;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert {
-    display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 671px;
-    padding: 8px;
-    border-radius: 5px;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert.hidden {
-    display: none;
-  }
-}
-@media (min-width: 1076px) and (max-width: 1919px) {
-  #page-my-submission {
-    font-family: Lato, sans-serif;
-  }
-  #page-my-submission section .form-section {
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 41px;
-  }
-  #page-my-submission section .form-section .row {
-    gap: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 371px;
-    padding: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol {
-    margin: 0;
-    padding: 0 14px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol li {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .row .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 24px 0;
-    width: 100%;
-    padding: 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-my-submission section .form-section .row .form-field h1 {
-    text-align: center;
-    width: 100%;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit {
-    cursor: pointer;
-    padding: 12px 0;
-    background-color: #04577c;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #e9ebff;
-    border: none;
-    width: 179px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cacefa;
-    cursor: default;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
-    display: none;
-  }
-  #page-my-submission section .form-section .back-and-alert {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 26px;
-    margin-bottom: 14px;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn::before {
-    content: url("../img/icon/arrow-left.png");
-    padding-top: 4px;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert {
-    display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 72%;
-    padding: 8px;
-    border-radius: 5px;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert.hidden {
-    display: none;
-  }
-}
-@media (min-width: 1920px) {
-  #page-my-submission {
-    font-family: Lato, sans-serif;
-  }
-  #page-my-submission section .form-section {
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 41px;
-  }
-  #page-my-submission section .form-section .row {
-    gap: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 371px;
-    padding: 24px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol {
-    margin: 0;
-    padding: 0 14px;
-  }
-  #page-my-submission section .form-section .row .form-desc ol li {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .row .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 24px 0;
-    width: 100%;
-    padding: 24px;
-    box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
-  }
-  #page-my-submission section .form-section .row .form-field h1 {
-    text-align: center;
-    width: 100%;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-edit .ic-edit {
-    content: url("../img/icon/edit-ic.png");
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit {
-    cursor: pointer;
-    padding: 12px 0;
-    background-color: #04577c;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #e9ebff;
-    border: none;
-    width: 179px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit:disabled {
-    background-color: #cacefa;
-    cursor: default;
-  }
-  #page-my-submission section .form-section .row .form-field .btn-submit.hidden {
-    display: none;
-  }
-  #page-my-submission section .form-section .back-and-alert {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 26px;
-    margin-bottom: 14px;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: unset;
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    color: #04577c;
-  }
-  #page-my-submission section .form-section .back-and-alert .back-btn::before {
-    content: url("../img/icon/arrow-left.png");
-    padding-top: 4px;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert {
-    display: flex;
-    background-color: #668547;
-    gap: 8px;
-    width: 70%;
-    padding: 8px;
-    border-radius: 5px;
-    color: #e9ebff;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert::before {
-    align-items: center;
-    content: url("../img/icon/check-circle.png");
-  }
-  #page-my-submission section .form-section .back-and-alert .success-edited-alert.hidden {
-    display: none;
-  }
-}
-@media (max-width: 375px) {
   #page-investor {
     font-family: Lato, sans-serif;
   }
@@ -2418,25 +1709,30 @@ p {
   }
 }
 @media (max-width: 375px) {
-  #edit-page-investor {
+  #edit-page-investor,
+  #edit-page-emiten {
     font-family: Lato, sans-serif;
   }
-  #edit-page-investor section .form-section {
+  #edit-page-investor section .form-section,
+  #edit-page-emiten section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
   }
-  #edit-page-investor section .form-section .row {
+  #edit-page-investor section .form-section .row,
+  #edit-page-emiten section .form-section .row {
     gap: 0px;
   }
-  #edit-page-investor section .form-section .row .form-desc {
+  #edit-page-investor section .form-section .row .form-desc,
+  #edit-page-emiten section .form-section .row .form-desc {
     padding: 24px 0;
     display: flex;
     flex-direction: column;
     gap: 22px;
     width: 371px;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
     width: max-content;
@@ -2449,32 +1745,39 @@ p {
     font-weight: 700;
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper {
     padding: 24px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-field {
+  #edit-page-investor section .form-section .row .form-field,
+  #edit-page-emiten section .form-section .row .form-field {
     width: 100%;
     padding: 24px 0;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper {
     width: 100%;
     height: auto;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert {
     display: flex;
     background-color: #668547;
     gap: 8px;
@@ -2487,14 +1790,17 @@ p {
     font-style: normal;
     font-weight: 400;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
     align-items: center;
     content: url("../img/icon/check-circle.png");
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -2503,30 +1809,37 @@ p {
     background-color: #fff;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper h1 {
     text-align: center;
     width: 100%;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-umum-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-media-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit {
     position: absolute;
     align-self: self-end;
     cursor: pointer;
     background-color: transparent;
     border: unset;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit .ic-edit {
     content: url("../img/icon/edit-ic.png");
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
+  #edit-page-investor section .form-section .row .form-field .btn-submit,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -2541,34 +1854,41 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit:disabled {
     background-color: #cacefa;
     cursor: default;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit.hidden {
     display: none;
   }
 }
 @media (min-width: 376px) and (max-width: 467px) {
-  #edit-page-investor {
+  #edit-page-investor,
+  #edit-page-emiten {
     font-family: Lato, sans-serif;
   }
-  #edit-page-investor section .form-section {
+  #edit-page-investor section .form-section,
+  #edit-page-emiten section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
   }
-  #edit-page-investor section .form-section .row {
+  #edit-page-investor section .form-section .row,
+  #edit-page-emiten section .form-section .row {
     gap: 0px;
   }
-  #edit-page-investor section .form-section .row .form-desc {
+  #edit-page-investor section .form-section .row .form-desc,
+  #edit-page-emiten section .form-section .row .form-desc {
     padding: 24px 0;
     display: flex;
     flex-direction: column;
     gap: 22px;
     width: 371px;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
     width: max-content;
@@ -2581,32 +1901,39 @@ p {
     font-weight: 700;
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper {
     padding: 24px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-field {
+  #edit-page-investor section .form-section .row .form-field,
+  #edit-page-emiten section .form-section .row .form-field {
     width: 100%;
     padding: 24px 0;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper {
     width: 100%;
     height: auto;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert {
     display: flex;
     background-color: #668547;
     gap: 8px;
@@ -2619,14 +1946,17 @@ p {
     font-style: normal;
     font-weight: 400;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
     align-items: center;
     content: url("../img/icon/check-circle.png");
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -2635,30 +1965,37 @@ p {
     background-color: #fff;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper h1 {
     text-align: center;
     width: 100%;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-umum-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-media-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit {
     position: absolute;
     align-self: self-end;
     cursor: pointer;
     background-color: transparent;
     border: unset;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit .ic-edit {
     content: url("../img/icon/edit-ic.png");
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
+  #edit-page-investor section .form-section .row .form-field .btn-submit,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -2673,34 +2010,41 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit:disabled {
     background-color: #cacefa;
     cursor: default;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit.hidden {
     display: none;
   }
 }
 @media (min-width: 468px) and (max-width: 767px) {
-  #edit-page-investor {
+  #edit-page-investor,
+  #edit-page-emiten {
     font-family: Lato, sans-serif;
   }
-  #edit-page-investor section .form-section {
+  #edit-page-investor section .form-section,
+  #edit-page-emiten section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
   }
-  #edit-page-investor section .form-section .row {
+  #edit-page-investor section .form-section .row,
+  #edit-page-emiten section .form-section .row {
     gap: 0px;
   }
-  #edit-page-investor section .form-section .row .form-desc {
+  #edit-page-investor section .form-section .row .form-desc,
+  #edit-page-emiten section .form-section .row .form-desc {
     padding: 24px 0;
     display: flex;
     flex-direction: column;
     gap: 22px;
     width: 371px;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
     width: max-content;
@@ -2713,32 +2057,39 @@ p {
     font-weight: 700;
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper {
     padding: 24px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-field {
+  #edit-page-investor section .form-section .row .form-field,
+  #edit-page-emiten section .form-section .row .form-field {
     width: 100%;
     padding: 24px 0;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper {
     width: 100%;
     height: auto;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert {
     display: flex;
     background-color: #668547;
     gap: 8px;
@@ -2751,14 +2102,17 @@ p {
     font-style: normal;
     font-weight: 400;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
     align-items: center;
     content: url("../img/icon/check-circle.png");
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -2767,30 +2121,37 @@ p {
     background-color: #fff;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper h1 {
     text-align: center;
     width: 100%;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-umum-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-media-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit {
     position: absolute;
     align-self: self-end;
     cursor: pointer;
     background-color: transparent;
     border: unset;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit .ic-edit {
     content: url("../img/icon/edit-ic.png");
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
+  #edit-page-investor section .form-section .row .form-field .btn-submit,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -2805,34 +2166,41 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit:disabled {
     background-color: #cacefa;
     cursor: default;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit.hidden {
     display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 1075px) {
-  #edit-page-investor {
+  #edit-page-investor,
+  #edit-page-emiten {
     font-family: Lato, sans-serif;
   }
-  #edit-page-investor section .form-section {
+  #edit-page-investor section .form-section,
+  #edit-page-emiten section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
   }
-  #edit-page-investor section .form-section .row {
+  #edit-page-investor section .form-section .row,
+  #edit-page-emiten section .form-section .row {
     gap: 24px;
   }
-  #edit-page-investor section .form-section .row .form-desc {
+  #edit-page-investor section .form-section .row .form-desc,
+  #edit-page-emiten section .form-section .row .form-desc {
     padding: 24px 0;
     display: flex;
     flex-direction: column;
     gap: 22px;
     width: 371px;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
     width: max-content;
@@ -2845,33 +2213,40 @@ p {
     font-weight: 700;
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper {
     padding: 24px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-field {
+  #edit-page-investor section .form-section .row .form-field,
+  #edit-page-emiten section .form-section .row .form-field {
     width: 100%;
     padding: 24px 0;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper {
     width: 100%;
     height: 40px;
     margin-bottom: 11px;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert {
     display: flex;
     background-color: #668547;
     gap: 8px;
@@ -2884,14 +2259,17 @@ p {
     font-style: normal;
     font-weight: 400;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
     align-items: center;
     content: url("../img/icon/check-circle.png");
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper {
     display: flex;
     flex-direction: column;
     gap: 24px 0;
@@ -2900,28 +2278,35 @@ p {
     background-color: #fff;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper h1 {
     text-align: center;
     width: 100%;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-umum-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-media-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit {
     cursor: pointer;
     background-color: transparent;
     border: unset;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit .ic-edit {
     content: url("../img/icon/edit-ic.png");
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
+  #edit-page-investor section .form-section .row .form-field .btn-submit,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -2936,34 +2321,41 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit:disabled {
     background-color: #cacefa;
     cursor: default;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit.hidden {
     display: none;
   }
 }
 @media (min-width: 1076px) and (max-width: 1919px) {
-  #edit-page-investor {
+  #edit-page-investor,
+  #edit-page-emiten {
     font-family: Lato, sans-serif;
   }
-  #edit-page-investor section .form-section {
+  #edit-page-investor section .form-section,
+  #edit-page-emiten section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
   }
-  #edit-page-investor section .form-section .row {
+  #edit-page-investor section .form-section .row,
+  #edit-page-emiten section .form-section .row {
     gap: 24px;
   }
-  #edit-page-investor section .form-section .row .form-desc {
+  #edit-page-investor section .form-section .row .form-desc,
+  #edit-page-emiten section .form-section .row .form-desc {
     padding: 24px 0;
     display: flex;
     flex-direction: column;
     gap: 22px;
     width: 371px;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
     width: max-content;
@@ -2976,33 +2368,40 @@ p {
     font-weight: 700;
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper {
     padding: 24px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-field {
+  #edit-page-investor section .form-section .row .form-field,
+  #edit-page-emiten section .form-section .row .form-field {
     width: 100%;
     padding: 24px 0;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper {
     width: 100%;
     height: 40px;
     margin-bottom: 11px;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert {
     display: flex;
     background-color: #668547;
     gap: 8px;
@@ -3015,14 +2414,17 @@ p {
     font-style: normal;
     font-weight: 400;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
     align-items: center;
     content: url("../img/icon/check-circle.png");
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper {
     display: flex;
     flex-direction: column;
     gap: 24px 0;
@@ -3031,28 +2433,91 @@ p {
     background-color: #fff;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper h1 {
     text-align: center;
     width: 100%;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-umum-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-media-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas {
+    margin-top: 8px;
+    width: max-content;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas {
+    border: 2px solid #5dcad1;
+    width: 197px;
+    height: 162px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+    gap: 4px;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar {
+    width: 5px;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-track {
+    background-color: #e9ebff;
+    border-radius: 6px;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul::-webkit-scrollbar-thumb {
+    background-color: #04577c;
+    border-radius: 6px;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li {
+    list-style: none;
+    padding: 4px 12px;
+    cursor: pointer;
+    width: 98%;
+    border-radius: 5px;
+    color: #04577c;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
+    background-color: #04577c;
+    color: #e9ebff;
+  }
+  #edit-page-investor section .form-section .row .form-field .btn-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit {
     cursor: pointer;
     background-color: transparent;
     border: unset;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit .ic-edit {
     content: url("../img/icon/edit-ic.png");
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
+  #edit-page-investor section .form-section .row .form-field .btn-submit,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -3067,34 +2532,41 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit:disabled {
     background-color: #cacefa;
     cursor: default;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit.hidden {
     display: none;
   }
 }
 @media (min-width: 1920px) {
-  #edit-page-investor {
+  #edit-page-investor,
+  #edit-page-emiten {
     font-family: Lato, sans-serif;
   }
-  #edit-page-investor section .form-section {
+  #edit-page-investor section .form-section,
+  #edit-page-emiten section .form-section {
     min-height: 100vh;
     width: 100%;
     margin-bottom: 41px;
   }
-  #edit-page-investor section .form-section .row {
+  #edit-page-investor section .form-section .row,
+  #edit-page-emiten section .form-section .row {
     gap: 24px;
   }
-  #edit-page-investor section .form-section .row .form-desc {
+  #edit-page-investor section .form-section .row .form-desc,
+  #edit-page-emiten section .form-section .row .form-desc {
     padding: 24px 0;
     display: flex;
     flex-direction: column;
     gap: 22px;
     width: 371px;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn {
+  #edit-page-investor section .form-section .row .form-desc .back-btn,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn {
     cursor: pointer;
     background-color: transparent;
     width: max-content;
@@ -3107,33 +2579,40 @@ p {
     font-weight: 700;
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-desc .back-btn::before {
+  #edit-page-investor section .form-section .row .form-desc .back-btn::before,
+  #edit-page-emiten section .form-section .row .form-desc .back-btn::before {
     content: url("../img/icon/arrow-left.png");
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper {
     padding: 24px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol {
     margin: 0;
     padding: 0 14px;
   }
-  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li {
+  #edit-page-investor section .form-section .row .form-desc .form-desc-wrapper ol li,
+  #edit-page-emiten section .form-section .row .form-desc .form-desc-wrapper ol li {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
     color: #04577c;
   }
-  #edit-page-investor section .form-section .row .form-field {
+  #edit-page-investor section .form-section .row .form-field,
+  #edit-page-emiten section .form-section .row .form-field {
     width: 100%;
     padding: 24px 0;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper {
     width: 100%;
     height: 40px;
     margin-bottom: 11px;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert {
     display: flex;
     background-color: #668547;
     gap: 8px;
@@ -3146,14 +2625,17 @@ p {
     font-style: normal;
     font-weight: 400;
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert::before,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert::before {
     align-items: center;
     content: url("../img/icon/check-circle.png");
   }
-  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
+  #edit-page-investor section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden,
+  #edit-page-emiten section .form-section .row .form-field .alert-wrapper .success-edited-alert.hidden {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper {
     display: flex;
     flex-direction: column;
     gap: 24px 0;
@@ -3162,28 +2644,35 @@ p {
     background-color: #fff;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper h1 {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper h1,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper h1 {
     text-align: center;
     width: 100%;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-umum-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-umum-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #tipe-media-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #tipe-media-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
+  #edit-page-investor section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active,
+  #edit-page-emiten section .form-section .row .form-field .form-wrapper #sekuritas-terdaftar-active {
     display: none;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit {
     cursor: pointer;
     background-color: transparent;
     border: unset;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit {
+  #edit-page-investor section .form-section .row .form-field .btn-edit .ic-edit,
+  #edit-page-emiten section .form-section .row .form-field .btn-edit .ic-edit {
     content: url("../img/icon/edit-ic.png");
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit {
+  #edit-page-investor section .form-section .row .form-field .btn-submit,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -3198,18 +2687,20 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled {
+  #edit-page-investor section .form-section .row .form-field .btn-submit:disabled,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit:disabled {
     background-color: #cacefa;
     cursor: default;
   }
-  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden {
+  #edit-page-investor section .form-section .row .form-field .btn-submit.hidden,
+  #edit-page-emiten section .form-section .row .form-field .btn-submit.hidden {
     display: none;
   }
 }
 #page-emiten nav,
 #page-investor nav,
 #page-success-registration nav,
-#page-my-submission nav,
+#edit-page-emiten nav,
 #page-pubex-live nav,
 #edit-page-investor nav {
   background-color: #04577c;
@@ -3218,7 +2709,7 @@ p {
 #page-emiten nav .navigation,
 #page-investor nav .navigation,
 #page-success-registration nav .navigation,
-#page-my-submission nav .navigation,
+#edit-page-emiten nav .navigation,
 #page-pubex-live nav .navigation,
 #edit-page-investor nav .navigation {
   position: relative;
@@ -3234,7 +2725,7 @@ p {
 #page-emiten nav .navigation .nav-brand,
 #page-investor nav .navigation .nav-brand,
 #page-success-registration nav .navigation .nav-brand,
-#page-my-submission nav .navigation .nav-brand,
+#edit-page-emiten nav .navigation .nav-brand,
 #page-pubex-live nav .navigation .nav-brand,
 #edit-page-investor nav .navigation .nav-brand {
   cursor: default;
@@ -3242,7 +2733,7 @@ p {
 #page-emiten nav .navigation .user-dropdown,
 #page-investor nav .navigation .user-dropdown,
 #page-success-registration nav .navigation .user-dropdown,
-#page-my-submission nav .navigation .user-dropdown,
+#edit-page-emiten nav .navigation .user-dropdown,
 #page-pubex-live nav .navigation .user-dropdown,
 #edit-page-investor nav .navigation .user-dropdown {
   display: flex;
@@ -3256,7 +2747,7 @@ p {
 #page-emiten nav .navigation .user-dropdown img,
 #page-investor nav .navigation .user-dropdown img,
 #page-success-registration nav .navigation .user-dropdown img,
-#page-my-submission nav .navigation .user-dropdown img,
+#edit-page-emiten nav .navigation .user-dropdown img,
 #page-pubex-live nav .navigation .user-dropdown img,
 #edit-page-investor nav .navigation .user-dropdown img {
   width: 40px;
@@ -3266,7 +2757,7 @@ p {
 #page-emiten nav .navigation .user-dropdown .drop-down-ic,
 #page-investor nav .navigation .user-dropdown .drop-down-ic,
 #page-success-registration nav .navigation .user-dropdown .drop-down-ic,
-#page-my-submission nav .navigation .user-dropdown .drop-down-ic,
+#edit-page-emiten nav .navigation .user-dropdown .drop-down-ic,
 #page-pubex-live nav .navigation .user-dropdown .drop-down-ic,
 #edit-page-investor nav .navigation .user-dropdown .drop-down-ic {
   content: url("../img/icon/arrow_drop_down.png");
@@ -3276,7 +2767,7 @@ p {
 #page-emiten nav .navigation .user-dropdown .active,
 #page-investor nav .navigation .user-dropdown .active,
 #page-success-registration nav .navigation .user-dropdown .active,
-#page-my-submission nav .navigation .user-dropdown .active,
+#edit-page-emiten nav .navigation .user-dropdown .active,
 #page-pubex-live nav .navigation .user-dropdown .active,
 #edit-page-investor nav .navigation .user-dropdown .active {
   content: url("../img/icon/arrow_drop_down.png");
@@ -3287,7 +2778,7 @@ p {
 #page-emiten nav .navigation .user-dropdown.hidden,
 #page-investor nav .navigation .user-dropdown.hidden,
 #page-success-registration nav .navigation .user-dropdown.hidden,
-#page-my-submission nav .navigation .user-dropdown.hidden,
+#edit-page-emiten nav .navigation .user-dropdown.hidden,
 #page-pubex-live nav .navigation .user-dropdown.hidden,
 #edit-page-investor nav .navigation .user-dropdown.hidden {
   display: none;
@@ -3295,7 +2786,7 @@ p {
 #page-emiten nav .navigation .modal-user,
 #page-investor nav .navigation .modal-user,
 #page-success-registration nav .navigation .modal-user,
-#page-my-submission nav .navigation .modal-user,
+#edit-page-emiten nav .navigation .modal-user,
 #page-pubex-live nav .navigation .modal-user,
 #edit-page-investor nav .navigation .modal-user {
   position: absolute;
@@ -3312,7 +2803,7 @@ p {
 #page-emiten nav .navigation .modal-user .user-action,
 #page-investor nav .navigation .modal-user .user-action,
 #page-success-registration nav .navigation .modal-user .user-action,
-#page-my-submission nav .navigation .modal-user .user-action,
+#edit-page-emiten nav .navigation .modal-user .user-action,
 #page-pubex-live nav .navigation .modal-user .user-action,
 #edit-page-investor nav .navigation .modal-user .user-action {
   padding: 12px 32px;
@@ -3332,7 +2823,7 @@ p {
 #page-emiten nav .navigation .modal-user .user-action:hover,
 #page-investor nav .navigation .modal-user .user-action:hover,
 #page-success-registration nav .navigation .modal-user .user-action:hover,
-#page-my-submission nav .navigation .modal-user .user-action:hover,
+#edit-page-emiten nav .navigation .modal-user .user-action:hover,
 #page-pubex-live nav .navigation .modal-user .user-action:hover,
 #edit-page-investor nav .navigation .modal-user .user-action:hover {
   background-color: #5dcad1;
@@ -3340,7 +2831,7 @@ p {
 #page-emiten nav .navigation .modal-user .hidden,
 #page-investor nav .navigation .modal-user .hidden,
 #page-success-registration nav .navigation .modal-user .hidden,
-#page-my-submission nav .navigation .modal-user .hidden,
+#edit-page-emiten nav .navigation .modal-user .hidden,
 #page-pubex-live nav .navigation .modal-user .hidden,
 #edit-page-investor nav .navigation .modal-user .hidden {
   display: none;

@@ -348,7 +348,7 @@
 				checkFieldInvestor();
 			} else if ($("body").has("#page-emiten").length >0) {
 				checkFieldEmiten();
-			} else if ($("body").has("#page-my-submission").length >0) {
+			} else if ($("body").has("#edit-page-emiten").length >0) {
 				checkFieldMySubmissions();
 			} else if ($("body").has("#edit-page-investor").length >0){
 				checkFieldEditInvestor();
@@ -359,7 +359,7 @@
 				checkFieldInvestor();
 			} else if ($("body").has("#page-emiten").length >0) {
 				checkFieldEmiten();
-			} else if ($("body").has("#page-my-submission").length >0) {
+			} else if ($("body").has("#edit-page-emiten").length >0) {
 				checkFieldMySubmissions();
 			} else if ($("body").has("#edit-page-investor").length >0){
 				checkFieldEditInvestor();
@@ -370,7 +370,7 @@
 				checkFieldInvestor();
 			} else if ($("body").has("#page-emiten").length >0) {
 				checkFieldEmiten();
-			} else if ($("body").has("#page-my-submission").length >0) {
+			} else if ($("body").has("#edit-page-emiten").length >0) {
 				checkFieldMySubmissions();
 			} else if ($("body").has("#edit-page-investor").length >0){
 				checkFieldEditInvestor();
@@ -393,6 +393,7 @@
 				})
 			});
 		} else if ($("body").has("#edit-page-investor").length >0){
+			// Edit Investor section
 			$(".btn-edit").click(() => {
 				// Show submit button
 				$(".btn-submit").removeClass("hidden")
@@ -430,7 +431,7 @@
 						`)
 				})
 			})
-			// Edit Investor section
+			
 			$("#jenis-kelamin").css("color", "#04577c")
 			$("#tipe-pengunjung").css("color", "#04577c")
 			$(".bootstrap-tagsinput").css("cursor", "default")
@@ -459,7 +460,12 @@
 				sekuritasSelected.push("Mandiri Sekuritas","Maybank Sekuritas") // sekuritasSelected type datanya array
 			} else if($("#tipe-pengunjung").val() === "media"){
 				$("#tipe-media-active").css('display', 'block');
-			} 
+				$("#tipe-media").val('MNC Portal');
+			} else if ($("#tipe-pengunjung").val() === "umum") {
+				$("#tipe-umum-active").css('display', 'block');
+				$("#umum").val("Universitas Indonesia");
+				$("#sid").val("987899909");
+			}
 			
 			$(".bootstrap-tagsinput").on("mouseover click", checkFieldEditInvestor);
 			$(".tag-remove").on("click", checkFieldEditInvestor);
@@ -480,27 +486,34 @@
 
 	// My Submissions Section
 		const setDisabledForm = () => {
-			$(".btn-submit").addClass("hidden")
-			$(".bootstrap-tagsinput").css("border-color", "#04577c")
-			// Change to default title
-			$("h1").text("Data Perusahaan")
+			if ($("body").has("#edit-page-investor").length >0) {
+				// Change to default title
+				$("h1").text("Data Saya")
+				$(".bootstrap-tagsinput").css("border-color", "#04577c")
+				$(".bootstrap-tagsinput").css("cursor", "default")
+				$(".bootstrap-tagsinput").click(()=>{
+					return $(".wrapp-list-sekuritas").html(``)
+				});
+			} else {
+				$("h1").text("Data Perusahaan")
+				$("#file-input").attr("type", "text")
+				// Set value refrence database
+				$("#file-input").val("nama-file-di-db")
+			}
+			
 			// Disable edit field
 			$("input").attr("disabled", true)
 			$("select").attr("disabled", true)
 			$("select").attr("disabled", true)
-
 			$("textarea").attr("disabled", true)
-			$("#file-input").attr("type", "text")
 
-			$(".bootstrap-tagsinput").css("cursor", "default")
-			$(".bootstrap-tagsinput").click(()=>{
-				return $(".wrapp-list-sekuritas").html(``)
-			});
-
-			// Set value refrence database
-			$("#file-input").val("nama-file-di-db")
+			// Hidden btn
+			$(".btn-submit").addClass("hidden")
 			
+			// Display edit btn
 			$(".btn-edit").css("display", "block")
+
+			// Show Alert dialog
 			$(".success-edited-alert").css("display", "flex")
 			setTimeout(() => {
 				$(".success-edited-alert").css("display", "none")
@@ -509,7 +522,7 @@
 		
 		
 
-		if ($("body").has("#page-my-submission").length > 0) {
+		if ($("body").has("#edit-page-emiten").length > 0) {
 			if ($("option").is(":selected")) {
 				$("#kategori-papan").css("color", "#533434")
 			}
@@ -630,7 +643,7 @@
 					window.location.href = "success-regist-page.html?umum";
 				} else if ($("body").has("#page-emiten").length >0) {
 					window.location.href = "success-regist-page.html?emiten";
-				} else if ($("body").has("#page-my-submission").length >0) {
+				} else if ($("body").has("#edit-page-emiten").length >0) {
 					$(".progressBar-wrapp").css("display", "none");
 					setDisabledForm()
 				} else if($("body").has("#edit-page-investor").length >0){
@@ -661,7 +674,7 @@
 		const getParams = new URLSearchParams(window.location.search);
 		if (getParams.has("emiten")) {
 			$("#success-info").text("Data Perusahaan Anda telah kami terima dan akan segera dievaluasi. Hasil seleksi emiten yang lolos akan diumumkan melalui website ini dan email terdaftar pada tanggal 26 Oktober 2023.")
-			$(".btn-redirect").attr("href", "my-submission-page.html")
+			$(".btn-redirect").attr("href", "edit-form-emiten.html")
 			$(".btn-redirect").text("View My Submission")
 		} else{
 			$("#success-info").text("PUBEX LIVE akan dilaksanakan pada tanggal 1-4 November 2023. Cekberkala website ini untuk mendapatkan informasi terbaru mengenai acara.")
