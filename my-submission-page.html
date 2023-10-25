@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PUBEX 2023 - My Submission</title>
+    <title>PUBEX 2023 - Data Perusahaan</title>
 
     <!-- style -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
@@ -56,11 +56,16 @@
               <ol>
                 <li>
                   Anda dapat melakukan perubahan terhadap data perusahaan yang
-                  telah Anda submit sampai dengan tanggal 15 Oktober 2023.
+                  telah Anda submit sampai dengan tanggal 2 November 2023.
                 </li>
                 <li>
-                  Hasil seleksi emiten yang lolos akan diumumkan pada halaman
-                  ini dan email terdaftar pada tanggal 26 Oktober 2023.
+                  Hasil seleksi perusahaan tercatat yang lolos akan diumumkan
+                  pada halaman ini dan email terdaftar pada tanggal 26 Oktober
+                  2023.
+                </li>
+                <li>
+                  Presentasi pada slot premium akan ditayangkan di TV IDX
+                  Channel.
                 </li>
               </ol>
             </div>
@@ -68,7 +73,7 @@
             <!-- Form Field -->
             <form id="form-field" class="form-field">
               <div class="row">
-                <h1>My Submission</h1>
+                <h1>Data Perusahaan</h1>
                 <button type="button" class="btn-edit">
                   <i class="ic-edit"></i>
                 </button>
@@ -81,12 +86,42 @@
                   type="text"
                   name="nama-perusahaan"
                   id="nama-perusahaan"
-                  placeholder="Nama Perusahaan"
                   value="PT GoTo Gojek Tokopedia Tbk"
                   disabled />
 
                 <!-- message punya class hidden-->
-                <span class="msg-input hidden">nama tidak tersedia</span>
+                <span class="msg-input hidden"
+                  >nama perusahaan sudah terdaftar</span
+                >
+              </div>
+              <div class="form-group">
+                <label for="nama-perusahaan">Kode Perusahaan Tercatat</label>
+                <!-- Add class "warning" for false data -->
+                <input
+                  class="form-input"
+                  type="text"
+                  name="kode-perusahaan"
+                  id="kode-perusahaan"
+                  value="GOTO123"
+                  disabled />
+
+                <!-- message punya class hidden-->
+                <span class="msg-input hidden"
+                  >nomor perusahaan sudah terdaftar</span
+                >
+              </div>
+              <div class="form-group">
+                <label for="form-file-input"
+                  >Logo Perusahaan
+                  <span class="file-note">(Max:10mb)</span></label
+                >
+                <!-- Add class "warning" for false data -->
+                <input
+                  class="file-input"
+                  type="text"
+                  name="file-input"
+                  id="file-input"
+                  value="Logo-Goto.png" />
               </div>
               <div class="form-group">
                 <label for="deskripsi-perusahaan"
@@ -96,10 +131,9 @@
                   class="form-area"
                   name="deskripsi-perusahaan"
                   id="deskripsi-perusahaan"
-                  rows="6"
                   disabled>
-GoTo Group is the largest digital ecosystem in Indonesia, with a mission to “empower progress” by offering technology infrastructure and solutions that help everyone to access and thrive in the digital economy. GoTo’s ecosystem comprises of on-demand transport, e-commerce, food and grocery delivery, logistics and fulfillment, and financial services through the Gojek, Tokopedia and GoTo Financial platforms.
-                </textarea>
+GoTo Group is the largest digital ecosystem in Indonesia, with a mission to “empower progress” by offering technology infrastructure and solutions that help everyone to access and thrive in the digital economy. GoTo’s ecosystem comprises of on-demand transport, e-commerce, food and grocery delivery, logistics and fulfillment, and financial services through the Gojek, Tokopedia and GoTo Financial platforms.</textarea
+                >
               </div>
               <div class="form-group">
                 <label for="alamat-perusahaan">Alamat Perusahaan</label>
@@ -107,7 +141,6 @@ GoTo Group is the largest digital ecosystem in Indonesia, with a mission to “e
                   class="form-area"
                   name="alamat-perusahaan"
                   id="alamat-perusahaan"
-                  placeholder="Alamat Perusahaan"
                   disabled>
 Tokopedia Tower Ciputra World 2, Jl. Prof. DR. Satrio No.Kav. 11, Karet Semanggi, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950</textarea
                 >
@@ -120,7 +153,6 @@ Tokopedia Tower Ciputra World 2, Jl. Prof. DR. Satrio No.Kav. 11, Karet Semanggi
                   name="pic"
                   id="pic"
                   value="Deddy Poerwohatmoko"
-                  placeholder="Nama PIC"
                   disabled />
               </div>
               <div class="row">
@@ -131,7 +163,6 @@ Tokopedia Tower Ciputra World 2, Jl. Prof. DR. Satrio No.Kav. 11, Karet Semanggi
                     type="number"
                     name="no-tel-pic"
                     id="no-tel-pic"
-                    placeholder="No Telepon PIC"
                     value="0812182278191"
                     disabled />
                 </div>
@@ -142,60 +173,32 @@ Tokopedia Tower Ciputra World 2, Jl. Prof. DR. Satrio No.Kav. 11, Karet Semanggi
                     type="email"
                     name="email-pic"
                     id="email-pic"
-                    placeholder="Email PIC"
                     value="deddypoerwo@goto.com"
                     disabled />
                 </div>
               </div>
-              <!-- Select Form -->
+
               <div class="form-group">
-                <label for="pic">Kategori Papan</label>
-                <div id="act-select" class="form-select">
-                  <select name="kategori-papan" id="kategori-papan" disabled>
-                    <option value="0">Kategori Papan</option>
-                    <option value="1" selected>Kategori A</option>
-                    <option value="2">Kategori B</option>
-                    <option value="3">Kategori C</option>
-                  </select>
-                </div>
+                <label for="link-yt">Link YouTube Company Profile</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="link-yt"
+                  id="link-yt"
+                  value="https://youtube.com/companygoto"
+                  disabled />
               </div>
-              <div class="row">
-                <div class="form-group">
-                  <label for="form-file-input">Laporan Keuangan PDF</label>
-                  <!-- Add class "warning" for false data -->
-                  <input
-                    class="file-input"
-                    type="text"
-                    name="file-input"
-                    id="file-input"
-                    accept=".pdf"
-                    value="Laporan.PDF"
-                    disabled />
-                  <!-- message -->
-                  <!-- Add class hidden to hide msg -->
-                  <span class="msg-input msg-input-file hidden"
-                    >Max file 20mb</span
-                  >
-                  <!-- Progress Bar -->
-                  <div class="progressBar-wrapp">
-                    <label for="progress" class="progress-info">
-                      <span class="info-upload-speed">0</span>
-                      <span class="close-progress">x</span></label
-                    >
-                    <progress id="progress" value="0" max="0"></progress>
-                  </div>
-                  <!-- Progress Bar End -->
-                </div>
-                <div class="form-group">
-                  <label for="link-yt">Link YouTube Company Profile</label>
-                  <input
-                    class="form-input"
-                    type="text"
-                    name="link-yt"
-                    id="link-yt"
-                    value="https://youtube.com/companygoto"
-                    placeholder="Link YouTube"
-                    disabled />
+              <div class="form-group">
+                <div class="premium-info">
+                  <b>Slot Presentasi Premium</b>
+                  <p>
+                    Presentasi pada slot premium akan ditayangkan di TV IDX
+                    Channel dengan tambahan biaya berdasarkan paket yang
+                    tersedia. Lihat info paket premium
+                    <a href="#">di sini.</a> Jika Anda berminat, aktifkan
+                    pilihan di bawah dan panitia akan menghubungi Anda lebih
+                    lanjut.
+                  </p>
                 </div>
               </div>
               <div class="form-checkbox">

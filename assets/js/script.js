@@ -441,7 +441,7 @@
 		const setDisabledForm = () => {
 			$(".btn-submit").addClass("hidden")
 			// Change to default title
-			$("h1").text("My Submission")
+			$("h1").text("Data Perusahaan")
 			// Disable edit field
 			$("input").attr("disabled", true)
 			$("select").attr("disabled", true)
@@ -471,7 +471,7 @@
 				// Show submit button
 				$(".btn-submit").removeClass("hidden")
 				// Change title form
-				$("h1").text("Edit My Submission")
+				$("h1").text("Edit Data Perusahaan")
 				// Enable edit field
 				$("input").attr("disabled", false)
 				$("select").attr("disabled", false)
