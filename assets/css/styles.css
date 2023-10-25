@@ -4352,48 +4352,22 @@ p {
     color: #e9ebff;
     font-size: 16px;
   }
-  #home-page section #header .more-page {
-    cursor: pointer;
+  #home-page section #header .sponsor-wrapper {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    margin: 0 auto;
-    width: max-content;
-    text-decoration: none;
-    color: #e9ebff;
-    text-align: center;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    transform: translateY(0);
-    animation: scrollDown 2.5s linear infinite alternate-reverse;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 0;
+    background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .more-page::after {
-    content: url("../img/icon/expand_more.png");
-    display: block;
+  #home-page section #header .sponsor-wrapper .sponsor {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 6vw;
   }
-  #home-page section #header .more-page:hover {
-    animation: scrollDown 2.5s linear forwards;
-  }
-  @keyframes scrollDown {
-    0% {
-      transform: translateY(0);
-    }
-    25% {
-      transform: translateY(-10px);
-    }
-    50% {
-      transform: translateY(-7px);
-    }
-    75% {
-      transform: translateY(-7px);
-    }
-    100% {
-      transform: translateY(-10px);
-    }
+  #home-page section #header .sponsor-wrapper .sponsor img {
+    width: auto;
+    height: 25px;
   }
   #home-page section .element-1 {
     position: absolute;
@@ -4638,48 +4612,22 @@ p {
     color: #e9ebff;
     font-size: 16px;
   }
-  #home-page section #header .more-page {
-    cursor: pointer;
+  #home-page section #header .sponsor-wrapper {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    margin: 0 auto;
-    width: max-content;
-    text-decoration: none;
-    color: #e9ebff;
-    text-align: center;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    transform: translateY(0);
-    animation: scrollDown 2.5s linear infinite alternate-reverse;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 0;
+    background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .more-page::after {
-    content: url("../img/icon/expand_more.png");
-    display: block;
+  #home-page section #header .sponsor-wrapper .sponsor {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 6vw;
   }
-  #home-page section #header .more-page:hover {
-    animation: scrollDown 2.5s linear forwards;
-  }
-  @keyframes scrollDown {
-    0% {
-      transform: translateY(0);
-    }
-    25% {
-      transform: translateY(-10px);
-    }
-    50% {
-      transform: translateY(-7px);
-    }
-    75% {
-      transform: translateY(-7px);
-    }
-    100% {
-      transform: translateY(-10px);
-    }
+  #home-page section #header .sponsor-wrapper .sponsor img {
+    width: auto;
+    height: 25px;
   }
   #home-page section .element-1 {
     position: absolute;
@@ -4924,48 +4872,22 @@ p {
     color: #e9ebff;
     font-size: 16px;
   }
-  #home-page section #header .more-page {
-    cursor: pointer;
+  #home-page section #header .sponsor-wrapper {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    margin: 0 auto;
-    width: max-content;
-    text-decoration: none;
-    color: #e9ebff;
-    text-align: center;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    transform: translateY(0);
-    animation: scrollDown 2.5s linear infinite alternate-reverse;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 0;
+    background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .more-page::after {
-    content: url("../img/icon/expand_more.png");
-    display: block;
+  #home-page section #header .sponsor-wrapper .sponsor {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 6vw;
   }
-  #home-page section #header .more-page:hover {
-    animation: scrollDown 2.5s linear forwards;
-  }
-  @keyframes scrollDown {
-    0% {
-      transform: translateY(0);
-    }
-    25% {
-      transform: translateY(-10px);
-    }
-    50% {
-      transform: translateY(-7px);
-    }
-    75% {
-      transform: translateY(-7px);
-    }
-    100% {
-      transform: translateY(-10px);
-    }
+  #home-page section #header .sponsor-wrapper .sponsor img {
+    width: auto;
+    height: 25px;
   }
   #home-page section .element-1 {
     position: absolute;
@@ -5208,48 +5130,22 @@ p {
     text-align: start;
     color: #e9ebff;
   }
-  #home-page section #header .more-page {
-    cursor: pointer;
+  #home-page section #header .sponsor-wrapper {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    margin: 0 auto;
-    width: max-content;
-    text-decoration: none;
-    color: #e9ebff;
-    text-align: center;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    transform: translateY(0);
-    animation: scrollDown 2.5s linear infinite alternate-reverse;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 0;
+    background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .more-page::after {
-    content: url("../img/icon/expand_more.png");
-    display: block;
+  #home-page section #header .sponsor-wrapper .sponsor {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 32px;
   }
-  #home-page section #header .more-page:hover {
-    animation: scrollDown 2.5s linear forwards;
-  }
-  @keyframes scrollDown {
-    0% {
-      transform: translateY(0);
-    }
-    25% {
-      transform: translateY(-10px);
-    }
-    50% {
-      transform: translateY(-7px);
-    }
-    75% {
-      transform: translateY(-7px);
-    }
-    100% {
-      transform: translateY(-10px);
-    }
+  #home-page section #header .sponsor-wrapper .sponsor img {
+    width: auto;
+    height: 40px;
   }
   #home-page section .element-1 {
     position: absolute;
@@ -5490,49 +5386,22 @@ p {
     text-align: start;
     color: #e9ebff;
   }
-  #home-page section #header .more-page {
-    cursor: pointer;
+  #home-page section #header .sponsor-wrapper {
     position: absolute;
-    display: block;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    margin: 0 auto;
-    width: max-content;
-    text-decoration: none;
-    color: #e9ebff;
-    text-align: center;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    transform: translateY(0);
-    animation: scrollDown 2.5s linear infinite alternate-reverse;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 0;
+    background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .more-page::after {
-    content: url("../img/icon/expand_more.png");
-    display: block;
+  #home-page section #header .sponsor-wrapper .sponsor {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 32px;
   }
-  #home-page section #header .more-page:hover {
-    animation: scrollDown 2.5s linear forwards;
-  }
-  @keyframes scrollDown {
-    0% {
-      transform: translateY(0);
-    }
-    25% {
-      transform: translateY(-10px);
-    }
-    50% {
-      transform: translateY(-7px);
-    }
-    75% {
-      transform: translateY(-7px);
-    }
-    100% {
-      transform: translateY(-10px);
-    }
+  #home-page section #header .sponsor-wrapper .sponsor img {
+    width: auto;
+    height: 40px;
   }
   #home-page section .element-1 {
     position: absolute;
@@ -5773,48 +5642,22 @@ p {
     text-align: start;
     color: #e9ebff;
   }
-  #home-page section #header .more-page {
-    cursor: pointer;
+  #home-page section #header .sponsor-wrapper {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    margin: 0 auto;
-    width: max-content;
-    text-decoration: none;
-    color: #e9ebff;
-    text-align: center;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    transform: translateY(0);
-    animation: scrollDown 2.5s linear infinite alternate-reverse;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 0;
+    background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .more-page::after {
-    content: url("../img/icon/expand_more.png");
-    display: block;
+  #home-page section #header .sponsor-wrapper .sponsor {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 32px;
   }
-  #home-page section #header .more-page:hover {
-    animation: scrollDown 2.5s linear forwards;
-  }
-  @keyframes scrollDown {
-    0% {
-      transform: translateY(0);
-    }
-    25% {
-      transform: translateY(-10px);
-    }
-    50% {
-      transform: translateY(-7px);
-    }
-    75% {
-      transform: translateY(-7px);
-    }
-    100% {
-      transform: translateY(-10px);
-    }
+  #home-page section #header .sponsor-wrapper .sponsor img {
+    width: auto;
+    height: 40px;
   }
   #home-page section .element-1 {
     position: absolute;
