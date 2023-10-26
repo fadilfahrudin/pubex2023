@@ -237,19 +237,11 @@
 	const checkFieldInvestor = () => {
 		if ($("#nama").val() == "") {
 			$(".btn-submit").attr("disabled", true);
-		} else if($("#alamat").val() == "") {
-			$(".btn-submit").attr("disabled", true);
-		} else if($("#ttl").val() == "") {
-			$(".btn-submit").attr("disabled", true);
-		} else if($("#jenis-kelamin").val() == "") {
-			$(".btn-submit").attr("disabled", true);
-		} else if ($("#nik").val() == "") {
-			$(".btn-submit").attr("disabled", true);
 		} else if ($("#no-tel").val() == ""){
 			$(".btn-submit").attr("disabled", true);
 		} else if ($("#email").val() == ""){
 			$(".btn-submit").attr("disabled", true);
-		} else if($("#tipe-pengunjung").val() == null) {
+		} else if($("#tipe-pengunjung").val() == "0") {
 			$(".btn-submit").attr("disabled", true);
 		} else if($("#tipe-pengunjung").val() == "investor"){
 			if ($("#sekuritas-terdaftar").attr("data-value") == "") {
@@ -464,7 +456,7 @@
 			} else if ($("#tipe-pengunjung").val() === "umum") {
 				$("#tipe-umum-active").css('display', 'block');
 				$("#umum").val("Universitas Indonesia");
-				$("#sid").val("987899909");
+				$("#sid").val("ya");
 			}
 			
 			$(".bootstrap-tagsinput").on("mouseover click", checkFieldEditInvestor);
@@ -640,9 +632,9 @@
 			// If success
 				// Check Form Pages
 				if($("body").has("#page-investor").length >0){
-					window.location.href = "success-regist-page.html?umum";
+					window.location.href = "index.html";
 				} else if ($("body").has("#page-emiten").length >0) {
-					window.location.href = "success-regist-page.html?emiten";
+					window.location.href = "success-regist-page.html";
 				} else if ($("body").has("#edit-page-emiten").length >0) {
 					$(".progressBar-wrapp").css("display", "none");
 					setDisabledForm()
@@ -669,29 +661,4 @@
 		$(".daftar-emiten").click(() => daftarSection("emiten"))
 		$(".daftar-investor").click(() => daftarSection("investor"))
 	
-	// Success Page Section
-	 if ($("body").has("#page-success-registration").length >0) {
-		const getParams = new URLSearchParams(window.location.search);
-		if (getParams.has("emiten")) {
-			$("#success-info").text("Data Perusahaan Anda telah kami terima dan akan segera dievaluasi. Hasil seleksi emiten yang lolos akan diumumkan melalui website ini dan email terdaftar pada tanggal 26 Oktober 2023.")
-			$(".btn-redirect").attr("href", "edit-form-emiten.html")
-			$(".btn-redirect").text("View My Submission")
-		} else{
-			$("#success-info").text("PUBEX LIVE akan dilaksanakan pada tanggal 1-4 November 2023. Cekberkala website ini untuk mendapatkan informasi terbaru mengenai acara.")
-
-			$(".btn-redirect").attr("href", "index.html")
-			$(".btn-redirect").text("Home")
-		}		
-	 }
-
-	//  Page Pubex Live Section
-	if ($("body").has("#page-pubex-live").length >0) {
-		const getParams = new URLSearchParams(window.location.search);
-		if (getParams.has("edited")) {
-			$(".success-edited-alert").removeClass("hidden");
-			setTimeout(() => {
-				$(".success-edited-alert").addClass("hidden");
-			},2000)
-		}
-	}
 })
