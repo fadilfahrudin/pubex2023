@@ -3775,10 +3775,12 @@ p {
   }
   #home-page section #header {
     padding: 20px 0;
+    padding-bottom: 0;
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 50px 0;
+    gap: 20px 0;
     background-color: #04577c;
     background-image: url("../img/bg-header-mobile.png");
     background-repeat: no-repeat;
@@ -3817,8 +3819,6 @@ p {
     font-size: 16px;
   }
   #home-page section #header .sponsor-wrapper {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     padding: 8px 0;
     background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
@@ -3827,11 +3827,11 @@ p {
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 6vw;
+    gap: 5px;
   }
   #home-page section #header .sponsor-wrapper .sponsor img {
     width: auto;
-    height: 25px;
+    height: 20px;
   }
   #home-page section .element-1 {
     position: absolute;
@@ -4036,10 +4036,12 @@ p {
   }
   #home-page section #header {
     padding: 20px 0;
+    padding-bottom: 0;
     position: relative;
     display: flex;
-    align-items: center;
-    gap: 50px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px 0;
     background-color: #04577c;
     background-image: url("../img/bg-header-mobile.png");
     background-repeat: no-repeat;
@@ -4049,7 +4051,8 @@ p {
     width: 100%;
   }
   #home-page section #header .row {
-    height: max-content;
+    margin-top: 50px;
+    height: 80vh;
     flex-direction: column-reverse;
     gap: 20px;
   }
@@ -4077,8 +4080,6 @@ p {
     font-size: 16px;
   }
   #home-page section #header .sponsor-wrapper {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     padding: 8px 0;
     background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
@@ -4087,11 +4088,11 @@ p {
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 6vw;
+    gap: 5px;
   }
   #home-page section #header .sponsor-wrapper .sponsor img {
     width: auto;
-    height: 25px;
+    height: 20px;
   }
   #home-page section .element-1 {
     position: absolute;
@@ -4347,7 +4348,7 @@ p {
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 6vw;
+    gap: 10px;
   }
   #home-page section #header .sponsor-wrapper .sponsor img {
     width: auto;
@@ -4605,11 +4606,11 @@ p {
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 32px;
+    gap: 12px;
   }
   #home-page section #header .sponsor-wrapper .sponsor img {
     width: auto;
-    height: 40px;
+    height: 30px;
   }
   #home-page section .element-1 {
     position: absolute;
