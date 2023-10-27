@@ -660,5 +660,47 @@
 		// Action
 		$(".daftar-emiten").click(() => daftarSection("emiten"))
 		$(".daftar-investor").click(() => daftarSection("investor"))
+
+
+		// Jadwal Pubex Live Section
+		if ($("#jadwal-pubex-live").length > 0) {
+			// Untuk jadwal pertama ketika load page sudah kebuka
+			$(".jadwal-body").each((i, element) => {
+				if (i == 0) {
+					$(element).addClass("clicked");
+				}
+			})
+
+
+			$(".jadwal-dropdown").each(function (i, element) {
+				let indexBtn = i;
+
+				// Untuk btn pertama ketika load page sudah kebuka
+				if (indexBtn == 0) {
+					$(element).addClass("clicked");
+				}
+
+				// Action dropdown jadwal
+				$(this).click(() => {
+						$(".jadwal-dropdown").each((i, element) => {
+							if (indexBtn !== i) {
+								$(element).removeClass("clicked");
+							} else {
+								$(this).toggleClass("clicked");
+							}
+						})
+
+						$(".jadwal-body").each(function (i, element) {
+							if (indexBtn !== i) {
+								$(element).removeClass("clicked");
+							} else {
+								$(element).toggleClass("clicked");
+							}
+
+						});
+					
+				})
+			})
+		}
 	
 })

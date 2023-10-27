@@ -1,0 +1,1097 @@
+@include media.xs {
+  #jadwal-pubex-live {
+    background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .row {
+      flex-direction: column;
+      .jadwal-card {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .jadwal-dropdown {
+          position: relative;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          background-color: $color-secondary;
+          width: 100%;
+          padding: 8px 12px;
+          border: none;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+          color: $text-dark;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          b {
+            font-size: 16px;
+            font-weight: bolder;
+          }
+
+          &::after {
+            position: absolute;
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+          &.clicked::after {
+            position: absolute;
+            transform: rotate(180deg);
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+        }
+
+        .jadwal-body {
+          padding: 0 16px;
+          background-color: #024c6c;
+          width: 100%;
+          height: 0;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          overflow: hidden;
+          transition: 0.5s ease-in-out;
+
+          &.clicked {
+            height: max-content;
+            padding: 16px 16px;
+            transition: 0.5s ease-in-out;
+          }
+
+          .jadwal-header {
+            h2,
+            p {
+              text-align: center;
+              color: $text-light;
+            }
+          }
+
+          .jadwal-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .jadwal-info {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+
+              a {
+                text-decoration: none;
+              }
+
+              .jadwal-waktu {
+                color: $text-light;
+                text-align: center;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+              }
+              .jadwal-kegiatan {
+                width: 100%;
+                height: 39px;
+                border-radius: 8px;
+                padding: 4px 8px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-align: start;
+                color: $text-light;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                background-color: $color-primary;
+
+                .live {
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+
+                  color: $text-dark;
+                  text-align: center;
+                  font-family: Lato, sans-serif;
+                  font-size: 10px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%; /* 15px */
+
+                  padding: 4px 8px;
+                  border-radius: 2px;
+                  background: rgba(255, 255, 255, 0.5);
+
+                  &::before {
+                    content: "";
+                    opacity: 1;
+                    animation: indicator 1s linear 2s infinite alternate;
+                    transition: all 0.5s linear;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: linear-gradient(
+                      rgba(233, 68, 79, 1),
+                      rgba(115, 12, 19, 1)
+                    );
+                  }
+
+                  @keyframes indicator {
+                    0% {
+                      opacity: 0;
+                    }
+                    50% {
+                      opacity: 1;
+                    }
+                    100% {
+                      opacity: 1;
+                    }
+                  }
+                }
+
+                &.slot-premium {
+                  color: $text-dark;
+                  background: #fffb6f;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: $color-secondary;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+}
+@include media.sm {
+  #jadwal-pubex-live {
+    background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .row {
+      flex-direction: column;
+      .jadwal-card {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .jadwal-dropdown {
+          position: relative;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          background-color: $color-secondary;
+          width: 100%;
+          padding: 8px 12px;
+          border: none;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+          color: $text-dark;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          b {
+            font-size: 16px;
+            font-weight: bolder;
+          }
+
+          &::after {
+            position: absolute;
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+          &.clicked::after {
+            position: absolute;
+            transform: rotate(180deg);
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+        }
+
+        .jadwal-body {
+          padding: 0 16px;
+          background-color: #024c6c;
+          width: 100%;
+          height: 0;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          overflow: hidden;
+          transition: 0.5s ease-in-out;
+
+          &.clicked {
+            height: max-content;
+            padding: 16px 16px;
+            transition: 0.5s ease-in-out;
+          }
+
+          .jadwal-header {
+            h2,
+            p {
+              text-align: center;
+              color: $text-light;
+            }
+          }
+
+          .jadwal-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .jadwal-info {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+              a {
+                text-decoration: none;
+              }
+
+              .jadwal-waktu {
+                color: $text-light;
+                text-align: center;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+              }
+              .jadwal-kegiatan {
+                width: 100%;
+                height: 39px;
+                border-radius: 8px;
+                padding: 4px 8px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-align: start;
+                color: $text-light;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                background-color: $color-primary;
+
+                .live {
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+
+                  color: $text-dark;
+                  text-align: center;
+                  font-family: Lato, sans-serif;
+                  font-size: 10px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%; /* 15px */
+
+                  padding: 4px 8px;
+                  border-radius: 2px;
+                  background: rgba(255, 255, 255, 0.5);
+
+                  &::before {
+                    content: "";
+                    opacity: 1;
+                    animation: indicator 1s linear 2s infinite alternate;
+                    transition: all 0.5s linear;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: linear-gradient(
+                      rgba(233, 68, 79, 1),
+                      rgba(115, 12, 19, 1)
+                    );
+                  }
+
+                  @keyframes indicator {
+                    0% {
+                      opacity: 0;
+                    }
+                    50% {
+                      opacity: 1;
+                    }
+                    100% {
+                      opacity: 1;
+                    }
+                  }
+                }
+
+                &.slot-premium {
+                  color: $text-dark;
+                  background: #fffb6f;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: $color-secondary;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+}
+@include media.md {
+  #jadwal-pubex-live {
+    background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .row {
+      flex-direction: column;
+      .jadwal-card {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .jadwal-dropdown {
+          position: relative;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          background-color: $color-secondary;
+          width: 100%;
+          padding: 8px 12px;
+          border: none;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+          color: $text-dark;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          b {
+            font-size: 16px;
+            font-weight: bolder;
+          }
+
+          &::after {
+            position: absolute;
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+          &.clicked::after {
+            position: absolute;
+            transform: rotate(180deg);
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+        }
+
+        .jadwal-body {
+          padding: 0 16px;
+          background-color: #024c6c;
+          width: 100%;
+          height: 0;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          overflow: hidden;
+          transition: 0.5s ease-in-out;
+
+          &.clicked {
+            height: max-content;
+            padding: 16px 16px;
+            transition: 0.5s ease-in-out;
+          }
+
+          .jadwal-header {
+            h2,
+            p {
+              text-align: center;
+              color: $text-light;
+            }
+          }
+
+          .jadwal-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .jadwal-info {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+              a {
+                text-decoration: none;
+              }
+
+              .jadwal-waktu {
+                color: $text-light;
+                text-align: center;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+              }
+              .jadwal-kegiatan {
+                width: 100%;
+                height: 39px;
+                border-radius: 8px;
+                padding: 4px 8px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-align: start;
+                color: $text-light;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                background-color: $color-primary;
+
+                .live {
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+
+                  color: $text-dark;
+                  text-align: center;
+                  font-family: Lato, sans-serif;
+                  font-size: 10px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%; /* 15px */
+
+                  padding: 4px 8px;
+                  border-radius: 2px;
+                  background: rgba(255, 255, 255, 0.5);
+
+                  &::before {
+                    content: "";
+                    opacity: 1;
+                    animation: indicator 1s linear 2s infinite alternate;
+                    transition: all 0.5s linear;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: linear-gradient(
+                      rgba(233, 68, 79, 1),
+                      rgba(115, 12, 19, 1)
+                    );
+                  }
+
+                  @keyframes indicator {
+                    0% {
+                      opacity: 0;
+                    }
+                    50% {
+                      opacity: 1;
+                    }
+                    100% {
+                      opacity: 1;
+                    }
+                  }
+                }
+
+                &.slot-premium {
+                  color: $text-dark;
+                  background: #fffb6f;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: $color-secondary;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+}
+@include media.lg {
+  #jadwal-pubex-live {
+    background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .row {
+      flex-direction: column;
+      .jadwal-card {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .jadwal-dropdown {
+          position: relative;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          background-color: $color-secondary;
+          width: 100%;
+          padding: 8px 12px;
+          border: none;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+          color: $text-dark;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          b {
+            font-size: 16px;
+            font-weight: bolder;
+          }
+
+          &::after {
+            position: absolute;
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+          &.clicked::after {
+            position: absolute;
+            transform: rotate(180deg);
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+        }
+
+        .jadwal-body {
+          padding: 0 16px;
+          background-color: #024c6c;
+          width: 100%;
+          height: 0;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          overflow: hidden;
+          transition: 0.5s ease-in-out;
+
+          &.clicked {
+            height: max-content;
+            padding: 16px 16px;
+            transition: 0.5s ease-in-out;
+          }
+
+          .jadwal-header {
+            h2,
+            p {
+              text-align: center;
+              color: $text-light;
+            }
+          }
+
+          .jadwal-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .jadwal-info {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+
+              a {
+                text-decoration: none;
+              }
+              .jadwal-waktu {
+                color: $text-light;
+                text-align: center;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+              }
+              .jadwal-kegiatan {
+                width: 100%;
+                height: 39px;
+                border-radius: 8px;
+                padding: 4px 8px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-align: start;
+                color: $text-light;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                background-color: $color-primary;
+
+                .live {
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+
+                  color: $text-dark;
+                  text-align: center;
+                  font-family: Lato, sans-serif;
+                  font-size: 10px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%; /* 15px */
+
+                  padding: 4px 8px;
+                  border-radius: 2px;
+                  background: rgba(255, 255, 255, 0.5);
+
+                  &::before {
+                    content: "";
+                    opacity: 1;
+                    animation: indicator 1s linear 2s infinite alternate;
+                    transition: all 0.5s linear;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: linear-gradient(
+                      rgba(233, 68, 79, 1),
+                      rgba(115, 12, 19, 1)
+                    );
+                  }
+
+                  @keyframes indicator {
+                    0% {
+                      opacity: 0;
+                    }
+                    50% {
+                      opacity: 1;
+                    }
+                    100% {
+                      opacity: 1;
+                    }
+                  }
+                }
+
+                &.slot-premium {
+                  color: $text-dark;
+                  background: #fffb6f;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: $color-secondary;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+}
+@include media.xl {
+  #jadwal-pubex-live {
+    background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .row {
+      flex-direction: row;
+      gap: 24px;
+      .jadwal-card {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+
+        .jadwal-dropdown {
+          position: relative;
+          display: none;
+          align-items: center;
+          gap: 10px;
+
+          background-color: $color-secondary;
+          width: 100%;
+          padding: 8px 12px;
+          border: none;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+          color: $text-dark;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          b {
+            font-size: 16px;
+            font-weight: bolder;
+          }
+
+          &::after {
+            position: absolute;
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+          &.clicked::after {
+            position: absolute;
+            transform: rotate(180deg);
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+        }
+
+        .jadwal-body {
+          padding: 16px;
+          background-color: #024c6c;
+          width: 100%;
+          height: max-content;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          overflow: hidden;
+          transition: 0.5s ease-in-out;
+
+          &.clicked {
+            height: max-content;
+            padding: 16px 16px;
+            transition: 0.5s ease-in-out;
+          }
+
+          .jadwal-header {
+            h2,
+            p {
+              text-align: center;
+              color: $text-light;
+            }
+          }
+
+          .jadwal-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .jadwal-info {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+              a {
+                text-decoration: none;
+              }
+
+              .jadwal-waktu {
+                color: $text-light;
+                text-align: center;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+              }
+              .jadwal-kegiatan {
+                width: 100%;
+                height: 39px;
+                border-radius: 8px;
+                padding: 4px 8px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-align: start;
+                color: $text-light;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                background-color: $color-primary;
+
+                .live {
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+
+                  color: $text-dark;
+                  text-align: center;
+                  font-family: Lato, sans-serif;
+                  font-size: 10px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%; /* 15px */
+
+                  padding: 4px 8px;
+                  border-radius: 4px;
+                  background: rgba(255, 255, 255, 0.5);
+
+                  &::before {
+                    content: "";
+                    opacity: 1;
+                    animation: indicator 1s linear 2s infinite alternate;
+                    transition: all 0.5s linear;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: linear-gradient(
+                      rgba(233, 68, 79, 1),
+                      rgba(115, 12, 19, 1)
+                    );
+                  }
+
+                  @keyframes indicator {
+                    0% {
+                      opacity: 0;
+                    }
+                    50% {
+                      opacity: 1;
+                    }
+                    100% {
+                      opacity: 1;
+                    }
+                  }
+                }
+
+                &.slot-premium {
+                  color: $text-dark;
+                  background: #fffb6f;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: $color-secondary;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+}
+@include media.xxl {
+  #jadwal-pubex-live {
+    background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .row {
+      flex-direction: row;
+      gap: 24px;
+      .jadwal-card {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+
+        .jadwal-dropdown {
+          position: relative;
+          display: none;
+          align-items: center;
+          gap: 10px;
+
+          background-color: $color-secondary;
+          width: 100%;
+          padding: 8px 12px;
+          border: none;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+
+          color: $text-dark;
+          text-align: center;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          b {
+            font-size: 16px;
+            font-weight: bolder;
+          }
+
+          &::after {
+            position: absolute;
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+          &.clicked::after {
+            position: absolute;
+            transform: rotate(180deg);
+            content: url("../img/icon/arrow_drop_down.png");
+            right: 12px;
+            top: 5px;
+          }
+        }
+
+        .jadwal-body {
+          padding: 16px;
+          background-color: #024c6c;
+          width: 100%;
+          height: max-content;
+          border-radius: 5px;
+          box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          overflow: hidden;
+          transition: 0.5s ease-in-out;
+
+          &.clicked {
+            height: max-content;
+            padding: 16px 16px;
+            transition: 0.5s ease-in-out;
+          }
+
+          .jadwal-header {
+            h2,
+            p {
+              text-align: center;
+              color: $text-light;
+            }
+          }
+
+          .jadwal-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .jadwal-info {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+
+              a {
+                text-decoration: none;
+              }
+              .jadwal-waktu {
+                color: $text-light;
+                text-align: center;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+              }
+              .jadwal-kegiatan {
+                width: 100%;
+                height: 39px;
+                border-radius: 8px;
+                padding: 4px 8px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-align: start;
+                color: $text-light;
+                font-family: Lato, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                background-color: $color-primary;
+
+                .live {
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+
+                  color: $text-dark;
+                  text-align: center;
+                  font-family: Lato, sans-serif;
+                  font-size: 10px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%; /* 15px */
+
+                  padding: 4px 8px;
+                  border-radius: 4px;
+                  background: rgba(255, 255, 255, 0.5);
+
+                  &::before {
+                    content: "";
+                    opacity: 1;
+                    animation: indicator 1s linear 2s infinite alternate;
+                    transition: all 0.5s linear;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: linear-gradient(
+                      rgba(233, 68, 79, 1),
+                      rgba(115, 12, 19, 1)
+                    );
+                  }
+
+                  @keyframes indicator {
+                    0% {
+                      opacity: 0;
+                    }
+                    50% {
+                      opacity: 1;
+                    }
+                    100% {
+                      opacity: 1;
+                    }
+                  }
+                }
+
+                &.slot-premium {
+                  color: $text-dark;
+                  background: #fffb6f;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: $color-secondary;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+}
