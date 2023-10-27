@@ -1,9 +1,12 @@
 @include media.xs {
   #home-page {
     nav {
-      position: absolute;
+      position: fixed;
+      top: 0;
+      z-index: 999;
       width: 100%;
-      background-color: transparent;
+      background-color: $color-primary;
+      transition: 0.8s ease-in-out;
       padding: 8px 0;
       .navigation {
         position: relative;
@@ -163,9 +166,12 @@
 @include media.sm {
   #home-page {
     nav {
-      position: absolute;
+      position: fixed;
+      z-index: 999;
+      top: 0;
       width: 100%;
-      background-color: transparent;
+      background-color: $color-primary;
+      transition: 0.8s ease-in-out;
       padding: 8px 0;
       .navigation {
         position: relative;
@@ -325,9 +331,12 @@
 @include media.md {
   #home-page {
     nav {
-      position: absolute;
+      position: fixed;
+      z-index: 999;
+      top: 0;
       width: 100%;
-      background-color: transparent;
+      background-color: $color-primary;
+      transition: 0.8s ease-in-out;
       padding: 8px 0;
       .navigation {
         position: relative;
@@ -487,9 +496,12 @@
 @include media.lg {
   #home-page {
     nav {
-      position: absolute;
+      position: fixed;
+      z-index: 999;
+      top: 0;
       width: 100%;
-      background-color: transparent;
+      background-color: $color-primary;
+      transition: 0.8s ease-in-out;
       padding: 8px 0;
       .navigation {
         position: relative;
@@ -649,9 +661,12 @@
 @include media.xl {
   #home-page {
     nav {
-      position: absolute;
+      position: fixed;
+      z-index: 999;
+      top: 0;
       width: 100%;
-      background-color: transparent;
+      background-color: $color-primary;
+      transition: 0.8s ease-in-out;
       padding: 8px 0;
       .navigation {
         position: relative;
@@ -810,9 +825,12 @@
 @include media.xxl {
   #home-page {
     nav {
-      position: absolute;
+      position: fixed;
+      z-index: 999;
+      top: 0;
       width: 100%;
-      background-color: transparent;
+      background-color: $color-primary;
+      transition: 0.8s ease-in-out;
       padding: 8px 0;
       .navigation {
         position: relative;

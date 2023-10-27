@@ -4,6 +4,15 @@
 
 	// Navigation Home Page
 	if($("body").has("#home-page").length >0){
+		$("nav").css("background-color", "transparent")
+		$(window).on("scroll",() =>{
+			let scrollY = window.scrollY;
+			if (scrollY <12) {
+				$("nav").css("background-color", "transparent")
+			} else{
+				$("nav").css("background-color", "#04577c")
+			}
+		});
 		$(".nav-link").each((i, el) => {
 			if (window.location.hash === $(el).attr("href")) {
 				$(el).addClass("nav-active");
