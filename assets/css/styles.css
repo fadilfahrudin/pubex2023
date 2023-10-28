@@ -3804,11 +3804,11 @@ p {
   #home-page {
     scroll-behavior: smooth;
   }
-  #home-page section {
+  #home-page main {
     width: 100%;
     overflow: hidden;
   }
-  #home-page section #header {
+  #home-page main #header {
     padding: 20px 0;
     padding-bottom: 0;
     position: relative;
@@ -3824,19 +3824,19 @@ p {
     min-height: 100vh;
     width: 100%;
   }
-  #home-page section #header .row {
+  #home-page main #header .row {
     margin-top: 50px;
     height: max-content;
     flex-direction: column-reverse;
     gap: 20px;
   }
-  #home-page section #header .row .text-header-wrapper {
+  #home-page main #header .row .text-header-wrapper {
     display: flex;
     flex-direction: column;
     gap: 16px 0;
     width: 100%;
   }
-  #home-page section #header .row .text-header-wrapper .text-header {
+  #home-page main #header .row .text-header-wrapper .text-header {
     display: flex;
     gap: 0 20px;
     padding: 24px;
@@ -3848,27 +3848,27 @@ p {
     line-height: 150%;
     border: 8px solid #6989ae;
   }
-  #home-page section #header .row .text-header-wrapper p {
+  #home-page main #header .row .text-header-wrapper p {
     text-align: start;
     color: #e9ebff;
     font-size: 16px;
   }
-  #home-page section #header .sponsor-wrapper {
+  #home-page main #header .sponsor-wrapper {
     width: 100%;
     padding: 8px 0;
     background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .sponsor-wrapper .sponsor {
+  #home-page main #header .sponsor-wrapper .sponsor {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 5px;
   }
-  #home-page section #header .sponsor-wrapper .sponsor img {
+  #home-page main #header .sponsor-wrapper .sponsor img {
     width: auto;
     height: 20px;
   }
-  #home-page section .element-1 {
+  #home-page main .element-1 {
     position: absolute;
     top: -25px;
     z-index: 99;
@@ -3879,7 +3879,7 @@ p {
     background-position: -5px 0;
     background-size: 150px;
   }
-  #home-page section #about {
+  #home-page main #about {
     position: relative;
     background-color: #e9ebff;
     min-height: 100vh;
@@ -3888,11 +3888,11 @@ p {
     display: flex;
     align-items: center;
   }
-  #home-page section #about .row {
+  #home-page main #about .row {
     width: 100%;
     gap: 0 24px;
   }
-  #home-page section #about .row .card-about {
+  #home-page main #about .row .card-about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3901,19 +3901,19 @@ p {
     gap: 24px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #home-page section #about .row .card-about img {
+  #home-page main #about .row .card-about img {
     width: 72px;
     height: 72px;
   }
-  #home-page section #about .row .card-about .info {
+  #home-page main #about .row .card-about .info {
     width: 100%;
     height: 84px;
   }
-  #home-page section #about .row .card-about .info p {
+  #home-page main #about .row .card-about .info p {
     cursor: default;
     font-size: 16px;
   }
-  #home-page section .element-3 {
+  #home-page main .element-3 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -3925,7 +3925,7 @@ p {
     background-position: right 0;
     background-size: 150px;
   }
-  #home-page section .element-2 {
+  #home-page main .element-2 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -3937,7 +3937,7 @@ p {
     background-position: right 0;
     background-size: 60px;
   }
-  #home-page section #pendaftaran {
+  #home-page main #pendaftaran {
     background-color: #04577c;
     min-height: 100vh;
     width: 100%;
@@ -3946,12 +3946,12 @@ p {
     overflow: hidden;
     padding: 16px 0;
   }
-  #home-page section #pendaftaran .row {
+  #home-page main #pendaftaran .row {
     gap: 16px 0;
     width: 100%;
     overflow: hidden;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3964,11 +3964,11 @@ p {
     position: relative;
     overflow: hidden;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran h1 {
+  #home-page main #pendaftaran .row .card-pendaftaran h1 {
     text-align: center;
     font-size: 32px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -3979,7 +3979,7 @@ p {
     gap: 0 8px;
     padding: 8px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
     width: 40%;
     height: 100%;
     display: flex;
@@ -3987,7 +3987,7 @@ p {
     gap: 12px 0;
     align-items: center;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
     cursor: default;
     width: 40px;
     height: 40px;
@@ -4003,11 +4003,11 @@ p {
     font-style: normal;
     font-weight: 700;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
     background-color: #04577c !important;
     color: #e9ebff !important;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -4019,14 +4019,14 @@ p {
     height: 2px;
     background-color: #04577c;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.display-line::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.display-line::before {
     display: none;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
     color: #04577c;
     font-size: 16px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -4042,14 +4042,14 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
     display: none;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
     background-color: #cacefa;
   }
-  #home-page section #pendaftaran.hidden {
+  #home-page main #pendaftaran.hidden {
     display: none;
   }
 }
@@ -4057,11 +4057,11 @@ p {
   #home-page {
     scroll-behavior: smooth;
   }
-  #home-page section {
+  #home-page main {
     width: 100%;
     overflow: hidden;
   }
-  #home-page section #header {
+  #home-page main #header {
     padding: 20px 0;
     padding-bottom: 0;
     position: relative;
@@ -4077,19 +4077,19 @@ p {
     min-height: 100vh;
     width: 100%;
   }
-  #home-page section #header .row {
+  #home-page main #header .row {
     margin-top: 50px;
     height: 80vh;
     flex-direction: column-reverse;
     gap: 20px;
   }
-  #home-page section #header .row .text-header-wrapper {
+  #home-page main #header .row .text-header-wrapper {
     display: flex;
     flex-direction: column;
     gap: 16px 0;
     width: 100%;
   }
-  #home-page section #header .row .text-header-wrapper .text-header {
+  #home-page main #header .row .text-header-wrapper .text-header {
     display: flex;
     gap: 0 20px;
     padding: 24px;
@@ -4101,27 +4101,27 @@ p {
     line-height: 150%;
     border: 8px solid #6989ae;
   }
-  #home-page section #header .row .text-header-wrapper p {
+  #home-page main #header .row .text-header-wrapper p {
     text-align: start;
     color: #e9ebff;
     font-size: 16px;
   }
-  #home-page section #header .sponsor-wrapper {
+  #home-page main #header .sponsor-wrapper {
     width: 100%;
     padding: 8px 0;
     background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .sponsor-wrapper .sponsor {
+  #home-page main #header .sponsor-wrapper .sponsor {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 5px;
   }
-  #home-page section #header .sponsor-wrapper .sponsor img {
+  #home-page main #header .sponsor-wrapper .sponsor img {
     width: auto;
     height: 20px;
   }
-  #home-page section .element-1 {
+  #home-page main .element-1 {
     position: absolute;
     top: -28px;
     z-index: 99;
@@ -4132,7 +4132,7 @@ p {
     background-position: -15px 0;
     background-size: 150px;
   }
-  #home-page section #about {
+  #home-page main #about {
     position: relative;
     background-color: #e9ebff;
     min-height: 100vh;
@@ -4141,11 +4141,11 @@ p {
     display: flex;
     align-items: center;
   }
-  #home-page section #about .row {
+  #home-page main #about .row {
     width: 100%;
     gap: 0 24px;
   }
-  #home-page section #about .row .card-about {
+  #home-page main #about .row .card-about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4154,19 +4154,19 @@ p {
     gap: 24px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #home-page section #about .row .card-about img {
+  #home-page main #about .row .card-about img {
     width: 72px;
     height: 72px;
   }
-  #home-page section #about .row .card-about .info {
+  #home-page main #about .row .card-about .info {
     width: 100%;
     height: 84px;
   }
-  #home-page section #about .row .card-about .info p {
+  #home-page main #about .row .card-about .info p {
     cursor: default;
     font-size: 16px;
   }
-  #home-page section .element-3 {
+  #home-page main .element-3 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -4178,7 +4178,7 @@ p {
     background-position: right 0;
     background-size: 150px;
   }
-  #home-page section .element-2 {
+  #home-page main .element-2 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -4190,7 +4190,7 @@ p {
     background-position: right 0;
     background-size: 60px;
   }
-  #home-page section #pendaftaran {
+  #home-page main #pendaftaran {
     background-color: #04577c;
     min-height: 100vh;
     width: 100%;
@@ -4199,12 +4199,12 @@ p {
     overflow: hidden;
     padding: 16px 0;
   }
-  #home-page section #pendaftaran .row {
+  #home-page main #pendaftaran .row {
     gap: 16px 0;
     width: 100%;
     overflow: hidden;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4217,11 +4217,11 @@ p {
     position: relative;
     overflow: hidden;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran h1 {
+  #home-page main #pendaftaran .row .card-pendaftaran h1 {
     text-align: center;
     font-size: 32px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -4232,7 +4232,7 @@ p {
     gap: 0 8px;
     padding: 8px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
     width: 40%;
     height: 100%;
     display: flex;
@@ -4240,7 +4240,7 @@ p {
     gap: 12px 0;
     align-items: center;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
     cursor: default;
     width: 40px;
     height: 40px;
@@ -4256,11 +4256,11 @@ p {
     font-style: normal;
     font-weight: 700;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
     background-color: #04577c !important;
     color: #e9ebff !important;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -4272,14 +4272,14 @@ p {
     height: 2px;
     background-color: #04577c;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.display-line::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.display-line::before {
     display: none;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
     color: #04577c;
     font-size: 16px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -4295,22 +4295,22 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
     display: none;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
     background-color: #cacefa;
   }
-  #home-page section #pendaftaran.hidden {
+  #home-page main #pendaftaran.hidden {
     display: none;
   }
-  #home-page section #jadwal-pubex-live {
+  #home-page main #jadwal-pubex-live {
     background-color: lightcyan;
     min-height: 100vh;
     width: 100%;
   }
-  #home-page section #jadwal-pubex-live.hidden {
+  #home-page main #jadwal-pubex-live.hidden {
     display: none;
   }
 }
@@ -4318,11 +4318,11 @@ p {
   #home-page {
     scroll-behavior: smooth;
   }
-  #home-page section {
+  #home-page main {
     width: 100%;
     overflow: hidden;
   }
-  #home-page section #header {
+  #home-page main #header {
     padding: 20px 0;
     position: relative;
     display: flex;
@@ -4336,18 +4336,18 @@ p {
     min-height: 100vh;
     width: 100%;
   }
-  #home-page section #header .row {
+  #home-page main #header .row {
     height: max-content;
     flex-direction: column-reverse;
     gap: 20px;
   }
-  #home-page section #header .row .text-header-wrapper {
+  #home-page main #header .row .text-header-wrapper {
     display: flex;
     flex-direction: column;
     gap: 16px 0;
     width: 100%;
   }
-  #home-page section #header .row .text-header-wrapper .text-header {
+  #home-page main #header .row .text-header-wrapper .text-header {
     display: flex;
     gap: 0 20px;
     padding: 24px;
@@ -4359,29 +4359,29 @@ p {
     line-height: 150%;
     border: 8px solid #6989ae;
   }
-  #home-page section #header .row .text-header-wrapper p {
+  #home-page main #header .row .text-header-wrapper p {
     text-align: start;
     color: #e9ebff;
     font-size: 16px;
   }
-  #home-page section #header .sponsor-wrapper {
+  #home-page main #header .sponsor-wrapper {
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 8px 0;
     background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .sponsor-wrapper .sponsor {
+  #home-page main #header .sponsor-wrapper .sponsor {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 10px;
   }
-  #home-page section #header .sponsor-wrapper .sponsor img {
+  #home-page main #header .sponsor-wrapper .sponsor img {
     width: auto;
     height: 25px;
   }
-  #home-page section .element-1 {
+  #home-page main .element-1 {
     position: absolute;
     top: -30px;
     z-index: 99;
@@ -4392,7 +4392,7 @@ p {
     background-position: -15px 0;
     background-size: 150px;
   }
-  #home-page section #about {
+  #home-page main #about {
     position: relative;
     background-color: #e9ebff;
     min-height: 100vh;
@@ -4401,11 +4401,11 @@ p {
     display: flex;
     align-items: center;
   }
-  #home-page section #about .row {
+  #home-page main #about .row {
     width: 100%;
     gap: 0 24px;
   }
-  #home-page section #about .row .card-about {
+  #home-page main #about .row .card-about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4414,19 +4414,19 @@ p {
     gap: 24px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #home-page section #about .row .card-about img {
+  #home-page main #about .row .card-about img {
     width: 72px;
     height: 72px;
   }
-  #home-page section #about .row .card-about .info {
+  #home-page main #about .row .card-about .info {
     width: 100%;
     height: 84px;
   }
-  #home-page section #about .row .card-about .info p {
+  #home-page main #about .row .card-about .info p {
     cursor: default;
     font-size: 16px;
   }
-  #home-page section .element-3 {
+  #home-page main .element-3 {
     position: absolute;
     bottom: 20px;
     left: 0;
@@ -4438,7 +4438,7 @@ p {
     background-position: right 0;
     background-size: 250px;
   }
-  #home-page section .element-2 {
+  #home-page main .element-2 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -4450,7 +4450,7 @@ p {
     background-position: right 0;
     background-size: 60px;
   }
-  #home-page section #pendaftaran {
+  #home-page main #pendaftaran {
     background-color: #04577c;
     min-height: 100vh;
     width: 100%;
@@ -4459,12 +4459,12 @@ p {
     overflow: hidden;
     padding: 16px 0;
   }
-  #home-page section #pendaftaran .row {
+  #home-page main #pendaftaran .row {
     gap: 16px 0;
     width: 100%;
     overflow: hidden;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4477,11 +4477,11 @@ p {
     position: relative;
     overflow: hidden;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran h1 {
+  #home-page main #pendaftaran .row .card-pendaftaran h1 {
     text-align: center;
     font-size: 32px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -4492,7 +4492,7 @@ p {
     gap: 0 8px;
     padding: 8px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
     width: 25%;
     height: 100%;
     display: flex;
@@ -4500,7 +4500,7 @@ p {
     gap: 12px 0;
     align-items: center;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
     cursor: default;
     width: 40px;
     height: 40px;
@@ -4516,11 +4516,11 @@ p {
     font-style: normal;
     font-weight: 700;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
     background-color: #04577c !important;
     color: #e9ebff !important;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -4532,17 +4532,17 @@ p {
     height: 2px;
     background-color: #04577c;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.display-line::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.display-line::before {
     display: block;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
     width: 25%;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
     color: #04577c;
     font-size: 16px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -4558,22 +4558,22 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
     display: none;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
     background-color: #cacefa;
   }
-  #home-page section #pendaftaran.hidden {
+  #home-page main #pendaftaran.hidden {
     display: none;
   }
-  #home-page section #jadwal-pubex-live {
+  #home-page main #jadwal-pubex-live {
     background-color: lightcyan;
     min-height: 100vh;
     width: 100%;
   }
-  #home-page section #jadwal-pubex-live.hidden {
+  #home-page main #jadwal-pubex-live.hidden {
     display: none;
   }
 }
@@ -4581,11 +4581,11 @@ p {
   #home-page {
     scroll-behavior: smooth;
   }
-  #home-page section {
+  #home-page main {
     width: 100%;
     overflow: hidden;
   }
-  #home-page section #header {
+  #home-page main #header {
     position: relative;
     display: flex;
     align-items: center;
@@ -4596,17 +4596,17 @@ p {
     height: 100vh;
     width: 100%;
   }
-  #home-page section #header .row {
+  #home-page main #header .row {
     align-items: center;
     gap: 0 50px;
   }
-  #home-page section #header .row .text-header-wrapper {
+  #home-page main #header .row .text-header-wrapper {
     display: flex;
     flex-direction: column;
     gap: 16px 0;
     width: 100%;
   }
-  #home-page section #header .row .text-header-wrapper .text-header {
+  #home-page main #header .row .text-header-wrapper .text-header {
     display: flex;
     gap: 0 20px;
     padding: 24px;
@@ -4618,28 +4618,28 @@ p {
     line-height: 150%;
     border: 8px solid #6989ae;
   }
-  #home-page section #header .row .text-header-wrapper p {
+  #home-page main #header .row .text-header-wrapper p {
     text-align: start;
     color: #e9ebff;
   }
-  #home-page section #header .sponsor-wrapper {
+  #home-page main #header .sponsor-wrapper {
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 8px 0;
     background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .sponsor-wrapper .sponsor {
+  #home-page main #header .sponsor-wrapper .sponsor {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 12px;
   }
-  #home-page section #header .sponsor-wrapper .sponsor img {
+  #home-page main #header .sponsor-wrapper .sponsor img {
     width: auto;
     height: 30px;
   }
-  #home-page section .element-1 {
+  #home-page main .element-1 {
     position: absolute;
     top: -48px;
     left: 0;
@@ -4650,7 +4650,7 @@ p {
     background-repeat: no-repeat;
     background-position: 0px 0;
   }
-  #home-page section #about {
+  #home-page main #about {
     position: relative;
     background-color: #e9ebff;
     padding: 48px 24px;
@@ -4658,12 +4658,12 @@ p {
     display: flex;
     align-items: center;
   }
-  #home-page section #about .row {
+  #home-page main #about .row {
     flex-direction: column;
     width: 100%;
     gap: 24px;
   }
-  #home-page section #about .row .card-about {
+  #home-page main #about .row .card-about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4672,18 +4672,18 @@ p {
     gap: 24px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #home-page section #about .row .card-about img {
+  #home-page main #about .row .card-about img {
     width: 145px;
     height: 145px;
   }
-  #home-page section #about .row .card-about .info {
+  #home-page main #about .row .card-about .info {
     width: 100%;
     height: 84px;
   }
-  #home-page section #about .row .card-about .info p {
+  #home-page main #about .row .card-about .info p {
     cursor: default;
   }
-  #home-page section .element-3 {
+  #home-page main .element-3 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -4695,7 +4695,7 @@ p {
     background-position: right 0;
     background-size: 280px;
   }
-  #home-page section .element-2 {
+  #home-page main .element-2 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -4707,7 +4707,7 @@ p {
     background-position: right 0;
     background-size: 120px;
   }
-  #home-page section #pendaftaran {
+  #home-page main #pendaftaran {
     background-color: #04577c;
     min-height: 100vh;
     width: 100%;
@@ -4715,12 +4715,12 @@ p {
     align-items: center;
     padding: 24px;
   }
-  #home-page section #pendaftaran .row {
+  #home-page main #pendaftaran .row {
     width: 100%;
     flex-direction: column;
     gap: 24px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4732,7 +4732,7 @@ p {
     position: relative;
     overflow: hidden;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -4741,7 +4741,7 @@ p {
     gap: 0 8px;
     padding: 8px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
     width: 100%;
     height: 100%;
     display: flex;
@@ -4749,7 +4749,7 @@ p {
     gap: 12px 0;
     align-items: center;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
     cursor: default;
     width: 40px;
     height: 40px;
@@ -4765,11 +4765,11 @@ p {
     font-style: normal;
     font-weight: 700;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
     background-color: #04577c !important;
     color: #e9ebff !important;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -4780,7 +4780,7 @@ p {
     height: 1px;
     background-color: #04577c;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -4791,14 +4791,14 @@ p {
     height: 1px;
     background-color: #04577c;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info {
     width: 100%;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
     color: #04577c;
     font-size: 14px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -4813,22 +4813,22 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
     display: none;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
     background-color: #cacefa;
   }
-  #home-page section #pendaftaran.hidden {
+  #home-page main #pendaftaran.hidden {
     display: none;
   }
-  #home-page section #jadwal-pubex-live {
+  #home-page main #jadwal-pubex-live {
     background-color: lightcyan;
     min-height: 100vh;
     width: 100%;
   }
-  #home-page section #jadwal-pubex-live.hidden {
+  #home-page main #jadwal-pubex-live.hidden {
     display: none;
   }
 }
@@ -4836,11 +4836,11 @@ p {
   #home-page {
     scroll-behavior: smooth;
   }
-  #home-page section {
+  #home-page main {
     width: 100%;
     overflow: hidden;
   }
-  #home-page section #header {
+  #home-page main #header {
     position: relative;
     display: flex;
     align-items: center;
@@ -4852,17 +4852,17 @@ p {
     height: 100vh;
     width: 100%;
   }
-  #home-page section #header .row {
+  #home-page main #header .row {
     align-items: center;
     gap: 0 50px;
   }
-  #home-page section #header .row .text-header-wrapper {
+  #home-page main #header .row .text-header-wrapper {
     display: flex;
     flex-direction: column;
     gap: 16px 0;
     width: 100%;
   }
-  #home-page section #header .row .text-header-wrapper .text-header {
+  #home-page main #header .row .text-header-wrapper .text-header {
     display: flex;
     gap: 0 20px;
     padding: 24px;
@@ -4874,28 +4874,28 @@ p {
     line-height: 150%;
     border: 8px solid #6989ae;
   }
-  #home-page section #header .row .text-header-wrapper p {
+  #home-page main #header .row .text-header-wrapper p {
     text-align: start;
     color: #e9ebff;
   }
-  #home-page section #header .sponsor-wrapper {
+  #home-page main #header .sponsor-wrapper {
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 8px 0;
     background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .sponsor-wrapper .sponsor {
+  #home-page main #header .sponsor-wrapper .sponsor {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 32px;
   }
-  #home-page section #header .sponsor-wrapper .sponsor img {
+  #home-page main #header .sponsor-wrapper .sponsor img {
     width: auto;
     height: 40px;
   }
-  #home-page section .element-1 {
+  #home-page main .element-1 {
     position: absolute;
     top: -68px;
     z-index: 99;
@@ -4905,7 +4905,7 @@ p {
     background-repeat: no-repeat;
     background-position: -55px 0;
   }
-  #home-page section #about {
+  #home-page main #about {
     position: relative;
     background-color: #e9ebff;
     padding: 54px 0;
@@ -4914,11 +4914,11 @@ p {
     display: flex;
     align-items: center;
   }
-  #home-page section #about .row {
+  #home-page main #about .row {
     width: 100%;
     gap: 0 24px;
   }
-  #home-page section #about .row .card-about {
+  #home-page main #about .row .card-about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4927,18 +4927,18 @@ p {
     gap: 24px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #home-page section #about .row .card-about img {
+  #home-page main #about .row .card-about img {
     width: 145px;
     height: 145px;
   }
-  #home-page section #about .row .card-about .info {
+  #home-page main #about .row .card-about .info {
     width: 100%;
     height: 84px;
   }
-  #home-page section #about .row .card-about .info p {
+  #home-page main #about .row .card-about .info p {
     cursor: default;
   }
-  #home-page section .element-3 {
+  #home-page main .element-3 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -4950,7 +4950,7 @@ p {
     background-position: right 0;
     background-size: 280px;
   }
-  #home-page section .element-2 {
+  #home-page main .element-2 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -4962,7 +4962,7 @@ p {
     background-position: right 0;
     background-size: 120px;
   }
-  #home-page section #pendaftaran {
+  #home-page main #pendaftaran {
     background-color: #04577c;
     min-height: 100vh;
     width: 100%;
@@ -4970,11 +4970,11 @@ p {
     display: flex;
     align-items: center;
   }
-  #home-page section #pendaftaran .row {
+  #home-page main #pendaftaran .row {
     width: 100%;
     gap: 0 24px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4987,7 +4987,7 @@ p {
     position: relative;
     overflow: hidden;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -4996,7 +4996,7 @@ p {
     gap: 0 8px;
     padding: 8px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
     width: 100%;
     height: 100%;
     display: flex;
@@ -5004,7 +5004,7 @@ p {
     gap: 12px 0;
     align-items: center;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
     cursor: default;
     width: 40px;
     height: 40px;
@@ -5020,11 +5020,11 @@ p {
     font-style: normal;
     font-weight: 700;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
     background-color: #04577c !important;
     color: #e9ebff !important;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -5035,7 +5035,7 @@ p {
     height: 1px;
     background-color: #04577c;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -5046,14 +5046,14 @@ p {
     height: 1px;
     background-color: #04577c;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info {
     width: 100%;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
     color: #04577c;
     font-size: 14px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -5069,22 +5069,22 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
     display: none;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
     background-color: #cacefa;
   }
-  #home-page section #pendaftaran.hidden {
+  #home-page main #pendaftaran.hidden {
     display: none;
   }
-  #home-page section #jadwal-pubex-live {
+  #home-page main #jadwal-pubex-live {
     background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
     min-height: 100vh;
     width: 100%;
   }
-  #home-page section #jadwal-pubex-live.hidden {
+  #home-page main #jadwal-pubex-live.hidden {
     display: none;
   }
 }
@@ -5092,11 +5092,11 @@ p {
   #home-page {
     scroll-behavior: smooth;
   }
-  #home-page section {
+  #home-page main {
     width: 100%;
     overflow: hidden;
   }
-  #home-page section #header {
+  #home-page main #header {
     position: relative;
     display: flex;
     align-items: center;
@@ -5108,17 +5108,17 @@ p {
     height: 100vh;
     width: 100%;
   }
-  #home-page section #header .row {
+  #home-page main #header .row {
     align-items: center;
     gap: 0 50px;
   }
-  #home-page section #header .row .text-header-wrapper {
+  #home-page main #header .row .text-header-wrapper {
     display: flex;
     flex-direction: column;
     gap: 16px 0;
     width: 100%;
   }
-  #home-page section #header .row .text-header-wrapper .text-header {
+  #home-page main #header .row .text-header-wrapper .text-header {
     display: flex;
     gap: 0 20px;
     padding: 24px;
@@ -5130,28 +5130,28 @@ p {
     line-height: 150%;
     border: 8px solid #6989ae;
   }
-  #home-page section #header .row .text-header-wrapper p {
+  #home-page main #header .row .text-header-wrapper p {
     text-align: start;
     color: #e9ebff;
   }
-  #home-page section #header .sponsor-wrapper {
+  #home-page main #header .sponsor-wrapper {
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 8px 0;
     background: linear-gradient(270deg, #fff 50.77%, rgba(4, 87, 124, 0) 89.87%);
   }
-  #home-page section #header .sponsor-wrapper .sponsor {
+  #home-page main #header .sponsor-wrapper .sponsor {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 32px;
   }
-  #home-page section #header .sponsor-wrapper .sponsor img {
+  #home-page main #header .sponsor-wrapper .sponsor img {
     width: auto;
     height: 40px;
   }
-  #home-page section .element-1 {
+  #home-page main .element-1 {
     position: absolute;
     top: -58px;
     z-index: 99;
@@ -5161,7 +5161,7 @@ p {
     background-repeat: no-repeat;
     background-position: -55px 0;
   }
-  #home-page section #about {
+  #home-page main #about {
     position: relative;
     background-color: #e9ebff;
     min-height: 100vh;
@@ -5170,11 +5170,11 @@ p {
     display: flex;
     align-items: center;
   }
-  #home-page section #about .row {
+  #home-page main #about .row {
     width: 100%;
     gap: 0 24px;
   }
-  #home-page section #about .row .card-about {
+  #home-page main #about .row .card-about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -5183,18 +5183,18 @@ p {
     gap: 24px 0;
     box-shadow: 0px 17px 33px -2px rgba(28, 39, 49, 0.05);
   }
-  #home-page section #about .row .card-about img {
+  #home-page main #about .row .card-about img {
     width: 145px;
     height: 145px;
   }
-  #home-page section #about .row .card-about .info {
+  #home-page main #about .row .card-about .info {
     width: 100%;
     height: 84px;
   }
-  #home-page section #about .row .card-about .info p {
+  #home-page main #about .row .card-about .info p {
     cursor: default;
   }
-  #home-page section .element-3 {
+  #home-page main .element-3 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -5206,7 +5206,7 @@ p {
     background-position: right 0;
     background-size: 280px;
   }
-  #home-page section .element-2 {
+  #home-page main .element-2 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -5218,7 +5218,7 @@ p {
     background-position: right 0;
     background-size: 120px;
   }
-  #home-page section #pendaftaran {
+  #home-page main #pendaftaran {
     background-color: #04577c;
     padding: 45px 0;
     min-height: 100vh;
@@ -5226,11 +5226,11 @@ p {
     display: flex;
     align-items: center;
   }
-  #home-page section #pendaftaran .row {
+  #home-page main #pendaftaran .row {
     width: 100%;
     gap: 0 24px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -5243,7 +5243,7 @@ p {
     position: relative;
     overflow: hidden;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -5252,7 +5252,7 @@ p {
     gap: 0 8px;
     padding: 8px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp {
     width: 100%;
     height: 100%;
     display: flex;
@@ -5260,7 +5260,7 @@ p {
     gap: 12px 0;
     align-items: center;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no {
     cursor: default;
     width: 40px;
     height: 40px;
@@ -5276,11 +5276,11 @@ p {
     font-style: normal;
     font-weight: 700;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.active {
     background-color: #04577c !important;
     color: #e9ebff !important;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -5291,7 +5291,7 @@ p {
     height: 1px;
     background-color: #04577c;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-no.line-investor::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -5302,14 +5302,14 @@ p {
     height: 1px;
     background-color: #04577c;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info {
     width: 100%;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
+  #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran .flow-wrapp .flow-info p {
     color: #04577c;
     font-size: 14px;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar {
     cursor: pointer;
     padding: 12px 0;
     background-color: #04577c;
@@ -5325,22 +5325,22 @@ p {
     border-radius: 8px;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar.hidden {
     display: none;
   }
-  #home-page section #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
+  #home-page main #pendaftaran .row .card-pendaftaran .btn-daftar:disabled {
     cursor: default;
     background-color: #cacefa;
   }
-  #home-page section #pendaftaran.hidden {
+  #home-page main #pendaftaran.hidden {
     display: none;
   }
-  #home-page section #jadwal-pubex-live {
+  #home-page main #jadwal-pubex-live {
     background-color: lightcyan;
     min-height: 100vh;
     width: 100%;
   }
-  #home-page section #jadwal-pubex-live.hidden {
+  #home-page main #jadwal-pubex-live.hidden {
     display: none;
   }
 }
@@ -5608,10 +5608,9 @@ p {
 @media (max-width: 375px) {
   #jadwal-pubex-live {
     background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
-    min-height: 100vh;
+    height: max-content;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
   }
   #jadwal-pubex-live .row {
     flex-direction: column;
@@ -5766,10 +5765,9 @@ p {
 @media (min-width: 376px) and (max-width: 467px) {
   #jadwal-pubex-live {
     background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
-    min-height: 100vh;
+    height: max-content;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
   }
   #jadwal-pubex-live .row {
     flex-direction: column;
@@ -5924,10 +5922,9 @@ p {
 @media (min-width: 468px) and (max-width: 767px) {
   #jadwal-pubex-live {
     background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
-    min-height: 100vh;
+    height: max-content;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
   }
   #jadwal-pubex-live .row {
     flex-direction: column;
