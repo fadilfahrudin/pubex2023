@@ -1,7 +1,7 @@
 @include media.xs {
   #home-page {
     scroll-behavior: smooth;
-    section {
+    main {
       width: 100%;
       overflow: hidden;
       #header {
@@ -265,7 +265,7 @@
 @include media.sm {
   #home-page {
     scroll-behavior: smooth;
-    section {
+    main {
       width: 100%;
       overflow: hidden;
       #header {
@@ -538,7 +538,7 @@
 @include media.md {
   #home-page {
     scroll-behavior: smooth;
-    section {
+    main {
       width: 100%;
       overflow: hidden;
       #header {
@@ -813,7 +813,7 @@
 @include media.lg {
   #home-page {
     scroll-behavior: smooth;
-    section {
+    main {
       width: 100%;
       overflow: hidden;
       #header {
@@ -1080,7 +1080,7 @@
 @include media.xl {
   #home-page {
     scroll-behavior: smooth;
-    section {
+    main {
       width: 100%;
       overflow: hidden;
       #header {
@@ -1354,7 +1354,7 @@
 @include media.xxl {
   #home-page {
     scroll-behavior: smooth;
-    section {
+    main {
       width: 100%;
       overflow: hidden;
       #header {

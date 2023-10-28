@@ -1,10 +1,9 @@
 @include media.xs {
   #jadwal-pubex-live {
     background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
-    min-height: 100vh;
+    height: max-content;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 
     .row {
       flex-direction: column;
@@ -184,10 +183,9 @@
 @include media.sm {
   #jadwal-pubex-live {
     background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
-    min-height: 100vh;
+    height: max-content;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 
     .row {
       flex-direction: column;
@@ -366,10 +364,9 @@
 @include media.md {
   #jadwal-pubex-live {
     background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
-    min-height: 100vh;
+    height: max-content;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 
     .row {
       flex-direction: column;
