@@ -51,7 +51,7 @@ p {
     font-size: 28px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
   p {
     font-size: 14px;
@@ -68,7 +68,7 @@ p {
     font-size: 28px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
   p {
     font-size: 14px;
@@ -2710,12 +2710,199 @@ p {
     display: none;
   }
 }
+#detail-emiten main {
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 12vh;
+  font-family: Lato, sans-serif;
+}
+#detail-emiten main .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media (max-width: 375px) {
+  #detail-emiten main .row:nth-child(1) {
+    gap: 24px 5px;
+  }
+  #detail-emiten main .row:nth-child(1) .back-btn {
+    cursor: pointer;
+    background-color: transparent;
+    width: max-content;
+    border: unset;
+    display: flex;
+    text-decoration: none;
+    align-items: start;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #04577c;
+  }
+  #detail-emiten main .row:nth-child(1) .back-btn::before {
+    content: url("../img/icon/arrow-left.png");
+  }
+  #detail-emiten main .row:nth-child(1) .alert-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  #detail-emiten main .row:nth-child(1) .alert-wrapper .success-edited-alert {
+    display: flex;
+    background-color: #668547;
+    gap: 8px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #detail-emiten main .row:nth-child(1) .alert-wrapper .success-edited-alert::before {
+    align-items: center;
+    content: url("../img/icon/check-circle.png");
+  }
+  #detail-emiten main .row:nth-child(1) .alert-wrapper .success-edited-alert.hidden {
+    display: none;
+  }
+  #detail-emiten main .row:nth-child(2) {
+    gap: 24px;
+  }
+  #detail-emiten main .row:nth-child(2) img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  #detail-emiten main .row:nth-child(2) .deskripsi-emiten {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #detail-emiten main .row:nth-child(2) .deskripsi-emiten p {
+    text-align: start;
+    line-height: 150%;
+  }
+  #detail-emiten main .row:nth-child(3) .persentasi-info .persentasi-waktu {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #04577c;
+  }
+  #detail-emiten main .row:nth-child(3) .persentasi-info .persentasi-waktu::before {
+    content: url(../img/icon/calendar_today.png);
+  }
+  #detail-emiten main .row:nth-child(3) .persentasi-info .persentasi-link {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    color: #04577c;
+  }
+  #detail-emiten main .row:nth-child(3) .persentasi-info .persentasi-link::before {
+    content: url(../img/icon/link.png);
+    width: 24px;
+    height: 24px;
+  }
+  #detail-emiten main .row:nth-child(3) .watch-live {
+    width: 100%;
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    border-radius: 8px;
+    background: var(--footer, #024c6c);
+    /* Dark - S */
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.24);
+  }
+  #detail-emiten main .row:nth-child(3) .watch-live::before {
+    content: "";
+    opacity: 1;
+    animation: indicator 1s linear 2s infinite alternate;
+    transition: all 0.5s linear;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(233, 68, 79), rgb(115, 12, 19));
+  }
+  #detail-emiten main .row:nth-child(4) {
+    gap: 8px;
+  }
+  #detail-emiten main .row:nth-child(4) .video-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  #detail-emiten main .row:nth-child(4) .video-wrapper iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+  #detail-emiten main .row:nth-child(4) h2 {
+    margin-top: 24px;
+  }
+  #detail-emiten main .row:nth-child(4) p {
+    text-align: start;
+  }
+  #detail-emiten main .row:nth-child(5) {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    color: #04577c;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    margin-bottom: 26px;
+  }
+  #detail-emiten main .row:nth-child(5) .socmed ul {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+  }
+  #detail-emiten main .row:nth-child(5) .socmed ul li a {
+    text-decoration: none;
+    display: block;
+  }
+  #detail-emiten main .row:nth-child(5) .socmed ul li a .ic-wa {
+    content: url("../img/ic-wa-active.png");
+  }
+  #detail-emiten main .row:nth-child(5) .socmed ul li a .ic-link {
+    content: url("../img/ic-link-active.png");
+  }
+  #detail-emiten main .row:nth-child(5) .socmed ul li a .ic-fb {
+    content: url("../img/ic-fb-active.png");
+  }
+  #detail-emiten main .row:nth-child(5) .socmed ul li a .ic-tw {
+    content: url("../img/ic-tw-active.png");
+  }
+  #detail-emiten main .row:nth-child(5) .socmed ul li a .ic-ig {
+    content: url("../img/ic-ig-active.png");
+  }
+}
+
 #page-emiten nav,
 #page-investor nav,
 #page-success-registration nav,
 #edit-page-emiten nav,
 #page-pubex-live nav,
-#edit-page-investor nav {
+#edit-page-investor nav,
+#detail-emiten nav {
   top: 0;
   position: fixed;
   width: 100%;
@@ -2728,7 +2915,8 @@ p {
 #page-success-registration nav .navigation,
 #edit-page-emiten nav .navigation,
 #page-pubex-live nav .navigation,
-#edit-page-investor nav .navigation {
+#edit-page-investor nav .navigation,
+#detail-emiten nav .navigation {
   position: relative;
   display: flex;
   align-items: center;
@@ -2744,7 +2932,8 @@ p {
 #page-success-registration nav .navigation .nav-brand,
 #edit-page-emiten nav .navigation .nav-brand,
 #page-pubex-live nav .navigation .nav-brand,
-#edit-page-investor nav .navigation .nav-brand {
+#edit-page-investor nav .navigation .nav-brand,
+#detail-emiten nav .navigation .nav-brand {
   cursor: default;
 }
 #page-emiten nav .navigation .user-dropdown,
@@ -2752,7 +2941,8 @@ p {
 #page-success-registration nav .navigation .user-dropdown,
 #edit-page-emiten nav .navigation .user-dropdown,
 #page-pubex-live nav .navigation .user-dropdown,
-#edit-page-investor nav .navigation .user-dropdown {
+#edit-page-investor nav .navigation .user-dropdown,
+#detail-emiten nav .navigation .user-dropdown {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -2766,7 +2956,8 @@ p {
 #page-success-registration nav .navigation .user-dropdown img,
 #edit-page-emiten nav .navigation .user-dropdown img,
 #page-pubex-live nav .navigation .user-dropdown img,
-#edit-page-investor nav .navigation .user-dropdown img {
+#edit-page-investor nav .navigation .user-dropdown img,
+#detail-emiten nav .navigation .user-dropdown img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -2776,7 +2967,8 @@ p {
 #page-success-registration nav .navigation .user-dropdown .drop-down-ic,
 #edit-page-emiten nav .navigation .user-dropdown .drop-down-ic,
 #page-pubex-live nav .navigation .user-dropdown .drop-down-ic,
-#edit-page-investor nav .navigation .user-dropdown .drop-down-ic {
+#edit-page-investor nav .navigation .user-dropdown .drop-down-ic,
+#detail-emiten nav .navigation .user-dropdown .drop-down-ic {
   content: url("../img/icon/arrow_drop_down.png");
   width: 24px;
   height: 24px;
@@ -2786,7 +2978,8 @@ p {
 #page-success-registration nav .navigation .user-dropdown .active,
 #edit-page-emiten nav .navigation .user-dropdown .active,
 #page-pubex-live nav .navigation .user-dropdown .active,
-#edit-page-investor nav .navigation .user-dropdown .active {
+#edit-page-investor nav .navigation .user-dropdown .active,
+#detail-emiten nav .navigation .user-dropdown .active {
   content: url("../img/icon/arrow_drop_down.png");
   width: 24px;
   height: 24px;
@@ -2797,7 +2990,8 @@ p {
 #page-success-registration nav .navigation .user-dropdown.hidden,
 #edit-page-emiten nav .navigation .user-dropdown.hidden,
 #page-pubex-live nav .navigation .user-dropdown.hidden,
-#edit-page-investor nav .navigation .user-dropdown.hidden {
+#edit-page-investor nav .navigation .user-dropdown.hidden,
+#detail-emiten nav .navigation .user-dropdown.hidden {
   display: none;
 }
 #page-emiten nav .navigation .modal-user,
@@ -2805,7 +2999,8 @@ p {
 #page-success-registration nav .navigation .modal-user,
 #edit-page-emiten nav .navigation .modal-user,
 #page-pubex-live nav .navigation .modal-user,
-#edit-page-investor nav .navigation .modal-user {
+#edit-page-investor nav .navigation .modal-user,
+#detail-emiten nav .navigation .modal-user {
   position: absolute;
   right: 0;
   top: 60px;
@@ -2822,7 +3017,8 @@ p {
 #page-success-registration nav .navigation .modal-user .user-action,
 #edit-page-emiten nav .navigation .modal-user .user-action,
 #page-pubex-live nav .navigation .modal-user .user-action,
-#edit-page-investor nav .navigation .modal-user .user-action {
+#edit-page-investor nav .navigation .modal-user .user-action,
+#detail-emiten nav .navigation .modal-user .user-action {
   padding: 12px 32px;
   border: none;
   background-color: transparent;
@@ -2842,7 +3038,8 @@ p {
 #page-success-registration nav .navigation .modal-user .user-action:hover,
 #edit-page-emiten nav .navigation .modal-user .user-action:hover,
 #page-pubex-live nav .navigation .modal-user .user-action:hover,
-#edit-page-investor nav .navigation .modal-user .user-action:hover {
+#edit-page-investor nav .navigation .modal-user .user-action:hover,
+#detail-emiten nav .navigation .modal-user .user-action:hover {
   background-color: #5dcad1;
 }
 #page-emiten nav .navigation .modal-user .hidden,
@@ -2850,7 +3047,8 @@ p {
 #page-success-registration nav .navigation .modal-user .hidden,
 #edit-page-emiten nav .navigation .modal-user .hidden,
 #page-pubex-live nav .navigation .modal-user .hidden,
-#edit-page-investor nav .navigation .modal-user .hidden {
+#edit-page-investor nav .navigation .modal-user .hidden,
+#detail-emiten nav .navigation .modal-user .hidden {
   display: none;
 }
 @keyframes dropdown-action {
