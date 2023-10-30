@@ -1,11 +1,16 @@
+#page-success-registration {
+  .success-content-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
 @include media.xs {
   #page-success-registration {
     .success-content {
       margin: 0 auto;
-      margin-top: 20vh;
-      margin-bottom: 68px;
       width: 100%;
-      min-height: 100vh;
+      height: max-content;
       display: flex;
       flex-direction: column;
       gap: 32px;
@@ -49,10 +54,8 @@
   #page-success-registration {
     .success-content {
       margin: 0 auto;
-      margin-top: 20vh;
-      margin-bottom: 68px;
+      height: max-content;
       width: 100%;
-      min-height: 100vh;
       display: flex;
       flex-direction: column;
       gap: 32px;
@@ -96,10 +99,8 @@
   #page-success-registration {
     .success-content {
       margin: 0 auto;
-      margin-top: 26px;
-      margin-bottom: 68px;
       width: 100%;
-      min-height: 100vh;
+      height: max-content;
       display: flex;
       flex-direction: column;
       gap: 32px;
@@ -143,10 +144,8 @@
   #page-success-registration {
     .success-content {
       margin: 0 auto;
-      margin-top: 26px;
-      margin-bottom: 68px;
       width: 508px;
-      min-height: 100vh;
+      height: max-content;
       display: flex;
       flex-direction: column;
       gap: 32px;
@@ -190,10 +189,8 @@
   #page-success-registration {
     .success-content {
       margin: 0 auto;
-      margin-top: 26px;
-      margin-bottom: 68px;
       width: 508px;
-      min-height: 100vh;
+      height: max-content;
       display: flex;
       flex-direction: column;
       gap: 32px;
@@ -237,10 +234,8 @@
   #page-success-registration {
     .success-content {
       margin: 0 auto;
-      margin-top: 26px;
-      margin-bottom: 68px;
       width: 508px;
-      min-height: 100vh;
+      height: max-content;
       display: flex;
       flex-direction: column;
       gap: 32px;

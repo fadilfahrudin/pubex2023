@@ -1451,13 +1451,17 @@ p {
     cursor: default;
   }
 }
+#page-success-registration .success-content-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 375px) {
   #page-success-registration .success-content {
     margin: 0 auto;
-    margin-top: 20vh;
-    margin-bottom: 68px;
     width: 100%;
-    min-height: 100vh;
+    height: max-content;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -1498,10 +1502,8 @@ p {
 @media (min-width: 376px) and (max-width: 467px) {
   #page-success-registration .success-content {
     margin: 0 auto;
-    margin-top: 20vh;
-    margin-bottom: 68px;
+    height: max-content;
     width: 100%;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -1542,10 +1544,8 @@ p {
 @media (min-width: 468px) and (max-width: 767px) {
   #page-success-registration .success-content {
     margin: 0 auto;
-    margin-top: 26px;
-    margin-bottom: 68px;
     width: 100%;
-    min-height: 100vh;
+    height: max-content;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -1586,10 +1586,8 @@ p {
 @media (min-width: 768px) and (max-width: 1075px) {
   #page-success-registration .success-content {
     margin: 0 auto;
-    margin-top: 26px;
-    margin-bottom: 68px;
     width: 508px;
-    min-height: 100vh;
+    height: max-content;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -1630,10 +1628,8 @@ p {
 @media (min-width: 1076px) and (max-width: 1919px) {
   #page-success-registration .success-content {
     margin: 0 auto;
-    margin-top: 26px;
-    margin-bottom: 68px;
     width: 508px;
-    min-height: 100vh;
+    height: max-content;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -1674,10 +1670,8 @@ p {
 @media (min-width: 1920px) {
   #page-success-registration .success-content {
     margin: 0 auto;
-    margin-top: 26px;
-    margin-bottom: 68px;
     width: 508px;
-    min-height: 100vh;
+    height: max-content;
     display: flex;
     flex-direction: column;
     gap: 32px;
