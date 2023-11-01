@@ -5659,14 +5659,6 @@ p {
   #home-page main #pendaftaran.hidden {
     display: none;
   }
-  #home-page main #jadwal-pubex-live {
-    background-color: lightcyan;
-    min-height: 100vh;
-    width: 100%;
-  }
-  #home-page main #jadwal-pubex-live.hidden {
-    display: none;
-  }
 }
 @media (min-width: 468px) and (max-width: 767px) {
   #home-page {
@@ -5922,14 +5914,6 @@ p {
   #home-page main #pendaftaran.hidden {
     display: none;
   }
-  #home-page main #jadwal-pubex-live {
-    background-color: lightcyan;
-    min-height: 100vh;
-    width: 100%;
-  }
-  #home-page main #jadwal-pubex-live.hidden {
-    display: none;
-  }
 }
 @media (min-width: 768px) and (max-width: 1075px) {
   #home-page {
@@ -6175,14 +6159,6 @@ p {
     background-color: #cacefa;
   }
   #home-page main #pendaftaran.hidden {
-    display: none;
-  }
-  #home-page main #jadwal-pubex-live {
-    background-color: lightcyan;
-    min-height: 100vh;
-    width: 100%;
-  }
-  #home-page main #jadwal-pubex-live.hidden {
     display: none;
   }
 }
@@ -6433,14 +6409,6 @@ p {
   #home-page main #pendaftaran.hidden {
     display: none;
   }
-  #home-page main #jadwal-pubex-live {
-    background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
-    min-height: 100vh;
-    width: 100%;
-  }
-  #home-page main #jadwal-pubex-live.hidden {
-    display: none;
-  }
 }
 @media (min-width: 1920px) {
   #home-page {
@@ -6687,14 +6655,6 @@ p {
     background-color: #cacefa;
   }
   #home-page main #pendaftaran.hidden {
-    display: none;
-  }
-  #home-page main #jadwal-pubex-live {
-    background-color: lightcyan;
-    min-height: 100vh;
-    width: 100%;
-  }
-  #home-page main #jadwal-pubex-live.hidden {
     display: none;
   }
 }
@@ -7433,7 +7393,7 @@ p {
 @media (min-width: 768px) and (max-width: 1075px) {
   #jadwal-pubex-live {
     background: linear-gradient(0deg, #04577c 0%, #3185ab 48.01%, #013b55 100%);
-    min-height: 100vh;
+    height: max-content;
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
