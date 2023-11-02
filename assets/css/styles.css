@@ -742,7 +742,7 @@ p {
     font-weight: 400;
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #eb8455;
+    background-color: #04577c;
     color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active {
@@ -878,7 +878,7 @@ p {
     font-weight: 400;
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #eb8455;
+    background-color: #04577c;
     color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active {
@@ -1014,7 +1014,7 @@ p {
     font-weight: 400;
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #eb8455;
+    background-color: #04577c;
     color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active {
@@ -1150,7 +1150,7 @@ p {
     font-weight: 400;
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #eb8455;
+    background-color: #04577c;
     color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active {
@@ -1422,7 +1422,7 @@ p {
     font-weight: 400;
   }
   #page-investor section .form-section .row .form-field #sekuritas-terdaftar-active .wrapp-list-sekuritas .list-sekuritas ul li:hover {
-    background-color: #eb8455;
+    background-color: #04577c;
     color: #e9ebff;
   }
   #page-investor section .form-section .row .form-field #tipe-media-active {
@@ -3043,6 +3043,7 @@ p {
   }
   #detail-emiten main .row:nth-child(2) {
     gap: 24px;
+    justify-content: unset;
   }
   #detail-emiten main .row:nth-child(2) img {
     width: 100px;
@@ -3217,6 +3218,7 @@ p {
   }
   #detail-emiten main .row:nth-child(2) {
     gap: 24px;
+    justify-content: unset;
   }
   #detail-emiten main .row:nth-child(2) img {
     width: 100px;
@@ -3391,6 +3393,7 @@ p {
   }
   #detail-emiten main .row:nth-child(2) {
     gap: 24px;
+    justify-content: unset;
   }
   #detail-emiten main .row:nth-child(2) img {
     width: 100px;
@@ -3566,6 +3569,7 @@ p {
   }
   #detail-emiten main .row:nth-child(2) {
     gap: 24px;
+    justify-content: unset;
   }
   #detail-emiten main .row:nth-child(2) img {
     width: 100px;
@@ -3742,6 +3746,7 @@ p {
   }
   #detail-emiten main .row:nth-child(2) {
     gap: 24px;
+    justify-content: unset;
   }
   #detail-emiten main .row:nth-child(2) img {
     width: 100px;
@@ -3919,6 +3924,7 @@ p {
     display: none;
   }
   #detail-emiten main .row:nth-child(2) {
+    justify-content: unset;
     gap: 24px;
   }
   #detail-emiten main .row:nth-child(2) img {

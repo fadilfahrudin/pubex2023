@@ -150,13 +150,6 @@
 						content.push(`<li class="data-list" data-value="${data.name}" data-id="${data.id}">${data.name}</li>`)
 					})
 	
-					// dropdown hidde after clicking outframe dropdown
-					// $(window).click((e) => {
-					// 	if (e.target !== $(".bootstrap-tagsinput").get(0)){
-					// 		$(".wrapp-list-sekuritas").html(``)
-					// 	}
-					// })
-	
 					return $(".wrapp-list-sekuritas").html(`
 						<div class="list-sekuritas">
 							<ul>${content.join("")}</ul>
@@ -183,14 +176,16 @@
 			// Remove Tag
 			$(".bootstrap-tagsinput").hover(()=>{
 				$(".tag-remove").click(function(){
-					let index = $(".tag-remove").index($(this));
-					$(".tag-selected").each(function(iData){
-						if (index === iData) {
-							sekuritasSelected.splice(iData, 1)
-							$("#sekuritas-terdaftar").attr("data-value" ,sekuritasSelected)
-							return $(this).remove();
-						}
-					})
+					if ($(".btn-edit").hasClass("active") === false) {
+						let index = $(".tag-remove").index($(this));
+						$(".tag-selected").each(function(iData){
+							if (index === iData) {
+								sekuritasSelected.splice(iData, 1)
+								$("#sekuritas-terdaftar").attr("data-value" ,sekuritasSelected)
+								return $(this).remove();
+							}
+						})
+					}
 				})
 			})
 
@@ -253,9 +248,11 @@
 		} else if($("#tipe-pengunjung").val() == "0") {
 			$(".btn-submit").attr("disabled", true);
 		} else if($("#tipe-pengunjung").val() == "investor"){
-			if ($("#sekuritas-terdaftar").attr("data-value") == "") {
+			if($("#investor").val() == "") {
 				$(".btn-submit").attr("disabled", true);
-			} else {
+			} else if ($("#sekuritas-terdaftar").attr("data-value") == "") {
+				$(".btn-submit").attr("disabled", true);
+			}else {
 				$(".btn-submit").attr("disabled", false);
 			}
 		} else if($("#tipe-pengunjung").val() == "media"){
@@ -295,9 +292,12 @@
 		} else if($("#tipe-pengunjung").val() == null) {
 			$(".btn-submit").attr("disabled", true);
 		} else if($("#tipe-pengunjung").val() == "investor"){
-			if ($("#sekuritas-terdaftar").attr("data-value") == "") {
+			if($("#investor").val() == "") {
+				console.log("Please enter")
 				$(".btn-submit").attr("disabled", true);
-			} else {
+			} else if ($("#sekuritas-terdaftar").attr("data-value") == "") {
+				$(".btn-submit").attr("disabled", true);
+			}else {
 				$(".btn-submit").attr("disabled", false);
 			}
 		} else if($("#tipe-pengunjung").val() == "media"){
@@ -398,6 +398,7 @@
 			$(".btn-edit").click(() => {
 				// Show submit button
 				$(".btn-submit").removeClass("hidden")
+				$(".btn-edit").removeClass("active")
 				// Change title form
 				$("h1").text("Edit Data Saya")
 				$(".bootstrap-tagsinput").css("border-color", "#5dcad1")
