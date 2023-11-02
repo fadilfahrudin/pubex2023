@@ -3829,7 +3829,7 @@ p {
     width: 100%;
     height: auto;
     padding: 24px 148px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #f9f9ff;
   }
   #detail-emiten main .row:nth-child(4) .video-wrapper iframe {
     width: 100%;
@@ -4008,7 +4008,7 @@ p {
     width: 100%;
     height: auto;
     padding: 24px 148px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #f9f9ff;
   }
   #detail-emiten main .row:nth-child(4) .video-wrapper iframe {
     width: 100%;
