@@ -164,9 +164,13 @@
                   color: $text-dark;
                   background: #fffb6f;
                 }
-                &.slot-default {
+                &.slot-premium-yt {
                   color: $text-dark;
                   background: $color-secondary;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: rgb(209, 209, 208);
                 }
               }
             }
@@ -345,9 +349,13 @@
                   color: $text-dark;
                   background: #fffb6f;
                 }
-                &.slot-default {
+                &.slot-premium-yt {
                   color: $text-dark;
                   background: $color-secondary;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: rgb(209, 209, 208);
                 }
               }
             }
@@ -526,9 +534,13 @@
                   color: $text-dark;
                   background: #fffb6f;
                 }
-                &.slot-default {
+                &.slot-premium-yt {
                   color: $text-dark;
                   background: $color-secondary;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: rgb(209, 209, 208);
                 }
               }
             }
@@ -708,9 +720,13 @@
                   color: $text-dark;
                   background: #fffb6f;
                 }
-                &.slot-default {
+                &.slot-premium-yt {
                   color: $text-dark;
                   background: $color-secondary;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: rgb(209, 209, 208);
                 }
               }
             }
@@ -887,14 +903,17 @@
                     }
                   }
                 }
-
                 &.slot-premium {
                   color: $text-dark;
                   background: #fffb6f;
                 }
-                &.slot-default {
+                &.slot-premium-yt {
                   color: $text-dark;
                   background: $color-secondary;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: rgb(209, 209, 208);
                 }
               }
             }
@@ -1076,9 +1095,13 @@
                   color: $text-dark;
                   background: #fffb6f;
                 }
-                &.slot-default {
+                &.slot-premium-yt {
                   color: $text-dark;
                   background: $color-secondary;
+                }
+                &.slot-default {
+                  color: $text-dark;
+                  background: rgb(209, 209, 208);
                 }
               }
             }
