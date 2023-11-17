@@ -149,6 +149,7 @@
           gap: 16px 0;
           width: 100%;
           overflow: hidden;
+          flex-direction: column-reverse;
           .card-pendaftaran {
             display: flex;
             flex-direction: column;
@@ -413,6 +414,7 @@
           gap: 16px 0;
           width: 100%;
           overflow: hidden;
+          flex-direction: column-reverse;
           .card-pendaftaran {
             display: flex;
             flex-direction: column;
@@ -676,6 +678,7 @@
           gap: 16px 0;
           width: 100%;
           overflow: hidden;
+          flex-direction: column-reverse;
           .card-pendaftaran {
             display: flex;
             flex-direction: column;
@@ -933,7 +936,7 @@
         padding: 24px;
         .row {
           width: 100%;
-          flex-direction: column;
+          flex-direction: column-reverse;
           gap: 24px;
           .card-pendaftaran {
             display: flex;
@@ -946,6 +949,10 @@
             background-color: $color-light;
             position: relative;
             overflow: hidden;
+
+            h1 {
+              text-align: center;
+            }
 
             .flow-pendaftaran {
               position: relative;
@@ -1206,6 +1213,10 @@
             position: relative;
             overflow: hidden;
 
+            h1 {
+              text-align: center;
+            }
+
             .flow-pendaftaran {
               position: relative;
               z-index: 2;
@@ -1465,6 +1476,10 @@
             background-color: $color-light;
             position: relative;
             overflow: hidden;
+
+            h1 {
+              text-align: center;
+            }
 
             .flow-pendaftaran {
               position: relative;

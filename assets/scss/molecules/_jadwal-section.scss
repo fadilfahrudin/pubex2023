@@ -5,7 +5,57 @@
     width: 100%;
     padding: 60px 0;
 
+    .container {
+      h1,
+      h3 {
+        color: $text-white;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 48px */
+      }
+      h3 {
+        font-weight: 400;
+        line-height: 150%; /* 27px */
+      }
+      ul {
+        margin-top: 4px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        li {
+          position: relative;
+          color: $text-white;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding-left: 32px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            border-radius: 50%;
+            width: 17px;
+            height: 17px;
+            background-color: #fffb6f;
+          }
+          &:nth-child(2)::before {
+            background-color: #5dcad1;
+          }
+          &:nth-child(3)::before {
+            background-color: #e9ebff;
+          }
+        }
+      }
+    }
+
     .row {
+      margin-top: 48px;
       flex-direction: column;
       .jadwal-card {
         display: flex;
@@ -170,7 +220,7 @@
                 }
                 &.slot-default {
                   color: $text-dark;
-                  background: rgb(209, 209, 208);
+                  background: #e9ebff;
                 }
               }
             }
@@ -191,7 +241,57 @@
     width: 100%;
     padding: 60px 0;
 
+    .container {
+      h1,
+      h3 {
+        color: $text-white;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 48px */
+      }
+      h3 {
+        font-weight: 400;
+        line-height: 150%; /* 27px */
+      }
+      ul {
+        margin-top: 4px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        li {
+          position: relative;
+          color: $text-white;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding-left: 32px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            border-radius: 50%;
+            width: 17px;
+            height: 17px;
+            background-color: #fffb6f;
+          }
+          &:nth-child(2)::before {
+            background-color: #5dcad1;
+          }
+          &:nth-child(3)::before {
+            background-color: #e9ebff;
+          }
+        }
+      }
+    }
+
     .row {
+      margin-top: 48px;
       flex-direction: column;
       .jadwal-card {
         display: flex;
@@ -355,7 +455,7 @@
                 }
                 &.slot-default {
                   color: $text-dark;
-                  background: rgb(209, 209, 208);
+                  background: #e9ebff;
                 }
               }
             }
@@ -376,7 +476,57 @@
     width: 100%;
     padding: 60px 0;
 
+    .container {
+      h1,
+      h3 {
+        color: $text-white;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 48px */
+      }
+      h3 {
+        font-weight: 400;
+        line-height: 150%; /* 27px */
+      }
+      ul {
+        margin-top: 4px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        li {
+          position: relative;
+          color: $text-white;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding-left: 32px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            border-radius: 50%;
+            width: 17px;
+            height: 17px;
+            background-color: #fffb6f;
+          }
+          &:nth-child(2)::before {
+            background-color: #5dcad1;
+          }
+          &:nth-child(3)::before {
+            background-color: #e9ebff;
+          }
+        }
+      }
+    }
+
     .row {
+      margin-top: 48px;
       flex-direction: column;
       .jadwal-card {
         display: flex;
@@ -540,7 +690,7 @@
                 }
                 &.slot-default {
                   color: $text-dark;
-                  background: rgb(209, 209, 208);
+                  background: #e9ebff;
                 }
               }
             }
@@ -562,7 +712,57 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
+    .container {
+      h1,
+      h3 {
+        color: $text-white;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 48px */
+      }
+      h3 {
+        font-weight: 400;
+        line-height: 150%; /* 27px */
+      }
+      ul {
+        margin-top: 4px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        li {
+          position: relative;
+          color: $text-white;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding-left: 32px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            border-radius: 50%;
+            width: 17px;
+            height: 17px;
+            background-color: #fffb6f;
+          }
+          &:nth-child(2)::before {
+            background-color: #5dcad1;
+          }
+          &:nth-child(3)::before {
+            background-color: #e9ebff;
+          }
+        }
+      }
+    }
+
     .row {
+      margin-top: 48px;
       flex-direction: column;
       .jadwal-card {
         display: flex;
@@ -726,7 +926,7 @@
                 }
                 &.slot-default {
                   color: $text-dark;
-                  background: rgb(209, 209, 208);
+                  background: #e9ebff;
                 }
               }
             }
@@ -748,7 +948,58 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
+    .container {
+      h1,
+      h3 {
+        color: $text-white;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 48px */
+      }
+      h3 {
+        font-weight: 400;
+        line-height: 150%; /* 27px */
+      }
+
+      ul {
+        margin-top: 4px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        li {
+          position: relative;
+          color: $text-white;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding-left: 32px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            border-radius: 50%;
+            width: 17px;
+            height: 17px;
+            background-color: #fffb6f;
+          }
+          &:nth-child(2)::before {
+            background-color: #5dcad1;
+          }
+          &:nth-child(3)::before {
+            background-color: #e9ebff;
+          }
+        }
+      }
+    }
+
     .row {
+      margin-top: 48px;
       flex-direction: row;
       gap: 24px;
       .jadwal-card {
@@ -913,7 +1164,7 @@
                 }
                 &.slot-default {
                   color: $text-dark;
-                  background: rgb(209, 209, 208);
+                  background: #e9ebff;
                 }
               }
             }
@@ -935,8 +1186,58 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
+    .container {
+      h1,
+      h3 {
+        color: $text-white;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 48px */
+      }
+      h3 {
+        font-weight: 400;
+        line-height: 150%; /* 27px */
+      }
+      ul {
+        margin-top: 4px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        li {
+          position: relative;
+          color: $text-white;
+          font-family: Lato, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding-left: 32px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            border-radius: 50%;
+            width: 17px;
+            height: 17px;
+            background-color: #fffb6f;
+          }
+          &:nth-child(2)::before {
+            background-color: #5dcad1;
+          }
+          &:nth-child(3)::before {
+            background-color: #e9ebff;
+          }
+        }
+      }
+    }
+
     .row {
       flex-direction: row;
+      margin-top: 48px;
       gap: 24px;
       .jadwal-card {
         display: flex;
@@ -1101,7 +1402,7 @@
                 }
                 &.slot-default {
                   color: $text-dark;
-                  background: rgb(209, 209, 208);
+                  background: #e9ebff;
                 }
               }
             }

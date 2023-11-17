@@ -29,6 +29,13 @@ h2 {
   color: #04577c;
 }
 
+h3 {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #04577c;
+}
+
 p {
   color: #04577c;
   text-align: center;
@@ -52,6 +59,9 @@ p {
   h2 {
     font-size: 16px;
   }
+  h3 {
+    font-size: 16px;
+  }
   p {
     font-size: 14px;
   }
@@ -67,6 +77,9 @@ p {
     font-size: 28px;
   }
   h2 {
+    font-size: 16px;
+  }
+  h3 {
     font-size: 16px;
   }
   p {
@@ -86,6 +99,9 @@ p {
   h2 {
     font-size: 18px;
   }
+  h3 {
+    font-size: 16px;
+  }
   p {
     font-size: 14px;
   }
@@ -103,6 +119,9 @@ p {
   h2 {
     font-size: 20px;
   }
+  h3 {
+    font-size: 18px;
+  }
   p {
     font-size: 16px;
   }
@@ -117,6 +136,9 @@ p {
   h2 {
     font-size: 20px;
   }
+  h3 {
+    font-size: 18px;
+  }
   p {
     font-size: 16px;
   }
@@ -130,6 +152,9 @@ p {
   }
   h2 {
     font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
   }
   p {
     font-size: 16px;
@@ -5310,6 +5335,7 @@ p {
     gap: 16px 0;
     width: 100%;
     overflow: hidden;
+    flex-direction: column-reverse;
   }
   #home-page main #pendaftaran .row .card-pendaftaran {
     display: flex;
@@ -5563,6 +5589,7 @@ p {
     gap: 16px 0;
     width: 100%;
     overflow: hidden;
+    flex-direction: column-reverse;
   }
   #home-page main #pendaftaran .row .card-pendaftaran {
     display: flex;
@@ -5815,6 +5842,7 @@ p {
     gap: 16px 0;
     width: 100%;
     overflow: hidden;
+    flex-direction: column-reverse;
   }
   #home-page main #pendaftaran .row .card-pendaftaran {
     display: flex;
@@ -6061,7 +6089,7 @@ p {
   }
   #home-page main #pendaftaran .row {
     width: 100%;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 24px;
   }
   #home-page main #pendaftaran .row .card-pendaftaran {
@@ -6075,6 +6103,9 @@ p {
     background-color: #e9ebff;
     position: relative;
     overflow: hidden;
+  }
+  #home-page main #pendaftaran .row .card-pendaftaran h1 {
+    text-align: center;
   }
   #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
     position: relative;
@@ -6322,6 +6353,9 @@ p {
     background-color: #e9ebff;
     position: relative;
     overflow: hidden;
+  }
+  #home-page main #pendaftaran .row .card-pendaftaran h1 {
+    text-align: center;
   }
   #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
     position: relative;
@@ -6571,6 +6605,9 @@ p {
     position: relative;
     overflow: hidden;
   }
+  #home-page main #pendaftaran .row .card-pendaftaran h1 {
+    text-align: center;
+  }
   #home-page main #pendaftaran .row .card-pendaftaran .flow-pendaftaran {
     position: relative;
     z-index: 2;
@@ -6932,7 +6969,53 @@ p {
     width: 100%;
     padding: 60px 0;
   }
+  #jadwal-pubex-live .container h1,
+  #jadwal-pubex-live .container h3 {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+  }
+  #jadwal-pubex-live .container h3 {
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  #jadwal-pubex-live .container ul {
+    margin-top: 4px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  #jadwal-pubex-live .container ul li {
+    position: relative;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 32px;
+  }
+  #jadwal-pubex-live .container ul li::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: #fffb6f;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(2)::before {
+    background-color: #5dcad1;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(3)::before {
+    background-color: #e9ebff;
+  }
   #jadwal-pubex-live .row {
+    margin-top: 48px;
     flex-direction: column;
   }
   #jadwal-pubex-live .row .jadwal-card {
@@ -7080,7 +7163,7 @@ p {
   }
   #jadwal-pubex-live .row .jadwal-card .jadwal-body .jadwal-list .jadwal-info .jadwal-kegiatan.slot-default {
     color: #04577c;
-    background: rgb(209, 209, 208);
+    background: #e9ebff;
   }
   #jadwal-pubex-live .row.hidden {
     display: none;
@@ -7093,7 +7176,53 @@ p {
     width: 100%;
     padding: 60px 0;
   }
+  #jadwal-pubex-live .container h1,
+  #jadwal-pubex-live .container h3 {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+  }
+  #jadwal-pubex-live .container h3 {
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  #jadwal-pubex-live .container ul {
+    margin-top: 4px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  #jadwal-pubex-live .container ul li {
+    position: relative;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 32px;
+  }
+  #jadwal-pubex-live .container ul li::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: #fffb6f;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(2)::before {
+    background-color: #5dcad1;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(3)::before {
+    background-color: #e9ebff;
+  }
   #jadwal-pubex-live .row {
+    margin-top: 48px;
     flex-direction: column;
   }
   #jadwal-pubex-live .row .jadwal-card {
@@ -7241,7 +7370,7 @@ p {
   }
   #jadwal-pubex-live .row .jadwal-card .jadwal-body .jadwal-list .jadwal-info .jadwal-kegiatan.slot-default {
     color: #04577c;
-    background: rgb(209, 209, 208);
+    background: #e9ebff;
   }
   #jadwal-pubex-live .row.hidden {
     display: none;
@@ -7254,7 +7383,53 @@ p {
     width: 100%;
     padding: 60px 0;
   }
+  #jadwal-pubex-live .container h1,
+  #jadwal-pubex-live .container h3 {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+  }
+  #jadwal-pubex-live .container h3 {
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  #jadwal-pubex-live .container ul {
+    margin-top: 4px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  #jadwal-pubex-live .container ul li {
+    position: relative;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 32px;
+  }
+  #jadwal-pubex-live .container ul li::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: #fffb6f;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(2)::before {
+    background-color: #5dcad1;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(3)::before {
+    background-color: #e9ebff;
+  }
   #jadwal-pubex-live .row {
+    margin-top: 48px;
     flex-direction: column;
   }
   #jadwal-pubex-live .row .jadwal-card {
@@ -7402,7 +7577,7 @@ p {
   }
   #jadwal-pubex-live .row .jadwal-card .jadwal-body .jadwal-list .jadwal-info .jadwal-kegiatan.slot-default {
     color: #04577c;
-    background: rgb(209, 209, 208);
+    background: #e9ebff;
   }
   #jadwal-pubex-live .row.hidden {
     display: none;
@@ -7416,7 +7591,53 @@ p {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  #jadwal-pubex-live .container h1,
+  #jadwal-pubex-live .container h3 {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+  }
+  #jadwal-pubex-live .container h3 {
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  #jadwal-pubex-live .container ul {
+    margin-top: 4px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  #jadwal-pubex-live .container ul li {
+    position: relative;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 32px;
+  }
+  #jadwal-pubex-live .container ul li::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: #fffb6f;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(2)::before {
+    background-color: #5dcad1;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(3)::before {
+    background-color: #e9ebff;
+  }
   #jadwal-pubex-live .row {
+    margin-top: 48px;
     flex-direction: column;
   }
   #jadwal-pubex-live .row .jadwal-card {
@@ -7564,7 +7785,7 @@ p {
   }
   #jadwal-pubex-live .row .jadwal-card .jadwal-body .jadwal-list .jadwal-info .jadwal-kegiatan.slot-default {
     color: #04577c;
-    background: rgb(209, 209, 208);
+    background: #e9ebff;
   }
   #jadwal-pubex-live .row.hidden {
     display: none;
@@ -7578,7 +7799,53 @@ p {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  #jadwal-pubex-live .container h1,
+  #jadwal-pubex-live .container h3 {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+  }
+  #jadwal-pubex-live .container h3 {
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  #jadwal-pubex-live .container ul {
+    margin-top: 4px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  #jadwal-pubex-live .container ul li {
+    position: relative;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 32px;
+  }
+  #jadwal-pubex-live .container ul li::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: #fffb6f;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(2)::before {
+    background-color: #5dcad1;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(3)::before {
+    background-color: #e9ebff;
+  }
   #jadwal-pubex-live .row {
+    margin-top: 48px;
     flex-direction: row;
     gap: 24px;
   }
@@ -7728,7 +7995,7 @@ p {
   }
   #jadwal-pubex-live .row .jadwal-card .jadwal-body .jadwal-list .jadwal-info .jadwal-kegiatan.slot-default {
     color: #04577c;
-    background: rgb(209, 209, 208);
+    background: #e9ebff;
   }
   #jadwal-pubex-live .row.hidden {
     display: none;
@@ -7742,8 +8009,54 @@ p {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  #jadwal-pubex-live .container h1,
+  #jadwal-pubex-live .container h3 {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+  }
+  #jadwal-pubex-live .container h3 {
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  #jadwal-pubex-live .container ul {
+    margin-top: 4px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  #jadwal-pubex-live .container ul li {
+    position: relative;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 32px;
+  }
+  #jadwal-pubex-live .container ul li::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: #fffb6f;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(2)::before {
+    background-color: #5dcad1;
+  }
+  #jadwal-pubex-live .container ul li:nth-child(3)::before {
+    background-color: #e9ebff;
+  }
   #jadwal-pubex-live .row {
     flex-direction: row;
+    margin-top: 48px;
     gap: 24px;
   }
   #jadwal-pubex-live .row .jadwal-card {
@@ -7892,7 +8205,7 @@ p {
   }
   #jadwal-pubex-live .row .jadwal-card .jadwal-body .jadwal-list .jadwal-info .jadwal-kegiatan.slot-default {
     color: #04577c;
-    background: rgb(209, 209, 208);
+    background: #e9ebff;
   }
   #jadwal-pubex-live .row.hidden {
     display: none;
