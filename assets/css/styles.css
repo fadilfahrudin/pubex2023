@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=League+Spartan:wght@100;300;400;500;600;700&display=swap");
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: League Spartan;
+  src: url("../fonts/League_Spartan/static/LeagueSpartan-Regular.ttf") format("truetype");
+}
 * {
   margin: 0;
   padding: 0;
@@ -4089,7 +4101,8 @@ p {
 #edit-page-emiten nav,
 #page-pubex-live nav,
 #edit-page-investor nav,
-#detail-emiten nav {
+#detail-emiten nav,
+#page-kebijakan-privasi nav {
   top: 0;
   position: fixed;
   width: 100%;
@@ -4103,7 +4116,8 @@ p {
 #edit-page-emiten nav .navigation,
 #page-pubex-live nav .navigation,
 #edit-page-investor nav .navigation,
-#detail-emiten nav .navigation {
+#detail-emiten nav .navigation,
+#page-kebijakan-privasi nav .navigation {
   position: relative;
   display: flex;
   align-items: center;
@@ -4120,7 +4134,8 @@ p {
 #edit-page-emiten nav .navigation .nav-brand,
 #page-pubex-live nav .navigation .nav-brand,
 #edit-page-investor nav .navigation .nav-brand,
-#detail-emiten nav .navigation .nav-brand {
+#detail-emiten nav .navigation .nav-brand,
+#page-kebijakan-privasi nav .navigation .nav-brand {
   cursor: default;
 }
 #page-emiten nav .navigation .user-dropdown,
@@ -4129,7 +4144,8 @@ p {
 #edit-page-emiten nav .navigation .user-dropdown,
 #page-pubex-live nav .navigation .user-dropdown,
 #edit-page-investor nav .navigation .user-dropdown,
-#detail-emiten nav .navigation .user-dropdown {
+#detail-emiten nav .navigation .user-dropdown,
+#page-kebijakan-privasi nav .navigation .user-dropdown {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -4144,7 +4160,8 @@ p {
 #edit-page-emiten nav .navigation .user-dropdown img,
 #page-pubex-live nav .navigation .user-dropdown img,
 #edit-page-investor nav .navigation .user-dropdown img,
-#detail-emiten nav .navigation .user-dropdown img {
+#detail-emiten nav .navigation .user-dropdown img,
+#page-kebijakan-privasi nav .navigation .user-dropdown img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -4155,7 +4172,8 @@ p {
 #edit-page-emiten nav .navigation .user-dropdown .drop-down-ic,
 #page-pubex-live nav .navigation .user-dropdown .drop-down-ic,
 #edit-page-investor nav .navigation .user-dropdown .drop-down-ic,
-#detail-emiten nav .navigation .user-dropdown .drop-down-ic {
+#detail-emiten nav .navigation .user-dropdown .drop-down-ic,
+#page-kebijakan-privasi nav .navigation .user-dropdown .drop-down-ic {
   content: url("../img/icon/arrow_drop_down.png");
   width: 24px;
   height: 24px;
@@ -4166,7 +4184,8 @@ p {
 #edit-page-emiten nav .navigation .user-dropdown .active,
 #page-pubex-live nav .navigation .user-dropdown .active,
 #edit-page-investor nav .navigation .user-dropdown .active,
-#detail-emiten nav .navigation .user-dropdown .active {
+#detail-emiten nav .navigation .user-dropdown .active,
+#page-kebijakan-privasi nav .navigation .user-dropdown .active {
   content: url("../img/icon/arrow_drop_down.png");
   width: 24px;
   height: 24px;
@@ -4178,7 +4197,8 @@ p {
 #edit-page-emiten nav .navigation .user-dropdown.hidden,
 #page-pubex-live nav .navigation .user-dropdown.hidden,
 #edit-page-investor nav .navigation .user-dropdown.hidden,
-#detail-emiten nav .navigation .user-dropdown.hidden {
+#detail-emiten nav .navigation .user-dropdown.hidden,
+#page-kebijakan-privasi nav .navigation .user-dropdown.hidden {
   display: none;
 }
 #page-emiten nav .navigation .modal-user,
@@ -4187,7 +4207,8 @@ p {
 #edit-page-emiten nav .navigation .modal-user,
 #page-pubex-live nav .navigation .modal-user,
 #edit-page-investor nav .navigation .modal-user,
-#detail-emiten nav .navigation .modal-user {
+#detail-emiten nav .navigation .modal-user,
+#page-kebijakan-privasi nav .navigation .modal-user {
   position: absolute;
   right: 0;
   top: 60px;
@@ -4205,7 +4226,8 @@ p {
 #edit-page-emiten nav .navigation .modal-user .user-action,
 #page-pubex-live nav .navigation .modal-user .user-action,
 #edit-page-investor nav .navigation .modal-user .user-action,
-#detail-emiten nav .navigation .modal-user .user-action {
+#detail-emiten nav .navigation .modal-user .user-action,
+#page-kebijakan-privasi nav .navigation .modal-user .user-action {
   padding: 12px 32px;
   border: none;
   background-color: transparent;
@@ -4226,7 +4248,8 @@ p {
 #edit-page-emiten nav .navigation .modal-user .user-action:hover,
 #page-pubex-live nav .navigation .modal-user .user-action:hover,
 #edit-page-investor nav .navigation .modal-user .user-action:hover,
-#detail-emiten nav .navigation .modal-user .user-action:hover {
+#detail-emiten nav .navigation .modal-user .user-action:hover,
+#page-kebijakan-privasi nav .navigation .modal-user .user-action:hover {
   background-color: #5dcad1;
 }
 #page-emiten nav .navigation .modal-user .hidden,
@@ -4235,7 +4258,8 @@ p {
 #edit-page-emiten nav .navigation .modal-user .hidden,
 #page-pubex-live nav .navigation .modal-user .hidden,
 #edit-page-investor nav .navigation .modal-user .hidden,
-#detail-emiten nav .navigation .modal-user .hidden {
+#detail-emiten nav .navigation .modal-user .hidden,
+#page-kebijakan-privasi nav .navigation .modal-user .hidden {
   display: none;
 }
 @keyframes dropdown-action {
@@ -6713,6 +6737,19 @@ p {
     gap: 16px 0;
   }
   footer .footer .license {
+    text-align: center;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  footer .footer .license span {
+    margin: 0 16px;
+  }
+  footer .footer .license a {
+    text-decoration: none;
     color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
@@ -6757,6 +6794,19 @@ p {
     gap: 16px 0;
   }
   footer .footer .license {
+    text-align: center;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  footer .footer .license span {
+    margin: 0 16px;
+  }
+  footer .footer .license a {
+    text-decoration: none;
     color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
@@ -6808,6 +6858,18 @@ p {
     font-weight: 400;
     line-height: normal;
   }
+  footer .footer .license span {
+    margin: 0 16px;
+  }
+  footer .footer .license a {
+    text-decoration: none;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
   footer .footer .socmed ul {
     display: flex;
     gap: 20px;
@@ -6842,8 +6904,21 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 16px;
   }
   footer .footer .license {
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  footer .footer .license span {
+    margin: 0 16px;
+  }
+  footer .footer .license a {
+    text-decoration: none;
     color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
@@ -6894,6 +6969,18 @@ p {
     font-weight: 400;
     line-height: normal;
   }
+  footer .footer .license span {
+    margin: 0 16px;
+  }
+  footer .footer .license a {
+    text-decoration: none;
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
   footer .footer .socmed ul {
     display: flex;
     gap: 20px;
@@ -6930,6 +7017,18 @@ p {
     align-items: center;
   }
   footer .footer .license {
+    color: #e9ebff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  footer .footer .license span {
+    margin: 0 16px;
+  }
+  footer .footer .license a {
+    text-decoration: none;
     color: #e9ebff;
     font-family: Lato, sans-serif;
     font-size: 16px;
@@ -8209,6 +8308,85 @@ p {
   }
   #jadwal-pubex-live .row.hidden {
     display: none;
+  }
+}
+#page-kebijakan-privasi main {
+  margin-top: 12vh;
+}
+#page-kebijakan-privasi main .back-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: unset;
+  display: flex;
+  margin-top: 26px;
+  margin-bottom: 14px;
+  width: max-content;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #04577c;
+  align-items: center;
+}
+#page-kebijakan-privasi main .back-btn::before {
+  padding-top: 4px;
+  content: url("../img/icon/arrow-left.png");
+}
+#page-kebijakan-privasi main .kebijakan-privasi {
+  padding: 0 24px;
+}
+#page-kebijakan-privasi main .kebijakan-privasi .title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+#page-kebijakan-privasi main .kebijakan-privasi .body b,
+#page-kebijakan-privasi main .kebijakan-privasi .body P,
+#page-kebijakan-privasi main .kebijakan-privasi .body ul,
+#page-kebijakan-privasi main .kebijakan-privasi .body li {
+  text-align: left;
+  color: #1a2128;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+#page-kebijakan-privasi main .kebijakan-privasi .body p {
+  margin-bottom: 36px;
+}
+#page-kebijakan-privasi main .kebijakan-privasi .body p b {
+  display: inline-block;
+  margin: 14px 0;
+}
+#page-kebijakan-privasi main .kebijakan-privasi .body b {
+  font-weight: 700;
+}
+#page-kebijakan-privasi main .kebijakan-privasi .body ul {
+  display: inline-block;
+}
+#page-kebijakan-privasi main .kebijakan-privasi .body ul li {
+  margin-left: 18px;
+}
+#page-kebijakan-privasi main .kebijakan-privasi .body ul li:first-child {
+  margin-top: 16px;
+}
+#page-kebijakan-privasi main .kebijakan-privasi .body li > ul {
+  list-style-type: lower-alpha;
+}
+#page-kebijakan-privasi main .kebijakan-privasi .body li > ul li:first-child {
+  margin-top: unset;
+}
+
+@media (max-width: 768px) {
+  #page-kebijakan-privasi main .back-btn {
+    font-size: 14px;
+  }
+  #page-kebijakan-privasi main .kebijakan-privasi .body p,
+  #page-kebijakan-privasi main .kebijakan-privasi .body ul,
+  #page-kebijakan-privasi main .kebijakan-privasi .body li,
+  #page-kebijakan-privasi main .kebijakan-privasi .body b {
+    font-size: 14px;
   }
 }
 @media (max-width: 375px) {
